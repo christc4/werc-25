@@ -1,0 +1,6 @@
+function oprint(t) {
+    if(nr == 0)
+        print t;
+    else
+        otext = otext "\n" t;
+}

@@ -1,0 +1,7 @@
+function subref(id) {
+    for(; nr > 0 && sub("<<" id, ref[id], otext); nr--);
+    if(nr == 0 && otext) {
+        print otext;
+        otext = "";
+    }
+}

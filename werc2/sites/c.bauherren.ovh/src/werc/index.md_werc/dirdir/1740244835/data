@@ -1,0 +1,77 @@
+# werc
+
+This is a trail of rope for me and documentation for others
+
+## apps
+
+Apps I regularly use are: [bridge](http://werc.cat-v.org/apps/bridge), [dirdir](//github.com/RisingThumb/dirdir), [goralog](//github.com/RisingThumb/goralog) and `searching`
+
+### dirdir
+
+#### <a name=dirdir-file-rename>File Rename</a>
+
+2025/02/21
+
+`apps/dirdir/app.rc`
+
+	if not if(~ 1 $#post_arg_dirdir_rename_file && ! ~ $#post_arg_dirdir_new_name 0 && ! ~ $post_arg_dirdir_new_name "" )
+	    mv $dirdir_file `{dirname $dirdir_file}^'/'^$post_arg_dirdir_new_name^'.md'
+
+`apps/dirdir/sidebar_controls.tpl`
+
+	<form action="" method="POST" enctype="multipart/form-data">
+	<input type="search" name="dirdir_rename_file" placeholder="Current page file name"/><br/>
+	<input type="search" name="dirdir_new_name" placeholder="New file name"/><br/>
+	<input type="submit" value="Rename file" /><hr />
+	</form>
+
+**Possible problems:**
+
+If you try to rename any page OTHER than the current one, renaming of `index.md` happens, possible cause:
+
+        lp=$local_path
+        # werc.rc doesn't append /index when $local_path doesn't exist
+        # maybe it should, but for now we can fix it up here.
+        if(~ $lp */) 
+            lp=$lp^'index'
+
+Also, if a 'wiki' exists that to needs to be renamed `.md_werc`
+
+Or, for `.meta` files in `goralog`
+
+<hr>
+
+Resources I'm using to learn RC shell
+
+<http://mirtchovski.postnix.pw/lanlp9/scripts>
+
+- [catn](http://mirtchovski.postnix.pw/lanlp9/scripts/catn): Like `cat -n` on unix, prints linenumbers before each line
+- [sfind](http://mirtchovski.postnix.pw/lanlp9/scripts/sfind): very simple version of the unix find command using du
+- [find](http://mirtchovski.postnix.pw/lanlp9/scripts/find): rog@vitanouva.com's find
+- [find](http://mirtchovski.postnix.pw/lanlp9/scripts/find2): another version of find
+- [findgrep](http://mirtchovski.postnix.pw/lanlp9/scripts/findgrep): find files which contain a regexp
+- [lsr](http://mirtchovski.postnix.pw/lanlp9/scripts/lsr): like ls -R using du
+- [rmdir](http://mirtchovski.postnix.pw/lanlp9/scripts/rmdir): like rm -rf uses du
+- [rmdir](http://mirtchovski.postnix.pw/lanlp9/scripts/rmdir2): another rmdir
+- [xargs](http://mirtchovski.postnix.pw/lanlp9/sprogs/xargs.c): version of the unix xargs command by rog@vitanuova.com
+
+<hr>
+
+<https://shithub.us/nikita/rcmisc>
+
+- [weather](//shithub.us/nikita/rcmisc/468e61644c1d6c846d737b5eb8f370f8938c0ec0/weather/raw) uses wttr.in
+
+<hr>
+
+<https://shithub.us/smj/rc>
+
+- [bunsay](https://shithub.us/smj/rc/b46537efa8eb679940ae74ca90f033e703ba62af/bunsay/raw): glenda ascii art, says your quote
+-  [surl](https://shithub.us/smj/rc/b46537efa8eb679940ae74ca90f033e703ba62af/surl/raw): does something to URLS
+
+
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+def cap(s):
+    result = []
+    for word in s.split():
+        if word:  
+            result.append(word[:-1] + word[-1].upper())
+        else:
+            result.append(word)
+    return ' '.join(result)
+print(cap("the quick brown fox jumped"))

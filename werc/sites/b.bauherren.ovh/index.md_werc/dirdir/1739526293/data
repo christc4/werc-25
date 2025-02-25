@@ -1,0 +1,11 @@
+# Short werc tutorial
+
+For a fuller guide see [werc.cat-v.org](http://werc.cat-v.org)
+
+## File permissions
+
+Files must be owned by user 'www-data', otherwise apache2 cannot execute file deletion/creation.
+
+If you manually create files/directories as the root user in your terminal, then you will run into server errors as you try to edit/save
+
+

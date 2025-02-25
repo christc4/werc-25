@@ -1,0 +1,5 @@
+def invoice(username, amount, due_date):
+	print(f"Hi {username}")
+	print(f"Your bill of ${amount:.2f} is due: {due_date}")
+
+invoice("Tom", 50.459, "05/02")

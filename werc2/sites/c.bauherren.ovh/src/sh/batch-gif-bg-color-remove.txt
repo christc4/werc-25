@@ -1,0 +1,16 @@
+#!/bin/bash
+
+input_folder=$(pwd)
+output_folder=$(pwd)
+background_color="#0c1214"
+
+mkdir -p "$output_folder"
+
+for input_file in "$input_folder"/*.gif; do
+    filename=$(basename -- "$input_file")
+    filename_no_extension="${filename%.*}"
+
+    output_file="$output_folder/${filename_no_extension}.gif"
+
+    convert "$input_file" -transparent "$background_color" "$output_file"
+done

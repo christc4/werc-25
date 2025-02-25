@@ -1,0 +1,26 @@
+# Short werc tutorial
+
+For a fuller guide see [werc.cat-v.org](http://werc.cat-v.org)
+
+Your personal werc install is stored in `/var/www/werc3`, this is so you can radically alter the fundamental source code as you customize werc behaviour and not affect other werc installs
+
+Unless stated otherwise, any mentions of `'/'` will refer to the starting point `/var/www/werc3`
+
+## Werc apps
+
+Apps themselves are all stored in 
+### Behind the scenes
+
+#### Blogging
+
+The directory [blog](/blog) works as follows
+
+### File permissions
+
+Files must be owned by user 'www-data', otherwise apache2 cannot execute file deletion/creation.
+
+If you manually create files/directories as the root user in your terminal, then you will run into server errors as you try to edit/save
+
+
+
+

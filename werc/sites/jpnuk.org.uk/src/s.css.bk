@@ -1,0 +1,45 @@
+article { flex-basis: 60%; padding-left: 1em; }
+
+
+nav li ul{padding-left:.5em}body{background-color:#fff;display:flex;flex-wrap:wrap;margin:0 15%; font-family: Helvetica; }article{flex:1}nav{min-width:12em}nav ul{list-style:none}nav ul{border-bottom:1px solid;}
+
+img{width:150px;}
+
+html{background-color: #f0ecec;}
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+.thisPage { color: black; }
+header nav { background-color: #fff; color: black; padding: 0.3em; border-bottom: 2px solid black; font-size: 91%; }
+header a:hover { text-decoration: none; }
+body > nav { border-right: 1px solid #ddd; } 
+body > nav  { border-bottom: 1px solid #ddd; } 
+body > nav a { background-color: #e5e5e5; color: #1f527b; display: block; text-transform: capitalize; font-weight: bold; font-size: 102% } 
+body > nav > div a:hover { color: inherit; background-color: #d8d8d8; border-left: black solid 0.2em; text-decoration: none; }
+body > nav > div p { font-weight: bold; }
+header h1 span { margin-left: 0em; font-size: 50%; }
+header { flex-basis: 100%; flex-shrink: 0; }
+article { flex-basis: 60%; }
+footer { flex-basis: 100%; flex-shrink: 0; }
+header nav { display: flex; justify-content: space-between; }
+nav a, header a { text-decoration: none ; }
+body > nav { flex-basis: content; min-width: 8em; }
+nav ul { display: flex; flex-direction: column; list-style-type: none; list-style-position: outside; padding-left: 0;  }
+nav li ul { padding-left: 0.6em }
+footer { display: flex; justify-content: space-between; }
+/*body { margin:0; padding: 0; font-size: 84%; font-family: Helvetica, Verdana, Arial, 'Liberation Sans', FreeSans, sans-serif; }*/
+a { text-decoration: none; color: }
+a:hover { text-decoration: underline; }
+.thisPage { color: black; }
+header h1 { background-color: #800; color: white; margin: 0; border-bottom: 2px solid black; font-weight: normal; padding: 0.25ex; font-size: 180%; }
+header a:hover { text-decoration: none; }
+article h3, article h4, article h5 { color: rgb(0,102,204); font-weight: bold; margin: 2em 0 0 0; }
+article h6, article h7, article h8 { color: rgb(0,102,204); font-weight: bold; margin: 2em 0 0 0; }
+article a { color: rgb(0,102,204); }
+article a:hover { color:  rgb(100,135,220); }
+footer { color: #000; background-color: #f8f4f4; }
+footer a { color: inherit; }
+footer div { padding: 1em; }
+ div.container {
+          display:inline-block;
+        }
+#toc{position:fixed;right:70px;width:222px;max-height:80vh;overflow-y:auto;border-left:1px solid;}

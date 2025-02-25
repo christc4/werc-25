@@ -1,0 +1,9 @@
+#!/bin/rc
+
+page=`{echo `{basename $%} +1 | hoc}
+if(! test -f $page) {
+  echo no such page
+  exit 0
+}
+
+Slide $page

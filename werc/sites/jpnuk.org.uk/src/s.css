@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a{color:black}
+
+.c{color:red}
+
+body {
+    max-width: 40em;
+    margin: 5% auto;
+    font-family: 'Helvetica', sans-serif;
+    line-height: 1.5;
+    font-size: 0.9em;
+}
+
+main {
+    margin-top: 2.5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Baskerville', serif;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1;
+}
+
+h1 + blockquote {
+    display: block;
+    font-family: 'Baskerville', serif;
+    font-size: 1.1em;
+    font-style: italic;
+    text-align: center;
+    quotes: none;
+}
+
+h2:first-of-type {
+    margin-top: 0em;
+}
+
+h2 {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    margin-top: 0.5em;
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+ul {
+    display: inline;
+}
+li {
+    list-style-position: inside;
+    display: inline;
+}
+ ul {
+  margin: 0;
+  padding: 0.3em;
+  list-style-type: none;
+  list-style-image: none;
+  border: 0;
+}
+ li {
+  display: inline;
+  white-space: nowrap;
+  line-height: 1.6em;
+}
+ ul li a {
+  margin: 0;
+  padding: 0.1em 1ex 0.1em 1ex;
+  text-decoration: none;
+  font-size: 1em;
+  border: 0;
+}
+ ul li a:hover {
+  text-decoration: none;
+  text-transform: none;
+}
+ul > ul {
+    padding-left: 40px; /* Padding for nested <ul> inside the first <ul> */
+}
+
+q {
+    font-style: italic;
+}
+
+img {
+	width: 120px;
+}
+
+footer {
+    text-align: center;
+}
+
+@media screen and (max-width: 750px) {
+    body {
+        margin: 7% 10%;
+    }
+    
+    .person {
+        margin-bottom: 1em;
+    }
+    
+    .person h2, .person > ul, .person > p {
+        display: block;
+        float: none;
+    }
+}
+

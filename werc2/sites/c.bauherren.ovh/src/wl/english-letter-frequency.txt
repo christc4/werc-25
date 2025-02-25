@@ -1,0 +1,17 @@
+{{"e" -> Quantity[12.7, "Percent"], "t" -> Quantity[9.06, "Percent"], 
+  "a" -> Quantity[8.17, "Percent"], "o" -> Quantity[7.51, "Percent"], 
+  "i" -> Quantity[6.97, "Percent"], "n" -> Quantity[6.75, "Percent"], 
+  "s" -> Quantity[6.33, "Percent"], "h" -> Quantity[6.09, "Percent"], 
+  "r" -> Quantity[5.99, "Percent"], "d" -> Quantity[4.25, "Percent"], 
+  "l" -> Quantity[4.03, "Percent"], "c" -> Quantity[2.78, "Percent"], 
+  "u" -> Quantity[2.76, "Percent"], "m" -> Quantity[2.41, "Percent"], 
+  "w" -> Quantity[2.36, "Percent"], "f" -> Quantity[2.23, "Percent"], 
+  "g" -> Quantity[2.02, "Percent"], "y" -> Quantity[1.97, "Percent"], 
+  "p" -> Quantity[1.93, "Percent"], "b" -> Quantity[1.49, "Percent"], 
+
+  "v" -> Quantity[0.978, "Percent"], 
+  "k" -> Quantity[0.772, "Percent"], 
+  "j" -> Quantity[0.153, "Percent"], 
+  "x" -> Quantity[0.150, "Percent"], 
+  "q" -> Quantity[0.0950, "Percent"], 
+  "z" -> Quantity[0.0740, "Percent"]}}

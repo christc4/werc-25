@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# Recursively find all .md files
+find . -type f -name "*.md" | while IFS= read -r file; do
+    # Extract the filename with extension
+    filename=$(basename "$file")
+    
+    # Create the directory with _werc suffix
+    dir="$(dirname "$file")/${filename}_werc"
+    mkdir -p "$dir"
+    
+    # Set executable permissions on the markdown file and the directory
+    chmod +x "$file" "$dir"
+done
+

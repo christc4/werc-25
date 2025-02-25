@@ -1,0 +1,18 @@
+<h1><ruby>bq<rt>configurable line-oriented text editor</rt></ruby></h1>
+
+<p><a href=#about>About</a> - <a href=#features>Features</a> -  <a href=#commands>Commands</a>  - <a href=#install>Install</a><br><a href=#roadmap>Roadmap</a> - <a href=#footnote>Footnotes</a> - <a href=#contact>Contact</a> 
+
+<h2><a name=about>About</a></h2>
+<p>bq is a line-oriented text editor written in go, it draws inspiration from ed
+<p>bq is in alpha testing
+<h2><a name=features>Features</a></h2>
+<ul><li>Fewest key-strokes<ul><li>Simplemost operations require only one key-press</ul><li>Configurable<ul><li>Custom commands will* be defined in a header file, akin to suckless programs</ul></ul>
+
+<h2>Commands</h2>
+
+<ul><li>[s] - saves file<li>[.] - saves and quits file<li>[p] - prints file<li>[!] followed by [system command] - uses shell to execute given command</ul>
+
+<h2><a name=install>Install</h2><p>git clone https://git.bauherren.ovh/bq<p>go build -o bq *.go
+
+<h2><a name=roadmap>Roadmap</a></h2><ul><li>Fix appending error, if no first command is given</ul>
+<p>Author: <a href=//c.bauherren.ovh>Christos</a>

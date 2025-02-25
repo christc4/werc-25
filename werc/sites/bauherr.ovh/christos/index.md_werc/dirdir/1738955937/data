@@ -1,0 +1,9 @@
+<p style="display:flex;align-items:flex-start;margin:0">  <img src="me.png" alt="Christ Amlai" style="width: 120px; margin-right: 10px;"><span><span style="font-size: 1.5em; font-weight: bold;">Christ Amlai</span><br><a href="mailto:christos@bauherren.ovh">christos@bauherren.ovh</a><br><a href="//c.bauherren.ovh">c.bauherren.ovh</a><br><br>London, UK</span> 
+<p><b>Arts</b><ul><li><a href=ico>Iconography</a> - Eastern Orthodox sacred art<!--<li><a href=poem>Poetry</a> - under construction--></ul> 
+<p><b>Software Projects</b><ul><li><a href=/s/cork>cork</a> - static site generator in RC shell<li><a href=/s/bq>bq</a> - configurable line-oriented editor in Go<li><a href=/a/md2html-go>md2html.go</a> - minimal markdown to HTML generator</ul> 
+<p><a href=cv.pdf>Resume</a> 
+<hr><p><b>Encryption</b> <small>(should you wish)</small> <ul> <li><pre>C50D AA56 E83D 714C A7FD 55FA 2AC0 B395 9B8E CDF6</pre> <li><pre>curl -sL https://bauherren.ovh/~christos/c.gpg | gpg --import</pre> </ul> 
+<hr> 
+<small><i>My twentieth orbit around the Sun, vicennial<br>Could've, Should've, Would've, everyone's smarter in hindsight</i></small> 
+
+

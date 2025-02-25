@@ -1,0 +1,18 @@
+For every solution-ist worth their salt there are a dime-a-dozen if not more agitation people - who rile up their audiences leaving them in a frenzied state over often inconsequential and sometimes faraway events
+
+Georgi Plekhanov, dubbed the father of Russian Marxism, believed propagandists present many ideas to one or a few people whereas agitators present only one or a few ideas to a mass of people
+
+To which he describes agitation using 'slogans and half-truths' and 'exploited public grievances' to mould public opinion and mobilise support
+
+Lenin explained in a 1902 pamphlet, 'What Is to be Done',  his beliefs on the role of the propagandist and agitator
+
+- Propagandists work with media
+- Agitators, for their part, act on emotional levels, rousing people to take an interest in social ills
+
+Agit-prop lives on from soviet-times, its spiritual descendents being the numerous political pundits littering your feed after any major politicism whose long-winded rants while sometimes dropping pithy remarks only tangentially touch on 'possible' solutions. 
+
+### Addendum
+
+So agitation propaganda really is like casting spells onto the masses, the spells being hard-coded signals to your anger receptors. Rule by rumourville
+
+

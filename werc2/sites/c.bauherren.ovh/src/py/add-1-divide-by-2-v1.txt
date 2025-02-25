@@ -1,0 +1,5 @@
+def two_step(num):
+	added = num + 1
+	halved = added / 2
+	return halved
+print(two_step(5))

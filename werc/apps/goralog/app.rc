@@ -1,0 +1,130 @@
+fn conf_enable_goralog {
+    enable_goralog=yes
+    conf_enable_app goralog
+    if(~ $"conf_blog_editors '')
+        conf_blog_editors=blog-editors
+    if(~ $"conf_blog_title '')
+        conf_blog_title='Blog'
+}
+
+fn goralog_init {
+    if (! ~ $#enable_goralog 0 ) {
+        dirUsed=`{basename -d $req_path}
+        if (! ~ $dirUsed */ && ~ $#conf_blog_email_included 0) {
+            ll_add handlers_body_foot template apps/goralog/foot.tpl
+        }
+        if (~ $#dirUsed 0)
+            dirUsed='/'
+        if (check_user $conf_blog_editors) {
+            editor_mode=on
+            ll_add handlers_bar_left echo '<a href="'$dirUsed'/new_post">Make a new post</a>'
+        }
+        if (~ $req_path $dirUsed^'/new_post' && ! ~ $#editor_mode 0) {
+            handler_body_main=( tpl_handler `{get_lib_file goralog/new_post.tpl apps/goralog/new_post.tpl} )
+            if (~ $REQUEST_METHOD POST) {
+                if(mkbpost $"post_arg_body $"post_arg_date $"post_arg_title $"post_arg_description $"post_arg_filename)
+                    post_redirect $dirUsed
+                if not
+                    notify_errors=$status
+            }
+        }
+        fn dir_listing_handler {
+            d=`{basename -d $1}
+            if(~ $#d 0)
+                d='/'
+            get_sorted_stuffs_from_directory 
+            stats=$#sortedStuffs
+            echo '<div style="text-align:right;">(<a href="index.rss">RSS Feed</a>)</div><h1 class="goralog-dir-list-title">'$"conf_blog_title'</h1><p>Proudly featuring '$stats' posts!</p><ul class="goralog-dir-list">'
+ifs='|'
+            # Have a think about how to do this WITHOUT N echo fork calls.
+            # AWK ???
+            for (stuff in $sortedStuffs) {
+                s=`{echo $stuff}
+                echo '<li class="goralog-article-box"><div class="goralog-date">'$s(1)'</div><div class="goralog-title"><a href='$s(3)'>'$s(2)'</a></div><div class="goralog-article-description">'$s(4)'</div></li>';
+            }
+ifs=$oldifs
+            echo '</ul>'
+        }
+    }
+    # Not smart. Only matches against end of url. Technically a blog post/index.rss matches too
+    # Maybe should match against top level?
+    # Maybe shouldn't. Can symbolically link documents into category folders and generic index.rss this way for categories
+    if (~ $req_path */index.rss) {
+        goralog_setup_feed_handlers rss20.tpl 'text/xml; charset=utf-8'
+    }
+}
+
+fn get_sorted_stuffs_from_directory {
+    files=`{ls -F $dir_listing_ls_opts $sitedir$d/. | grep '\[*]*(md|/)$' | sed $dirfilter$dirclean's:/$::'}
+    # Have to make N calls to load metadata. Inefficient. Is there a better way?
+newStuffs='
+'
+    for (file in $files) {
+        metadata=`{get_metadata_from_file $file}
+        newStuffs=($newStuffs $metadata '
+')
+    }
+     oldifs=$ifs;
+     ifs='
+';
+     sortedStuffs=`{echo $newStuffs | sort -k 1.1,1.4 -k 1.5,1.6 -k 1.7,1.8 -r}
+     ifs=$oldifs;
+}
+
+fn goralog_setup_feed_handlers {
+    handler_body_main=NOT_USED
+    res_tail=()
+    http_content_type=$2
+    headers=()
+    master_template=apps/goralog/$1
+}
+
+fn mkbpost {
+    bptext=$1;
+    bpdate=`{echo $2 | sed 's/''/''''/g'};
+    bptitle=`{echo $3 | sed 's/''/''''/g'};
+    bpdescription=`{echo $4 | sed 's/''/''''/g'};
+
+    # Need to clean filename of bad chars
+    bpfilename=`{echo $5 | sed 's:/:_:g' | sed 's:\0:_:g'};
+
+    if (~ $"bptext '')
+       _status=($_status 'You need to provide a post body.')
+    if (~ $"bptitle '')
+       _status=($_status 'You need to provide a post title.')
+    if (~ $"bpdescription '')
+       _status=($_status 'You need to provide a post description')
+    if (~ $"bpfilename '')
+       _status=($_status 'You need to provide a filename')
+    switch($"bpfilename){
+    case .
+       _status=($_status 'Illegal filename')
+    case ..
+       _status=($_status 'Illegal filename')
+    case ...
+       _status=($_status 'Illegal filename')
+    case ....
+       _status=($_status 'Illegal filename')
+    }
+    if (test -f $sitedir$dirUsed/$"bpfilename || test -f $sitedir$dirUsed/$"bpfilename.meta)
+       _status=($_status 'This filename has been used before, use a different one!')
+    if (! ~ $"bpdate [0-9][0-9][0-9][0-9]/[0-9][0-9]/[0-9][0-9]) {
+       _status=($_status 'Invalid date. Check format. '^$bpdate)
+    }
+    bpfilename=$bpfilename.md
+    if (~ $#_status 0) {
+        echo $bptext > $sitedir$dirUsed/$bpfilename
+        echo 'title='''$bptitle'''' > $sitedir$dirUsed/$"bpfilename.meta
+        echo 'date='''$bpdate'''' >> $sitedir$dirUsed/$"bpfilename.meta
+        echo 'description='''$bpdescription'''' >> $sitedir$dirUsed/$"bpfilename.meta
+# Need to sort out creating the files
+    }
+    status=$_status
+}
+
+fn get_metadata_from_file {
+    filename=`{basename $1}
+    . $1.md.meta
+    metadata=($"date^'|'^$"title^'|'^$"filename^'|'^$"description^'|'^$1.md'|');
+    echo $metadata
+}

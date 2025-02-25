@@ -1,0 +1,4 @@
+conf_enable_goralog
+conf_blog_editors=bela
+conf_enable_comments
+conf_blog_title='Béla Gyenes Blog'

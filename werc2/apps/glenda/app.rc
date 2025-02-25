@@ -1,0 +1,6 @@
+fn conf_enable_bunnify {
+    enable_bunnify=yes
+    conf_enable_app glenda 
+        ll_add handlers_bar_left tpl_handler apps/glenda/sbar.tpl
+}
+

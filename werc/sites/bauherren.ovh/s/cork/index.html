@@ -1,0 +1,26 @@
+<style>img{border:0.4em solid black;padding:0.2em}</style><h1><ruby>cork<rt>static-site generator in RC shell</rt></ruby></h1><p><a href=#features>Features</a> - <a href=#gallery>Gallery</a> - <a href=#news>News</a><br><a href=#contact>Contact</a> - <a href=#footnotes>Footnotes</a> 
+
+<p>Cork is a static-site generator written in RC shell, it is compatible on any server with the Plan9 core-utils installed.<p>Originally, a fork of <a href=http://werc.cat-v.org>werc</a>, cork took to its own software direction, focusing on delivering one <i>singular</i> small and tidy shell script to work with an accompaniyng markdown to html generator
+<h2><a name=features>Features</a></h2><ul><li>Statically generated sidebar, with directory listing <ul><li>Can support highlighting of parent directories and current file</ul><li>Performant<ul><li>Plan9 core-utils outperform GNU/BSD</ul><li>Everything is scriptable<ul><li>Small codebase + compatibility with werc</ul></ul>
+
+<h2><a name=gallery>Gallery</a></h2>
+<p>Shown below is base-cork, static directory listing is shown in the left-hand sidebar, although there is no highlighting of parent directories/current file
+<p><img src="//c.bauherren.ovh/pix/cork-demo1.png" style="width: 300px;">
+<span><hr style="border: none; border-top: 2px dotted black; margin: 10px 0;"></span>
+<p>This is standard cork, this uses slightly more lines of AWK to achieve file highlighting
+<p><img src="//c.bauherren.ovh/pix/cork-demo3.png" style="width: 350px;">
+<span><hr style="border: none; border-top: 2px dotted black; margin: 10px 0;"></span>
+<p>With some CSS tweaks and slight shell changes you can achieve a horizontal static bar
+<p><img src="//c.bauherren.ovh/pix/cork-demo2.png" style="width:350px;">
+
+<h2><a name=installation>Installation</a></h2>
+
+<p>Cork has only been tested with OpenBSD's native webserver 'httpd'. In theory, the <a href=http://werc.cat-v.org/docs/web-server-setup/>following guides</a> should be compatible
+<p><a href=//git.bauherren.ovh/cork/tree/setup.sh?h=master>OpenBSD (httpd), Install script</a>
+<p>If you don't want the full-blown plan9port, try 9base
+
+
+
+<h2><a name=news>News</a></h2><ul><li>2025/01/02 - Support for horizontal sidebar added<li>2024/12/28 - Rendering issue solved for TUI browsers<ul><li>Contrary to the belief 'doctype' and 'html' tags are necessary for full-compatibility,<br>HTML headers needed to specify Content-Type</li></ul></ul>
+
+<p>Author: <a href=//c.bauherren.ovh>Christos</a>

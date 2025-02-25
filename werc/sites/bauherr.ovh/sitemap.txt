@@ -1,0 +1,2 @@
+https://bauherr.ovh:443/bela/
+https://bauherr.ovh:443/bela/updates/

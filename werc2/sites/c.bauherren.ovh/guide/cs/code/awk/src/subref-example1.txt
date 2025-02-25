@@ -1,0 +1,5 @@
+MARKDOWN ITS LOOKING FOR
+
+This is an example of an image reference ![Sample Image][image1].
+
+[image1]: https://example.com/image.png "An example image"

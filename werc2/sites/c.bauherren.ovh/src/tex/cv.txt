@@ -1,0 +1,72 @@
+\documentclass[a4paper, 10pt]{article}
+
+\usepackage[hidelinks]{hyperref}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{enumitem}
+\setitemize{itemsep=-4pt}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{microtype}
+\usepackage{parskip}
+
+\begin{document}
+\pagenumbering{gobble}
+
+\textbf{Your name}
+\hfill 01234 567890 \textbullet\ example@email.com \textbullet\ \href{https://example.com}{example.com/yourname} \\
+City, Country
+
+Lorem ipsum dolor sit amet,
+
+\textbf{Experience}
+
+\textbf{Springfield Nuclear Plant} \hfill Spring 2024 \\
+Intern (Spring into Technology)
+\begin{itemize}
+    \item Ate donuts.
+    \item Loafed around
+\end{itemize}
+
+\textbf{Springfield cemetery} \hfill Spring 2024 \\
+Intern (Spring Insights)
+\begin{itemize}
+    \item Sat on the job
+\end{itemize}
+
+\textbf{BlackRock} \hfill Summer 2023 \\
+Intern (Portfolio Analytics Group)
+\begin{itemize}
+    \item Did some shady things
+\end{itemize}
+
+\textbf{Education}
+
+\textbf{School of Hard Knox} \\
+BSc Thuggery \hfill Septermber 2023 -- June 2026
+\begin{itemize}
+    \item Current grade: 1st class.
+    \item Modules: 
+    automata and formal languages,
+    computer systems and networks,
+\end{itemize}
+
+\textbf{Skills}
+
+\textbf{Programming} \\
+C,
+HTML+CSS,
+
+\textbf{Software} \\
+Git,
+Jupyter,
+
+\textbf{Projects}
+
+\textbf{Cat catapult} \\
+\href{https://example.com/catapult}{example.com/catapult} \hfill Summer 2023
+\begin{itemize}
+    \item Developed a catapult to lay seige upon a fort with stray cats as ammunition
+\end{itemize}
+
+\end{document}

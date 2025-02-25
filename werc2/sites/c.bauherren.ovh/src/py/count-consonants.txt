@@ -1,0 +1,5 @@
+def cons(s):
+	consonants =  set("bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ")
+	return sum(1 for char in s if char in consonants)
+print(cons("How is everyone doing today?"))
+

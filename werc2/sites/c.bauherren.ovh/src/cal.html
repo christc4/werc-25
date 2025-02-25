@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {box-sizing: border-box;}
+ul {list-style-type: none; padding: 0; margin: 0;}
+
+.month {
+  text-align: center;
+  background: #000;
+  color: white;
+}
+
+.weekdays {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 12.6%;
+}
+
+.days {
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.days li {
+  display: inline-block;
+  width: 12.6%;
+  color: #fff;
+  position: relative;
+}
+
+.days li .active {
+  background: red;
+  color: white;
+}
+
+.days li .event-info {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-120%);
+  padding: 5px;
+  font-size: 12px;
+  background: #fff;
+  color: #000;
+}
+
+.days li:hover .event-info {
+  display: block;
+}
+</style>
+<title>CALENDAR</title>
+</head>
+<body>
+
+ <h1 id="date-time"></h1>
+
+    <script>
+        function updateDateTime() {
+            const now = new Date();
+            const dateString = now.toLocaleString(); 
+            document.getElementById('date-time').textContent = dateString;
+        }
+        window.onload = updateDateTime;
+    </script>
+
+<div class="month">      
+  <ul>
+    <li>
+      December<br>
+  </ul>
+</div>
+
+<ul class="weekdays">
+  <li>Mon
+  <li>Tue
+  <li>Wed
+  <li>Thu
+  <li>Fri
+  <li>Sat
+  <li>Sun
+</ul>
+
+<ul class="days">
+  <li>
+  <li>
+  <li>
+  <li>
+  <li>
+  <li>
+  <li>1
+  <li><span class="active">2</span>
+    <div class="event-info">Restart: 12PM</div>
+  <li>3
+  <li><span class="active">4</span>
+    <div class="event-info">BLOOD: 9:15<br>Restart: 14:30</div>
+  <li>5
+  <li>6
+  <li>7
+  <li>8
+  <li>9
+  <li>10
+  <li>11
+  <li>12
+  <li>13
+  <li>14
+  <li>15
+  <li>16
+  <li>17
+  <li>18
+  <li>19
+  <li>20
+  <li>21
+  <li>22
+  <li>23
+  <li><span class="active">24</span><div class="event-info">UC: 14:40</div>
+  <li>25
+  <li>26
+  <li>27
+  <li>28
+  <li>29
+  <li>30
+  <li>31
+  <li>
+  <li>
+  <li>
+  <li>
+  <li>
+</ul>
+
+
+<ul>
+<li>Ask butcher for fat
+<li>Do penance
+<li>Schedule confession
+</ul>
+
+20 january eight thirty CTLS to be confirmed
+
+buy brie instead of babybel
+create physical address book and contact
+download burzum ambiient
+email sufiian bank stuff  and online a level certificate?
+
+op sixteen apothecary diaries
+</body>
+</html>
+

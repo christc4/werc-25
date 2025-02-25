@@ -1,0 +1,56 @@
+#!/bin/sh
+
+generate_cloud() {
+  for dir in "$1"/*/; do
+    # Skip if it's not a directory
+    [ -d "$dir" ] || continue
+
+    # Check if the directory name is in the excluded list
+    case "$(basename "$dir")" in
+      pix|txt|src) continue ;; # Skip these directories
+    esac
+
+    count=$(find "$dir" -type f -name "*.md" | wc -l)
+
+    # Skip directories that don't contain .md files
+    if [ "$count" -gt 0 ]; then
+      # Set font size based on the number of .md files
+      if [ "$count" -ge 150 ]; then
+        size=45
+      elif [ "$count" -ge 100 ]; then
+        size=70
+      elif [ "$count" -ge 70 ]; then
+        size=55
+      elif [ "$count" -ge 50 ]; then
+        size=50
+      elif [ "$count" -ge 35 ]; then
+        size=45
+      elif [ "$count" -ge 30 ]; then
+        size=40
+      elif [ "$count" -ge 25 ]; then
+        size=35
+      elif [ "$count" -ge 20 ]; then
+        size=30
+      elif [ "$count" -ge 15 ]; then
+        size=25
+      elif [ "$count" -ge 10 ]; then
+        size=20
+      elif [ "$count" -ge 5 ]; then
+        size=15
+      else
+	size=10
+      fi
+
+      dir_name=$(basename "$dir")
+      # Create URL, ensuring only one slash after each directory name
+      url="./$(echo "$dir" | sed 's|^./||; s|/$||; s|/|/|g')"
+      echo -n "<a href=\"$url\"><span style=\"font-size: ${size}px;\">$dir_name $count</span></a>   " >> i.md 
+    fi
+
+    # Recursively process subdirectories
+    generate_cloud "$dir"
+  done
+}
+
+# Start with the current directory
+generate_cloud "."

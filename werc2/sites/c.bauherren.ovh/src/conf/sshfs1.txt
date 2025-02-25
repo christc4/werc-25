@@ -1,0 +1,1 @@
+sshfs $server:/dir /mnt -o reconnect -o sshfs_debug -o idmap=user -o allow_other -o ServerAliveInterval=15 -o ssh_command="ssh -v"

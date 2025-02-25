@@ -1,0 +1,102 @@
+<link rel="stylesheet" href="/t.css">
+<center><font face="Arial">
+  <table align="center" cellpadding="10" width="800">
+    <tr>
+      <!-- Left Sidebar -->
+      <td width="180" valign="top">
+        <center>
+          <img src=skel.avif>
+        </center>
+      </td>
+
+      <!-- Main Content Area -->
+      <td width="500" valign="top" bgcolor="white">
+	      <center><h1><pre>bauherren</pre></h1></center>
+        <p><font size=2> Here you will find our various emacs packages/software projects with a focus on practicality and frugality, with other tech ramblings</font>
+        <table width="100%" border="0" cellpadding="5">
+          <tr>
+            <!-- Software Section -->
+            <td valign="top">
+              <b><font size="4">SOFTWARE</b>
+              <br><a href="s/cork">cork</a>
+              <br><a href="s/bq">bq</a>
+	      <hr style="border: 1px dashed black">
+	      <p>emacs<br>
+	      <a href=>genorg</a>
+	      <br><a href=s/haskell-ts-mode>haskell-ts</a>
+	      <br><a href=s/perl-ts>perl-ts</a>
+	      </font>
+            </td>
+            <!-- Archive Section -->
+            <td valign="top">
+              <b><font size="3">ARCHIVE</b>
+              <br><a href="">2top</a>
+	      <br><a href="a/esowm.html">esowm</a>
+	      <details><summary>More&hellip;</summary>
+		<a href="a/mh">mh.awk</a>
+		</details>
+	      <hr style="border: 1px dashed black">
+              <a href="">typeset</a>
+              <br><a href="">scripts</a>
+	      </font>
+            </td>
+            <!-- Blog Section -->
+            <td valign="top">
+              <b><font size="2">BLOG</font></b>
+	      <font size=2>
+		<br><a href="">Path to self hosting</a>
+		<br><a href="">Trackballs What Have We Lost</a>
+		<br><a href="">The ACME text editor</a>
+	      </font>
+	    </td>
+          </tr>
+        </table>
+	<p><center><hr><font size=2><i>Shelter for sane software. Alternatives to walled gardens</i></font></center>
+      </td>
+
+      <!-- Right Sidebar -->
+      <td width="120" valign="top">
+        <center>
+          <table border="0" width="100%">
+            <tr>
+              <td align="center" bgcolor="white">
+                <b>Self-Hosted<br>SERVICES</b>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="white">
+                <a href="//git.bauherren.ovh">git</a> / <a href="//hg.bauherren.ovh">mercurial</a>
+                <br><a href="//search.bauherren.ovh">SearxNG</a>
+                <br>
+		<a href="//dump.bauherren.ovh">dump</a>
+              </td>
+            </tr>
+          </table>
+        </center>
+        <p>
+        <center>
+          <table bgcolor="white" border="1" width="100%">
+            <tr>
+              <td align="center">
+                <font size="2"><b>For member pages,</b></font>
+                <br>
+
+		<a href="ppl">see</a>
+              </td>
+            </tr>
+          </table>
+        </center><br>
+        <center>
+          <table bgcolor="white" width="100%">
+            <tr>
+              <td align="center">
+                <font size="2"><b>Contact</b>
+                <br><a href="ppl">admin@bauherren.ovh</a></font>
+              </td>
+            </tr>
+          </table>
+        </center
+      </td>
+    </tr>
+  </table>
+</center>

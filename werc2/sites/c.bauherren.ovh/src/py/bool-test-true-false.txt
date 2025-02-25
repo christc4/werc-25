@@ -1,0 +1,11 @@
+# all the following are True
+
+print(bool(3))
+print(bool("abc"))
+
+# all the following are False
+
+print(bool(None))
+print(bool([]))
+print(bool(0))
+print(bool(""))

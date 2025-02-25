@@ -1,0 +1,30 @@
+// Function to handle button clicks and highlight relevant links
+document.addEventListener('DOMContentLoaded', function() {
+  const buttons = document.querySelectorAll('.category-btn');
+  const bookmarks = document.querySelectorAll('.bookmark');
+
+  buttons.forEach(button => {
+    button.addEventListener('click', function() {
+      // Toggle the active class on the clicked button
+      button.classList.toggle('active');
+
+      // Get the selected tags from all active buttons
+      const activeTags = Array.from(buttons)
+        .filter(button => button.classList.contains('active'))
+        .map(button => button.getAttribute('data-tag'));
+
+      // Clear all existing highlights
+      bookmarks.forEach(bookmark => {
+        bookmark.classList.remove('highlight');
+      });
+
+      // Highlight links that match any of the selected tags
+      bookmarks.forEach(bookmark => {
+        const tags = bookmark.getAttribute('data-tags').split(',');
+        if (tags.some(tag => activeTags.includes(tag))) {
+          bookmark.classList.add('highlight');
+        }
+      });
+    });
+  });
+});

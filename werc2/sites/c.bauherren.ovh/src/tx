@@ -1,0 +1,40 @@
+#!/bin/sh
+
+# Check if a filename was provided
+if [ $# -ne 1 ]; then
+    echo "Usage: $0 <text-file>"
+    exit 1
+fi
+
+# File to measure
+TEXT_FILE="$1"
+
+# Function to calculate width and height
+calculate_dimensions() {
+    local file=$1
+
+    # Check if the file exists
+    if [ ! -f "$file" ]; then
+        echo "File not found!"
+        exit 1
+    fi
+
+    num_lines=$(wc -l < "$file")
+
+    # Estimate the width by finding the longest line
+    max_line_length=$(awk '{ if (length($0) > max) max = length($0) } END { print max }' "$file")
+
+    # Calculate dimensions (rough estimation)
+    # Assuming average character width in a terminal is approximately 8 pixels (fixed-width font)
+    # and average line height is approximately 20 pixels
+    char_width=10
+    line_height=20
+
+    width=$(( max_line_length * char_width ))
+    height=$(( num_lines * line_height ))
+
+    echo "<object data=/src/$file width=${width} height=${height}></object>"
+}
+
+# Call the function with the provided filename
+calculate_dimensions "$TEXT_FILE"

@@ -1,0 +1,2 @@
+length=len("Hello!")
+print(f"The string is {length} characters long")

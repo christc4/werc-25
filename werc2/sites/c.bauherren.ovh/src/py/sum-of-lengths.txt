@@ -1,0 +1,8 @@
+def len_sum(s1, s2):
+    len1 = len(s1)
+    len2 = len(s2)
+    return(len1 + len2)
+
+string1 = "123"
+string2 = "xyz"
+print(len_sum(s1, s2))

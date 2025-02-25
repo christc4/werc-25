@@ -1,0 +1,107 @@
+%!PS
+/margin 72 def /box [ clippath pathbbox ] def /left margin 30 add def
+/top [ left box 3 get margin sub ] cvx def /right box 2 get margin sub def
+/bot margin def /newpage { T top moveto } def /sigil<5E>def
+/br  { 0 lead neg rmoveto } def /hbr { 0 lead -0.5 mul rmoveto } def
+/cr { left currentpoint exch pop moveto } def /buf <<>> def /++ { dup load 1 add store } def
+/hr { gsave right left add 2 div  currentpoint exch pop translate
+    7.2 dup scale -32 -1 moveto -28 -3 -20 -3 0 0 curveto
+    currentpoint strokepath currentlinewidth dup 72 div setlinewidth stroke setlinewidth
+    moveto 20 3 28 3 32 -1 curveto 1 setflat
+    strokepath currentlinewidth dup 72 div setlinewidth stroke setlinewidth grestore br } def
+/rline { gsave dup stringwidth pop neg 0 rmoveto show grestore } def
+/line { gsave sigil{search{show exch token pop exec exch}{show exit}ifelse}loop grestore } def
+/par { (\n) { search exch line not { exit } if br
+    currentpoint exch pop bot lt { showpage newpage } if } loop br } def
+/last { buf buf length 1 sub get 0 get } def
+/append { buf length 0 gt { dup 0 get 0 1 getinterval (\).,) exch search { pop pop last ( ) eq
+    { buf buf length 1 sub undef } if } if pop } if buf exch buf length exch put } def
+/push { dup 0 get () eq {pop}{ dup 0 get ( ) eq { buf length 0 eq {pop}{ last ( ) eq {pop}{
+    append } ifelse } ifelse }{ append } ifelse } ifelse } def
+/trim { buf length 0 gt {last ( ) eq { buf buf length 1 sub undef } if } if } def
+/buffor{ buf 0 get 0 get ( ) eq {1}{0} ifelse  1
+    buf length last ( ) eq {2}{1} ifelse sub  4 3 roll
+    {buf exch get} /exec cvx 3 2 roll /exec cvx 4 array astore cvx  for } def
+/dump {0 {spaces s} argsbegin { 0 get ( ) eq {/spaces ++} if } buffor
+  cr { aload pop pop setfont stringwidth rmoveto } buffor /gap right currentpoint pop sub def
+  /spaceadjust gap spaces dup 0 eq {pop 1} if div def cr { aload pop /lead exch def setfont
+    {dup ==only}pop s } buffor cr br end /buf <<>> def {/ =}pop } def
+/accum {dup currentpoint pop exch stringwidth pop add right gt {{spaceadjust 0 32 4 3 roll
+    widthshow} dump } if dup stringwidth rmoveto [ exch currentfont lead ] push } def
+/jtext { ( ) { search exch dup (\() eq {accum}{accum ( ) accum} ifelse not{exit}if } loop } def
+/jpar { sigil{search{jtext exch token pop exec exch}{jtext exit}ifelse}loop {show} dump } def
+/settab{/tabstop currentpoint pop def}def /tab{tabstop currentpoint exch pop moveto}def
+/argsbegin{ dup length dict begin {exch def} forall } def /proc { token pop exch pop } def
+/fontproc {{name lead x} argsbegin ({//name //x selectfont /lead //lead def}) proc bind end } def
+/I 10 11 /Palatino-Italic fontproc def /R 10 11 /Palatino-Roman fontproc def
+/H 18 16 /Palatino-Roman fontproc def
+/B {/Palatino-Roman findfont [14 0 0 10 0 0] makefont setfont /lead 13 def} def
+/T {/Courier findfont [9 0 0 10 0 0] makefont setfont /lead 11 def} def
+
+(        ) newpage rline
+(Christ Amlai         ^settab ^T dawn1000@protonmail.com) H par
+(London,                                           ^settab ^T http://95.179.238.202
+United Kingdom) R hbr par
+
+(Objective) br B line br
+(I'm interested in communicating simple computational solutions to real world problems.
+I wish to work in an environment where such problems are being tackled, in a collaborative manner, through wish I can develop skills sufficient to think within a team.
+In addition, I wish to have my own shortcomings made clearer through the help of mentors to which I can learn how I can overcome them.
+) R hbr jpar
+
+(Education) br B line br
+(2024    ) T hbr rline
+(AEC Tutors '24, Eng. Lit, Economics, Geography  ) R jpar
+
+(Software skills) br B line br
+(*NIX, Linux, OpenBSD, POSIX, plan9 rc, git, \
+HTML/CSS, LaTeX, *roff,
+nginx, httpd, rcctl, SystemD) R jpar
+
+(Programming skills) br B line br
+(Go (Beginner), Python (Amateur), PostScript (Amateur), Awk (Amateur)
+) R jpar
+
+(Language skills) br B line br
+(English (Native),
+Bengali (Proficient),
+Mandarin (Amateur) \
+) R jpar
+
+(Experience) br B line br
+(2021-23    ) T hbr rline
+(Private Server master (OpenBSD, rcctl, httpd, werc) - Static site generation was achieved in the backend with 'werc' a suite of scripts written in awk and Plan9's rc shell along with several Plan9 core-utils.
+User login, comments, sitemaps and even searchbars can be achieved without any javascript, although a new webpage is loaded.
+OpenBSD, it's webserver 'httpd' and daemons and service utility 'rcctl' are security-conscious by default and much simpler and managable than conventional server OS's and tools.
+) R jpar
+(2021-23    ) T hbr rline
+(Private Server master (Debian Linux, SystemD, nginx) - Using the traditional-most tools led me to develop a strong sense of familiarity with server management.
+) R jpar
+
+(Projects) br B line R br
+(2020    ) T hbr rline
+(POSIX - Shellscripting tutorials
+For personal use I wrote dozens of posix shell scripts to automate batch tasks.
+I have made public said scripts, with included explanations of flags and core-utils.
+These scripts save hours of work and make life easier
+(^T http://handbook.avsbq.org/cs/shell^R).
+) R par
+(2023    ) T hbr rline
+(Golang - 'bq' text editor
+'bq' is intended to be an improved and simpler successor to the original UNIX `ed` editor.
+'bq' aims to minimise keypresses as much as possible, thus being extremely ergonomic.
+(^T http://to-do.avsbq.org/bq/^R).
+) R par
+(2023    ) T hbr rline
+(Golang - 'g-tools' html parsing tools
+'g-tools' is a set of small Go programs that parse webpages 
+(^T http://to-do.avsbq.org/gtools/^R).
+) R par
+(2024    ) T hbr rline
+(*roff, LaTeX, PostScript etc. - Typesetting archival
+I taught myself said typesetting methods through studying 80's and 90's source code.
+This allowed me to create a set of commonmost templates for people to use locally.
+(^T https://github.com/christc4/john^R).
+(^T https://github.com/christc4/typesetting-examples^R).
+) R par
+showpage

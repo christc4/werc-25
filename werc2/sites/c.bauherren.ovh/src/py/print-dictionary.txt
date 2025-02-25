@@ -1,0 +1,7 @@
+dictionary = {
+    "brand": "Honda",
+    "model": "Civic",
+    "year": 1964
+}
+
+print(dictionary)

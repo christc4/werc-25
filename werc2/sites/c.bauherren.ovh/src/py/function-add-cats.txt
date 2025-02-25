@@ -1,0 +1,19 @@
+print("")
+print("Function: add_cats_repeatedly")
+
+# Write a function that adds the item "cats" to the given
+# word_list, repeatedly, a number of times defined by the
+# given count parameter.
+# Example:
+#    add_cats_repeatedly([], 3)
+# => ['cats', 'cats', 'cats']
+
+def add_cats_repeatedly(word_list, count):
+for _ in range(count):
+    word_list.append("cats")
+return word_list
+
+# Test cases
+print(add_cats_repeatedly([], 3))  # ['cats', 'cats', 'cats']
+print(add_cats_repeatedly(['dogs'], 2))  # ['dogs', 'cats', 'cats']
+print(add_cats_repeatedly([], 0))  # []

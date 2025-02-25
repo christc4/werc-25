@@ -1,0 +1,166 @@
+<script src=dump.js></script><link rel=stylesheet href=dump.css><div class=x-buttons> 
+<style>p{text-transform: capitalize;}</style> 
+<div class=x-buttons> 
+<button class=btn data-tag=loved>loved ❤</button> 
+<button class=btn data-tag=great>great ⭐</button> 
+<button class=btn data-tag=good>good ✨</button> 
+<button class=btn data-tag=action>action</button> 
+<button class=btn data-tag=comedy>comedy</button> 
+<button class=btn data-tag=drama>drama</button> 
+<button class=btn data-tag=fantasy>fantasy</button> 
+<button class=btn data-tag=isekai>isekai</button> 
+<button class=btn data-tag=mystery>mystery</button> 
+<button class=btn data-tag=romance>romance</button> 
+<button class=btn data-tag=supernatural>supernatural</button> 
+<button class=btn data-tag=adventure>adventure</button> 
+<button class=btn data-tag=watching>watching</button> 
+</div> 
+<div class=bms> 
+<div> 
+<div class=x>#</div> 
+<p class=bm data-tags=romance>365 days to the wedding 
+</div> 
+<div> 
+<div class=x>A</div> 
+<p class=bm data-tags=action,fantasy,school,time-travel,good>a returner's magic should be special 
+<p class=bm data-tags=comedy,fantasy,great>a salad bowl of eccentrics 
+<p class=bm data-tags=comedy,romance>akame maniax! 
+<p class=bm data-tags=action,fantasy,loved>akane ga kill! 
+<p class=bm data-tags=adventure,fantasy,isekai,loved>am i actually the strongest? 
+<p class=bm data-tags=action,fantasy,romance,great>an archdemon's dilemma: how to love your elf bride 
+<p class=bm data-tags=drama,great>arte 
+<p class=bm data-tags=isekai,reincarnation,great>ascendance of a bookworm 
+<p class=bm data-tags=action,comedy,romance,supernatural>ayakashi triangle 
+</div> 
+<div><div class=x>B</div> 
+<p class=bm data-tags=action,adventure,fantasy>berserk of gluttony 
+<p class=bm data-tags=action,fantasy,loved>black clover 
+<p class=bm data-tags=action,adventure,fantasy,isekai,good>black summoner 
+<p class=bm data-tags=action,adventure,fantasy,watching>bogus skill &lt;&lt;fruitmaster&gt;&gt; about that time i became able to eat unlimited numbers of skill fruits (that kill you) - 2 
+</div> 
+<div> 
+<div class=x>b</div> 
+<p class=bm data-tags=adventure,comedy,fantasy,gourmet,isekai,great>campfire cooking in another world with my absurd skill 
+</div> 
+<div><div class=x>D</div> 
+<p class=bm data-tags=action,comedy,supernatural,great>dandadan 
+<p class=bm data-tags=isekai>demon lord 2099 
+<p class=bm data-tags=adventure,comedy,fantasty,gourmet,great>delicious in dungeon 
+<p class=bm data-tags=action,adventure,fantasty,great>dororo - ? 
+</div> 
+<div><div class=x>E</div> 
+<p class=bm data-tags=action,adventure,fantasy,watching>even given the worthless "appraiser" class, i’m actually the strongest - 1 
+</div> 
+<div> 
+<div class=x>F</div> 
+<p class=bm data-tags=action,adventure,fantasy,isekai>failure frame: i became the strongest and annihilated everything with low-level spells 
+<p class=bm data-tags=action,adventure,fantasy,watching>farmagia 
+<p class=bm data-tags=fantasy,isekai,slice-of-life,loved>farming life in another world 
+<p class=bm data-tags=drama,romance,suspense,great>flowers of evil 
+<p class=bm data-tags=adventure,drama,fantasy,great>frieren: beyond journey's end 
+<p class=bm data-tags=comedy,fantasy,isekai,school,villainess,watching>from bureaucrat to villainess: dad's been reincarnated! - 1 
+</div> 
+<div> 
+<div class=x>G</div> 
+<p class=bm data-tags=drama,romance,historical>genji monogatari 
+</div> 
+<div><div class=x>H</div> 
+<p class=bm data-tags=adventure,comedy,fantasy,isekai,loved>handyman saitou in another world 
+<p class=bm data-tags=adventure,comedy,fantasy,isekai,watching>headhunted to another world: from salaryman to big four! - 2 
+<p class=bm data-tags=drama,romance,great>higehiro: after being rejected, i shaved and took in a high school runaway 
+<p class=bm data-tags=romance,school,watching>honey lemon soda -2 
+</div> 
+<div><div class=x>I</div> 
+<p class=bm data-tags=action,adventure,fantasy,watching>i left my a-rank party to help my former students -1 
+<p class=bm data-tags=action,adventure,comedy,fantasy,watching>i may be a guild receptionist, but i'll solo any boss to clock out on time - 1 
+<p class=bm data-tags=comedy,romance,watching>i want to escape from princess lessons - 1 
+<p class=bm data-tags=adventure,fantsay,watching>i'm a noble on the brink of ruin, so i might as well try mastering magic - 2 
+<p class=bm data-tags=comedy,romance,watching>i'm getting married to a girl i hate in my class -2 
+<p class=bm data-tags=comedy,romance,supernatural,watching>i'm living with an otaku neet kunoichi!? - 1 
+</div> 
+<div><div class=x>J</div> 
+<p class=bm data-tags=drama,horror,mystery,supernatural,suspense,good>Junji Ito Collection 
+</div> 
+<div><div class=x>K</div> 
+<p class=bm data-tags=action,fantasy,horror,suspense,survival,watching>Kabaneri of the Iron Fortress 
+<p class=bm data-tags=action,comedy,fantasy,isekai,parody,18>Kamikatsu: Working for God in a Godless World 
+</div> 
+<div><div class=x>M</div> 
+<p class=bm data-tags=fantasy,isekai,reincarnation,watching>magic maker: how to make magic in another world - 1 
+<p class=bm data-tags=action,comedy,fantasy,loved>mashle: magic and muscles 
+<p class=bm data-tags=drama,mystery,suspense,loved>monster 
+</div> 
+<div><div class=x>N</div> 
+<p class=bm data-tags=romance,great>nina the starry bride 
+<p class=bm data-tags=adventure,comedy,fantasy,isekai,parody,loved>no longer allowed in another world 
+</div> 
+<div><div class=x>O</div> 
+<p class=bm data-tags=drama,historical,loved,watching>orb: on the movements of the earth - 16 
+</div> 
+<div><div class=x>P</div> 
+<p class=bm data-tags=adventure,fantasy,isekai,watching>possibly the greatest alchemist of all time - 2 
+<p class=bm data-tags=fantasy,isekai,watching>promise of wizard - 1 
+</div> 
+<div><div class=x>R</div> 
+<p class=bm data-tags=drama,romance>relife 
+<p class=bm data-tags=action,adventure,fantasy,isekai,great>re:monster 
+</div> 
+<div><div class=x>S</div> 
+<p class=bm data-tags=adventure,comedy,fantasy,isekai,loved>sasaki and peeps 
+<p class=bm data-tags=action,adventure,fantasy,isekai,loved>seirei gensouki: spirit chronicles 
+<p class=bm data-tags=drama,romance>sing "yesterday" for me 
+<p class=bm data-tags=drama,fantasy,romance,watching,visual-arts>Sugar Apple Fairy Tale - fin part2 
+</div> 
+<div><div class=x>T</div> 
+<p class=bm data-tags=fantasy,mystery,watching>tasokare hotel -2 
+<p class=bm data-tags=comedy,time-travel,villainess,great>tearmoon empire 
+<p class=bm data-tags=drama,mystery,great>the apothecary diaries 
+<p class=bm data-tags=fantasy,isekai,watching>the daily life of a middle-aged online shopper in another world -1 
+<p class=bm data-tags=comedy,romance,good>the dangers in my heart 
+<p class=bm data-tags=action,comedy,fantasy,isekai>the eminence in shadow
+<p class=bm data-tags=adventure,fantasy,isekai,romance,good>the fruit of evolution: before i knew it, my life had it made 
+<p class=bm data-tags=action,supernatural,survival,suspense,psychological>the future diary 
+<p class=bm data-tags=action,drama,fantasy,sci-fi,loved>the kingdoms of ruin 
+<p class=bm data-tags=comedy,school,good>the master of killing time 
+<p class=bm data-tags=comedy,good>the masterful cat is depressed again today 
+<p class=bm data-tags=action,adventure,fantasy,isekai,loved>the reincarnation of the strongest exorcist in another world 
+<p class=bm data-tags=comedy,great>the royal tutor 
+<p class=bm data-tags=action,adventure,fantasy,good>the unwanted undead adventurer 
+<p class=bm data-tags=adventure,fantasy,good>the weakest tamer began a journey to pick up trash 
+</div> 
+<div><div class=x>U</div> 
+<p class=bm data-tags=action,adventure,fantasy,watching>ubel blatt -1 
+<p class=bm data-tags=action,loved>under ninja 
+<p class=bm data-tags=psychological>uzumaki: spiral into horror 
+</div> 
+<div><div class=x>v</div> 
+<p class=bm data-tags=drama,mystery,supernatural,great>vatican miracle examiner 
+<p class=bm data-tags=fantasy,isekai,good>villainess level 99: i may be the hidden boss but i'm not the demon lord 
+<p class=bm data-tags=actio ,adventure,historical,great>vinland saga 
+</div> 
+<div><div class=x>W</d v> 
+<p class=bm data-tags=comedy,supernatural,watching>welcome to japan, ms. elf! -1
+</div> 
+<div><div class=x>Z</div> 
+<p class=bm data-tags=action,comedy,horror,suspense,good>zom 100: bucket list of the dead 
+</div> 
+</div> 
+<details><summary>on hold&hellip;</summary> 
+tis time for torture princess 
+overlord 
+spy x family 
+that one zombie steampuunk anime with plasma gun 
+isekai shokudo 
+revise slice of life button 
+do over damsel 
+demon army general - did i finish??? 
+watch flower and asura 
+ameku md doctor detective 
+The Strongest Magician in the Demon Lord's Army Was a Human - finished, great 
+act, aadv, fan-, isekai 
+Restaurant to Another World - watching 
+add my happy marriage
+</details> 
+
+
+

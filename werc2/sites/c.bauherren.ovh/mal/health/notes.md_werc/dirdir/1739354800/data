@@ -1,0 +1,29 @@
+> Notes from watching... [How To FIX Your Genetics (No BS Guide) Epigenetics: The Truth about Gene's and Gene Expression](//youtu.be/B7vxCA1ajbE?feature=shared)
+
+## What is epigenetics?
+
+From [cdc](//cdc.gov/genomics-and-health/epigenetics/)
+
+
+> Epigenetics refers to how your behaviors and environment can cause changes that affect the way your genes work. Unlike genetic changes (mutations), epigenetic changes are reversible and do not change the sequence of DNA bases, but they can change how your body reads a DNA sequence
+
+- Epigenetics refers to the way your behaviors and environment can cause changes that affect the way your genes work.
+- Epigenetics turns genes "on" and "off."
+- Your epigenetics change as you age, both as part of normal development and aging and because of exposure to environmental factors that happen over the course of your life.
+- Epigenetic changes can affect your health in different ways.
+
+## Plastics | 1:15 (timestamp)
+
+"Plastics act as an endogenous estrogen - natural estrogen in your body, harmful to both genders"
+
+"During pregnancy, BPAS, antagonize DHT receptors"
+
+"DHT" is "super testosterone" in the womb "reesponsible for bone mass, wrist size, ankle size"
+
+DHT receptors are pre-determined in the womb, during puberty promotes facial masculization, jawline growth and sharpness, how masculine eye area, brow ridge, chin growth, penile size 
+
+During young adulthood lengthens/increases puberty, enlargens adams apple, facial hair, voice deepness, skeletal frame, responsible for age bone plates fuse.
+
+Plastics and BPAs can alter the methalation of your DNA, changes unnaturally and negatively leading to diseases such as autism, schizophrenia and neurological ones.
+
+

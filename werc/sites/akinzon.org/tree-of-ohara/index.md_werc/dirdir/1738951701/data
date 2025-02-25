@@ -1,0 +1,41 @@
+# Tree of Ohara 
+
+## [JavaFX](#javafx)
+
+JavaFX is a group of Java Classes used to create GUIs
+
+## [JavaFX](#javafx-binding)
+
+Up: [JavaFX](#javafx)
+
+In JavaFX, binding is a way of synchronising the values of two components/variables.
+
+The motivation for it is to have interface elements ([nodes](javafx-nodes))
+
+keep up-to-date with underlying data.
+
+JavaFX uses [Properties](javafx-properties) to implement binding.
+
+Binding can be one-way, where a property B updates when property A updates.
+
+Binding can also be two-way, where property B can affect property A as well.
+
+## [JavaFX Properties](#javafx-properties)
+
+Up: [JavaFX Binding](#javafx)
+
+In JavaFX, properties are bindable versions of typical data types
+
+Their sole purpose is to implement binding
+
+Properties help us to separate application data/application logic from the GUI
+
+## [JavaFX Nodes](#javafx-nodes)
+
+In JavaFX, Nodes are the individual components that appear on the screen
+
+Nodes can be containers for other nodes
+
+
+
+

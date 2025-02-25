@@ -1,0 +1,4 @@
+siteTitle=bauherr.ovh
+conf_enable_wiki 
+extraHeaders='<meta name="viewport" content="width=device-width, initial-scale=1" />'
+conf_hide_paths 'christos' 'arif' 'bayzed' 'pranshu' 'bela' 'werc-guide' 'pix' 'news'

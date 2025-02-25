@@ -1,0 +1,427 @@
+     1	#!/bin/awk -f
+     2	#
+     3	# by: Jesus Galan (yiyus) 2009
+     4	#
+     5	# Usage: md2html.awk file.md > file.html
+     6	# See: http://4l77.com/src/md2html.awk
+      
+     7	function eschtml(t) {
+     8		gsub("&", "\\&amp;", t);
+     9		gsub("<", "\\&lt;", t);
+    10		return t;
+    11	}
+      
+    12	function oprint(t){
+    13		if(nr == 0)
+    14			print t;
+    15		else
+    16			otext = otext "\n" t;
+    17	}
+      
+    18	function subref(id){
+    19		for(; nr > 0 && sub("<<" id, ref[id], otext); nr--);
+    20		if(nr == 0 && otext) {
+    21			print otext;
+    22			otext = "";
+    23		}
+    24	}
+      
+    25	function nextil(t) {
+    26		if(!match(t, /[`<&\[*_\\-]|(\!\[)/))
+    27			return t;
+    28		t1 = substr(t, 1, RSTART - 1);
+    29		tag = substr(t, RSTART, RLENGTH);
+    30		t2 = substr(t, RSTART + RLENGTH);
+    31		if(ilcode && tag != "`")
+    32			return eschtml(t1 tag) nextil(t2);
+    33		# Backslash escaping
+    34		if(tag == "\\"){
+    35			if(match(t2, /^[\\`*_{}\[\]()#+\-\.!]/)){
+    36				tag = substr(t2, 1, 1);
+    37				t2 = substr(t2, 2);
+    38			}
+    39			return t1 tag nextil(t2);
+    40		}
+    41		# Dashes
+    42		if(tag == "-"){
+    43			if(sub(/^-/, "", t2))
+    44				tag = "&#8212;";
+    45			return t1 tag nextil(t2);
+    46		}
+    47		# Inline Code
+    48		if(tag == "`"){
+    49			if(sub(/^`/, "", t2)){
+    50				if(!match(t2, /``/))
+    51					return t1 "&#8221;" nextil(t2);
+    52				ilcode2 = !ilcode2;
+    53			}
+    54			else if(ilcode2)
+    55				return t1 tag nextil(t2);
+    56			tag = "<code>";
+    57			if(ilcode){
+    58				t1 = eschtml(t1);
+    59				tag = "</code>";
+    60			}
+    61			ilcode = !ilcode;
+    62			return t1 tag nextil(t2);
+    63		}
+    64		if(tag == "<"){
+    65		# Autolinks
+    66			if(match(t2, /^[^ 	]+[\.@][^ 	]+>/)){
+    67				url = eschtml(substr(t2, 1, RLENGTH - 1));
+    68				t2 = substr(t2, RLENGTH + 1);
+    69				linktext = url;
+    70				if(match(url, /@/) && !match(url, /^mailto:/))
+    71					url = "mailto:" url;
+    72				return t1 "<a href=\"" url "\">" linktext "</a>" nextil(t2);
+    73			}
+    74		# Html tags
+    75			if(match(t2, /^[A-Za-z\/!][^>]*>/)){
+    76				tag = tag substr(t2, RSTART, RLENGTH);
+    77				t2 = substr(t2, RLENGTH + 1);
+    78				return t1 tag nextil(t2);
+    79			}
+    80			return t1 "&lt;" nextil(t2);
+    81		}
+    82		# Html special entities
+    83		if(tag == "&"){
+    84			if(match(t2, /^#?[A-Za-z0-9]+;/)){
+    85				tag = tag substr(t2, RSTART, RLENGTH);
+    86				t2 = substr(t2, RLENGTH + 1);
+    87				return t1 tag nextil(t2);
+    88			}
+    89			return t1 "&amp;" nextil(t2);
+    90		}
+    91		# Images
+    92		if(tag == "!["){
+    93			if(!match(t2, /(\[.*\])|(\(.*\))/))
+    94				return t1 tag nextil(t2);
+    95			match(t2, /^[^\]]*/);
+    96			alt = substr(t2, 1, RLENGTH);
+    97			t2 = substr(t2, RLENGTH + 2);
+    98			if(match(t2, /^\(/)){
+    99				# Inline
+   100				sub(/^\(/, "", t2);
+   101				match(t2, /^[^\)]+/);
+   102				url = eschtml(substr(t2, 1, RLENGTH));
+   103				t2 = substr(t2, RLENGTH + 2);
+   104				title = "";
+   105				if(match(url, /[ 	]+\".*\"[ 	]*$/)) {
+   106					title = substr(url, RSTART, RLENGTH);
+   107					url = substr(url, 1, RSTART - 1);
+   108					match(title, /\".*\"/);
+   109					title = " title=\"" substr(title, RSTART + 1, RLENGTH - 2) "\"";
+   110				}
+   111				if(match(url, /^<.*>$/))
+   112					url = substr(url, 2, RLENGTH - 2);
+   113				return t1 "<img src=\"" url "\" alt=\"" alt "\"" title " />" nextil(t2);
+   114			}
+   115			else{
+   116				# Referenced
+   117				sub(/^ ?\[/, "", t2);
+   118				id = alt;
+   119				if(match(t2, /^[^\]]+/))
+   120					id = substr(t2, 1, RLENGTH);
+   121				t2 = substr(t2, RLENGTH + 2);
+   122				if(ref[id])
+   123					r = ref[id];
+   124				else{
+   125					r = "<<" id;
+   126					nr++;
+   127				}
+   128				return t1 "<img src=\"" r "\" alt=\"" alt "\" />" nextil(t2);
+   129			}
+   130		}
+   131		# Links
+   132		if(tag == "["){
+   133			if(!match(t2, /(\[.*\])|(\(.*\))/))
+   134				return t1 tag nextil(t2);
+   135			match(t2, /^[^\]]*(\[[^\]]*\][^\]]*)*/);
+   136			linktext = substr(t2, 1, RLENGTH);
+   137			t2 = substr(t2, RLENGTH + 2);
+   138			if(match(t2, /^\(/)){
+   139				# Inline
+   140				match(t2, /^[^\)]+(\([^\)]+\)[^\)]*)*/);
+   141				url = substr(t2, 2, RLENGTH - 1);
+   142				pt2 = substr(t2, RLENGTH + 2);
+   143				title = "";
+   144				if(match(url, /[ 	]+\".*\"[ 	]*$/)) {
+   145					title = substr(url, RSTART, RLENGTH);
+   146					url = substr(url, 1, RSTART - 1);
+   147					match(title, /\".*\"/);
+   148					title = " title=\"" substr(title, RSTART + 1, RLENGTH - 2) "\"";
+   149				}
+   150				if(match(url, /^<.*>$/))
+   151					url = substr(url, 2, RLENGTH - 2);
+   152				url = eschtml(url);
+   153				return t1 "<a href=\"" url "\"" title ">" nextil(linktext) "</a>" nextil(pt2);
+   154			}
+   155			else{
+   156				# Referenced
+   157				sub(/^ ?\[/, "", t2);
+   158				id = linktext;
+   159				if(match(t2, /^[^\]]+/))
+   160					id = substr(t2, 1, RLENGTH);
+   161				t2 = substr(t2, RLENGTH + 2);
+   162				if(ref[id])
+   163					r = ref[id];
+   164				else{
+   165					r = "<<" id;
+   166					nr++;
+   167				}
+   168				pt2 = t2;
+   169				return t1 "<a href=\"" r "\" />" nextil(linktext) "</a>" nextil(pt2);
+   170			}
+   171		}
+   172		# Emphasis
+   173		if(match(tag, /[*_]/)){
+   174			ntag = tag;
+   175			if(sub("^" tag, "", t2)){
+   176				if(stag[ns] == tag && match(t2, "^" tag))
+   177					t2 = tag t2;
+   178				else
+   179					ntag = tag tag
+   180			}
+   181			n = length(ntag);
+   182			tag = (n == 2) ? "strong" : "em";
+   183			if(match(t1, / $/) && match(t2, /^ /))
+   184				return t1 tag nextil(t2);
+   185			if(stag[ns] == ntag){
+   186				tag = "/" tag;
+   187				ns--;
+   188			}
+   189			else
+   190				stag[++ns] = ntag;
+   191			tag = "<" tag ">";
+   192			return t1 tag nextil(t2);
+   193		}
+   194	}
+      
+   195	function inline(t) {
+   196		ilcode = 0;
+   197		ilcode2 = 0;
+   198		ns = 0;
+   199		
+   200		return nextil(t);
+   201	}
+      
+   202	function printp(tag) {
+   203		if(!match(text, /^[ 	]*$/)){
+   204			text = inline(text);
+   205			if(tag != "")
+   206				oprint("<" tag ">" text "</" tag ">");
+   207			else
+   208				oprint(text);
+   209		}
+   210		text = "";
+   211	}
+      
+   212	BEGIN {
+   213		blank = 0;
+   214		code = 0;
+   215		hr = 0;
+   216		html = 0;
+   217		nl = 0;
+   218		nr = 0;
+   219		otext = "";
+   220		text = "";
+   221		par = "p";
+   222	}
+      
+   223	# References
+   224	!code && /^ *\[[^\]]*\]:[ 	]+/ {
+   225		sub(/^ *\[/, "");
+   226		match($0, /\]/);
+   227		id = substr($0, 1, RSTART - 1);
+   228		sub(id "\\]:[ 	]+", "");
+   229		title = "";
+   230		if(match($0, /\".*\"$/))
+   231			title = "\" title=\"" substr($0, RSTART + 1, RLENGTH - 2);
+   232		sub(/[ 	]+\".*\"$/, "");
+   233		url = eschtml($0);
+   234		ref[id] = url title;
+      
+   235		subref(id);
+   236		next;
+   237	}
+      
+   238	# html
+   239	!html && /^<(address|blockquote|center|dir|div|dl|fieldset|form|h[1-6r]|\
+   240	isindex|menu|noframes|noscript|ol|p|pre|table|ul|!--)/ {
+   241		if(code)
+   242			oprint("</pre></code>");
+   243		for(; !text && block[nl] == "blockquote"; nl--)
+   244			oprint("</blockquote>");
+   245		match($0, /^<(address|blockquote|center|dir|div|dl|fieldset|form|h[1-6r]|\
+   246		isindex|menu|noframes|noscript|ol|p|pre|table|ul|!--)/);
+   247		htag = substr($0, 2, RLENGTH - 1);
+   248		if(!match($0, "(<\\/" htag ">)|((^<hr ?\\/?)|(--)>$)"))
+   249			html = 1;
+   250		if(html && match($0, /^<hr/))
+   251			hr = 1;
+   252		oprint($0);
+   253		next;
+   254	}
+      
+   255	html && (/(^<\/(address|blockquote|center|dir|div|dl|fieldset|form|h[1-6r]|\
+   256	isindex|menu|noframes|noscript|ol|p|pre|table|ul).*)|(--)>$/ ||
+   257	(hr && />$/)) {
+   258		html = 0;
+   259		hr = 0;
+   260		oprint($0);
+   261		next;
+   262	}
+      
+   263	html {
+   264		oprint($0);
+   265		next;
+   266	}
+      
+   267	# List and quote blocks
+      
+   268	#   Remove indentation
+   269	{
+   270		for(nnl = 0; nnl < nl; nnl++)
+   271			if((match(block[nnl + 1], /[ou]l/) && !sub(/^(    |	)/, "")) || \
+   272			(block[nnl + 1] == "blockquote" && !sub(/^> ?/, "")))
+   273				break;
+   274	}
+   275	nnl < nl && !blank && text && ! /^ ? ? ?([*+-]|([0-9]+\.)+)( +|	)/ { nnl = nl; }
+   276	#   Quote blocks
+   277	{ 
+   278		while(sub(/^> /, ""))
+   279			nblock[++nnl] = "blockquote";
+   280	}
+   281	#   Horizontal rules
+   282	{ hr = 0; }
+   283	(blank || (!text && !code)) && /^ ? ? ?([-*_][ 	]*)([-*_][ 	]*)([-*_][ 	]*)+$/ {
+   284		if(code){
+   285			oprint("</pre></code>");
+   286			code = 0;
+   287		}
+   288		blank = 0;
+   289		nnl = 0;
+   290		hr = 1;
+   291	}
+   292	#   List items
+   293	block[nl] ~ /[ou]l/ && /^$/ {
+   294		blank = 1;
+   295		next;
+   296	}
+   297	{ newli = 0; }
+   298	!hr && (nnl != nl || !text || block[nl] ~ /[ou]l/) && /^ ? ? ?[*+-]( +|	)/ {
+   299		sub(/^ ? ? ?[*+-]( +|	)/, "");
+   300		nnl++;
+   301		nblock[nnl] = "ul";
+   302		newli = 1;
+   303	}
+   304	(nnl != nl || !text || block[nl] ~ /[ou]l/) && /^ ? ? ?([0-9]+\.)+( +|	)/ {
+   305		sub(/^ ? ? ?([0-9]+\.)+( +|	)/, "");
+   306		nnl++;
+   307		nblock[nnl] = "ol";
+   308		newli = 1;
+   309	}
+   310	newli { 
+   311		if(blank && nnl == nl && !par)
+   312			par = "p";
+   313		blank = 0;
+   314		printp(par);
+   315		if(nnl == nl && block[nl] == nblock[nl])
+   316			oprint("</li><li>");
+   317	}
+   318	blank && ! /^$/ {
+   319		if(match(block[nnl], /[ou]l/) && !par)
+   320			par = "p";
+   321		printp(par);
+   322		par = "p";
+   323		blank = 0;
+   324	}
+   325			
+   326	# Close old blocks and open new ones
+   327	nnl != nl || nblock[nl] != block[nl] {
+   328		if(code){
+   329			oprint("</pre></code>");
+   330			code = 0;
+   331		}
+   332		printp(par);
+   333		b = (nnl > nl) ? nblock[nnl] : block[nnl];
+   334		par = (match(b, /[ou]l/)) ? "" : "p";
+   335	}
+   336	nnl < nl || (nnl == nl && nblock[nl] != block[nl]) {
+   337		for(; nl > nnl || (nnl == nl && pblock[nl] != block[nl]); nl--){
+   338			if(match(block[nl], /[ou]l/))
+   339				oprint("</li>");
+   340			oprint("</" block[nl] ">");
+   341		}
+   342	}
+   343	nnl > nl {
+   344		for(; nl < nnl; nl++){
+   345			block[nl + 1] = nblock[nl + 1];
+   346			oprint("<" block[nl + 1] ">");
+   347			if(match(block[nl + 1], /[ou]l/))
+   348				oprint("<li>");
+   349		}
+   350	}
+   351	hr {
+   352		oprint("<hr>");
+   353		next;
+   354	}
+      
+   355	# Code blocks
+   356	code && /^$/ { 
+   357		if(blanK)
+   358			oprint("");
+   359		blank = 1;
+   360		next;
+   361	}
+   362	!text && sub(/^(	|    )/, "") {
+   363		if(blanK)
+   364			oprint("");
+   365		blank = 0;
+   366		if(!code)
+   367			oprint("<code><pre>");
+   368		code = 1;
+   369		$0 = eschtml($0);
+   370		oprint($0);
+   371		next;
+   372	}
+   373	code {
+   374		oprint("</pre></code>");
+   375		code = 0;
+   376	}
+      
+   377	# Setex-style Headers
+   378	text && /^=+$/ {printp("h1"); next;}
+   379	text && /^-+$/ {printp("h2"); next;} 
+      
+   380	# Atx-Style headers
+   381	/^#+/ && (!newli || par=="p" || /^##/) {
+   382		for(n = 0; n < 6 && sub(/^# */, ""); n++)
+   383			sub(/#$/, "");
+   384		par = "h" n;
+   385	}
+      
+   386	# Paragraph	
+   387	/^$/ {
+   388		printp(par);
+   389		par = "p";
+   390		next;
+   391	}
+      
+   392	# Add text
+   393	{ text = (text ? text " " : "") $0; }
+      
+   394	END {
+   395		if(code){
+   396			oprint("</pre></code>");
+   397			code = 0;
+   398		}
+   399		printp(par);
+   400		for(; nl > 0; nl--){
+   401			if(match(block[nl], /[ou]l/))
+   402				oprint("</li>");
+   403			oprint("</" block[nl] ">");
+   404		}
+   405		gsub(/<<[^\"]*/, "", otext);
+   406		print(otext);
+   407	}

@@ -1,0 +1,11 @@
+Today's the day I'm retiring 'cork' - the static site generator I developed by 'reverse-engineering' the sane web anti-framework, werc
+
+Werc has many sweet apps, such as 'dirdir' which allows in-page editing and through risingthumb.xyz 's personal build can allow file deletion/creating/uploading all in the browser
+
+I don't like having to carry a SSD to boot into my highly customized ergonomic/efficient Linux build or lugging around a laptop
+
+Most likely I'll create one last bootstrapping script for cork-on-openbsd, as the way I discovered werc was from edolg.net, who authored werc-on-openbsd - a parting contribution incase anyone wants to try a hyper-lean static site generator
+
+As for now I'm using werc, specifically risingthumb.xyz's build of werc and his apps
+
+cork, I loved you and you served me well. get lots of rest buddy

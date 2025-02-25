@@ -1,0 +1,25 @@
+[ Edit 1,$-1d ] - I have this in the tag of win to clear the "screen"
+
+[ Edit ,<reddio p -l10 user/schreq/m/one/new ] - Load 10 newest posts of my multi reddit called "one"
+
+[ Edit ,>awk "NF&&\$1!="#"{n++}END{print n}" ] - Count sloc excluding shell style comments and blank lines
+
+[ Edit x/^[ ]*/ a/# / ] - Comment dot
+
+[ Edit x/^[ ]*# ?/ x/# ?/d ] - Uncomment dot
+
+[ Edit s/^[ ]//g ] - Unindent dot by one level. Dot is not changed so it can be button 2 pressed multiple times
+
+[ Edit s/^/ /g ] - Indent by one level, same as above
+
+[ Edit x/[^\n]\n[^\n]/ s/\n/ / ] - Join dot into a single line (doesn't join lines separated by a blank line)
+
+[ Edit -/^$/++,/^$/ ] - Select current paragraph
+
+'[ len -vw=74 "$samfile" ]-len` is an AWK script which prints the filename and line numbers (in a plumbable format) of lines longer than w
+
+
+
+Clearing the window can be simplified to Edit ,d.
+
+

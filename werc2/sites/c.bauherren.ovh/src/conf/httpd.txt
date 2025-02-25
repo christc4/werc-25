@@ -1,0 +1,15 @@
+server "domain.com" {
+	listen on * port 80
+	connection request timeout 4
+	location found "/*" {
+		root "/cork/dir-name"
+	}
+	location not found "/*" {
+		root "/"
+		fastcgi {
+			param PLAN9 "/usr/local/plan9"
+			param SCRIPT_FILENAME "/cork/c"
+			socket "/run/slowcgi.sock"
+		}
+	}
+}

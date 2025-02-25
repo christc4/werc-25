@@ -1,0 +1,32 @@
+server {
+    listen 443 ssl http2;
+    listen [::]:443 ssl http2;
+    listen 8448 ssl http2;
+    listen [::]:8448 ssl http2;
+    server_name bauherren.ovh; 
+    merge_slashes off;
+
+    # Nginx defaults to only allow 1MB uploads
+    # Increase this to allow posting large files such as videos
+    client_max_body_size 20M;
+
+    location /_matrix/ {
+        proxy_pass http://127.0.0.1:6167;
+        proxy_set_header Host $host;
+        proxy_buffering off;
+        proxy_read_timeout 5m;
+    }
+    ssl_certificate /etc/letsencrypt/live/bauherren.ovh/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/bauherren.ovh/privkey.pem; # managed by Certbot 
+    ssl_trusted_certificate /etc/letsencrypt/live/bauherren.ovh/chain.pem; 
+    include /etc/letsencrypt/options-ssl-nginx.conf;
+        root /var/www/bauherren ;
+        index index.html index.htm index.nginx-debian.html ;
+        location / {
+		 if ($request_uri ~ ^/(.*)\.html(\?|$)) { return 302 /$1; }
+	    try_files $uri $uri.html $uri/ =404;
+        }
+
+
+
+}

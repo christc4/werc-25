@@ -1,0 +1,3 @@
+leaves = 0
+if leaves == 0:
+	print("It must be winter - or a dead tree")

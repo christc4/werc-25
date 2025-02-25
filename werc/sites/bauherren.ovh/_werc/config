@@ -1,0 +1,3 @@
+siteTitle=bauherren.ovh
+conf_enable_wiki
+conf_hide_paths  'pix' 'dump' 'users'

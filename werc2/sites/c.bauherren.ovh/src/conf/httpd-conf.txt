@@ -1,0 +1,34 @@
+server "avsbq.org" {
+	listen on * port 80
+	listen on * tls port 443
+	connection request timeout 4
+	location "/pub/*" {
+		root "/werc"
+	}
+	location found "/*" {
+		root "/werc/sites/avsbq.org"
+	}
+	  tls {
+	    certificate "/etc/ssl/avsbq.org.pem"
+	    key "/etc/ssl/private/avsbq.org.key"
+	  }
+	 location "/.well-known/acme-challenge/*" {
+	    root "/acme"
+	    request strip 2
+	  }
+	location not found "/*" {
+		root "/"
+		fastcgi {
+			param PLAN9 "/usr/local/plan9"
+			param DOCUMENT_ROOT "/werc/bin"
+			param SCRIPT_FILENAME "/werc/bin/werc.rc"
+			socket "/run/slowcgi.sock"
+		}
+	}
+	gzip-static
+}
+
+types {
+	include "/usr/share/misc/mime.types"
+}
+

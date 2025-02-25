@@ -1,0 +1,7 @@
+def capital_indexes(s):
+    indices = []
+    for index, char in enumerate(s):
+        if char.isupper():
+            indices.append(index)
+    return indices
+

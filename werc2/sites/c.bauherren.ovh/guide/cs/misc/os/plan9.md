@@ -1,0 +1,25 @@
+## Worth Reading
+
+[Plan9 From Bell Labs](http://wiki.c2.com/?PlanNineFromBellLabs)
+
+[What is not in Plan9](https://wiki.c2.com/?WhatIsNotInPlanNine)
+
+[What is in Plan9](https://wiki.c2.com/?WhatIsInPlanNine)
+
+[Shell Scripts & C Programs](https://pdos.csail.mit.edu/~rsc/plan9.html)
+
+[RC The Plan9 Shell](https://www.scs.stanford.edu/nyu/04fa/sched/readings/rc.pdf)
+
+## Videos
+
+[adventuresin9](https://www.youtube.com/@adventuresin9) - YT Channel
+
+### Misc
+
+[Is there a plan9 equivalent of the find command?](https://comp.os.plan9.narkive.com/IUqL71TS/9fans-is-there-a-plan-9-equivalent-of-the-find-command)
+
+[Getting Go on Plan9](https://mike-bland.com/2015/06/08/getting-go-on-plan-9.html)
+
+[Virtual Bell Labs Plan 9 Server Under X86 Linux](http://dlc.casita.net/~dlc/vp9cb/index.html)
+
+https://the-dam.org/docs/explanations/Plan9ListenOnLinux.html

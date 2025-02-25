@@ -1,0 +1,24 @@
+#!/bin/sh
+
+if [ -z "$1" ]; then
+    echo "Usage: $0 <search-term>"
+    exit 1
+fi
+
+SEARCH_TERM="$1"
+
+echo "Search results for: \"$SEARCH_TERM\""
+echo ""
+
+rg --no-heading --with-filename --line-number "$SEARCH_TERM" --glob "*.md" | while IFS=: read -r file line content; do
+    # Escaping ampersand, less-than, and greater-than characters for HTML safety
+    escaped_content=$(echo "$content" | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g')
+
+    # Emboldening searched text
+    formatted_content=$(echo "$escaped_content" | sed "s/$SEARCH_TERM/<b>$SEARCH_TERM<\/b>/g")
+
+
+    echo "<a href=\"$file\">$file</a>"
+    echo "<p>\"$formatted_content\"</p>"
+    echo ""
+done 

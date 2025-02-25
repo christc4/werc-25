@@ -1,0 +1,21 @@
+<rss version="2.0">
+<channel>
+<title>Christos' Blog</title>
+<link>c.bauherren.ovh</link>
+<item>
+<title>Lard</title>
+<link>/blog/misc#lard</link>
+<description>A funny shop experience, whereupon I asked for 'lard'</description>
+</item>
+<item>
+<title>Nobody knows English</title>
+<link>/blog/main#nobody-knows-english</link>
+<description>Rewrote first section</description>
+</item>
+<item>
+<title>Stagnant vs Running water</title>
+<link>/blog/misc/#stagnant-vs-running-water</link>
+<description>Added sherlock holmes</description>
+</item>
+</channel>
+</rss>

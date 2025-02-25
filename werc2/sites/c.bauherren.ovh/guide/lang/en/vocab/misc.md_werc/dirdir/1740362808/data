@@ -1,0 +1,54 @@
+Misc. words going in here include compound words or non germanic/latin
+
+### A
+
+- amok
+
+Amok, or running amok, is derived from the Malay word mengamok, which means to make a furious and desperate charge. Captain Cook is credited with making the first outside observations and recordings of amok in the Malay tribesmen in 1770 during his around-the-world voyage.
+
+- AWOL (away without leave)
+
+### B
+
+- backdrop
+- back-peddle
+- behemoth
+- benchmark
+- blacklisted
+- blackmark
+- blackout
+- blacksheep
+- bloodsports
+- boatloads
+- bona fide
+boychik yiddish
+
+### D
+
+deadringer
+
+- karmic
+
+### H
+
+- headstrong
+- hellhole
+- histrionic
+
+### M
+
+- memory-holed
+
+### S
+
+- second-guess
+
+### else
+
+- bric-a-brac
+- doohickey
+- doodad
+- thingamajig
+- whatchamacallit
+
+

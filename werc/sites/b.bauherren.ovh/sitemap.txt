@@ -1,0 +1,5 @@
+https://b.bauherren.ovh:443/blog/
+https://b.bauherren.ovh:443/blog/astronomy/
+https://b.bauherren.ovh:443/blog/my-first-blog-post
+https://b.bauherren.ovh:443/gallery/
+https://b.bauherren.ovh:443/updates/

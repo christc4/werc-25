@@ -1,0 +1,16 @@
+Despite their darling status, the _foods that fueled a nation_ aren't really foods.
+
+Many 'nutrient dense' foods aren't really foods
+
+Consider 
+
+- Non-bio availability 
+- Trace amounts
+
+The Hadza felt like they got the worse side of the deal after trading their hard-earned wild-honey to neighboring tribes for cornmeal 
+
+## See
+
+[The Hadza: Last of The First](//youtu.be/AwS7JaWB0x8?feature=shared)
+
+

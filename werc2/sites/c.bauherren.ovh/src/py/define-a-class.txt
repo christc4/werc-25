@@ -1,0 +1,7 @@
+class X1:
+	"A class example"
+	ii = 1 # class variable
+	# define method. MUST have "self" in the arg spec as first item
+	# method takes no argument
+	def ff(self):
+		return 3

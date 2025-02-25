@@ -1,0 +1,10 @@
+.bms{display: flex;flex-wrap:wrap;gap:9px}
+.bms > div{flex: 1 1 20%; max-width: 99px}
+.bms a{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+a{text-decoration:none;color:black}
+.bm.hl{background-color:Coral}.btn.on{background-color:red}
+p {
+  border-bottom: 1px dashed #ccc; /* Thin dashed line with a light gray color */
+  padding-bottom: 5px; /* Adds a bit of spacing between text and border */
+}
+

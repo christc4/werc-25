@@ -1,0 +1,1 @@
+<link rel=stylesheet type=text/css href=/src/s.css><meta charset=UTF-8><nav><ul><li><ul><li><a href=/archive/>archive/</a><li><a href=/blog/>blog/</a><li><a href=/guide/>guide/</a><li><a href=/icons/>icons/</a><li><a href=/mal/>mal/</a></ul></nav>

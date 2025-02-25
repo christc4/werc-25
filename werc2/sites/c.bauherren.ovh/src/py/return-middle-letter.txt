@@ -1,0 +1,6 @@
+def mid(s):
+    length = len(s)
+    if length % 2 == 1: 
+        middle_index = length // 2
+        return s[middle_index]
+    return "" 

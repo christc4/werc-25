@@ -1,0 +1,10 @@
+def LongestWord(sen):
+    test = sen.split(" ")
+    greatest = test[0]
+
+    for word in test:
+        if len(word) > len(greatest):
+            greatest = word
+    return greatest
+
+print(LongestWord("Higgledy Piggledy Spontaneously We cry"))

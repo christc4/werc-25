@@ -1,0 +1,5 @@
+function eschtml(t) {
+    gsub("&", "\\&amp;", t);
+    gsub("<", "\\&lt;", t);
+    return t;
+}

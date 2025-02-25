@@ -1,0 +1,19 @@
+def dup_count(s):
+	
+	s = s.lower()
+
+	char_count = {}
+
+	for char in s:
+		if char in char_count:
+			char_count[char] += 1
+		else:
+			char_count[char] = 1
+
+	duplicates = 0
+	for count in char_count.values():
+		if count > 1:
+			duplicates += 1
+	
+	return duplicates
+print(dup_count("Tthe Aand"))

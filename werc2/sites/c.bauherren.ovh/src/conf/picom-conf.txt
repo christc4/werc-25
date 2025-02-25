@@ -1,0 +1,13 @@
+backend = "xrender";
+
+vsync = true;
+backend = "glx";
+glx-no-stencil = true;
+use-damage = true;
+
+shadow = false;
+
+inactive-opacity = 0.8;
+active-opacity = 0.95;
+
+unredir-if-possible = true;

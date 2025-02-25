@@ -1,0 +1,12 @@
+authority letsencrypt {
+	api url "https://acme..."
+	account key "/etc/ssl/private/letsencrypt.key"
+}
+
+domain avsbq.org {
+	alternative names { avsbq.org arc.avsbq.org ico.avsbq.org }
+	domain key "/etc/ssl/private/avsbq.org.key"
+	domain certificate "/etc/ssl/avsbq.org.crt"
+	domain full chain certificate "/etc/ssl/avsbq.org.pem"
+	sign with letsencrypt
+}

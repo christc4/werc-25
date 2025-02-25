@@ -1,0 +1,3 @@
+def bye_space(s):
+	return s.replace(" ", "")
+print(bye_space("Hey   bye"))

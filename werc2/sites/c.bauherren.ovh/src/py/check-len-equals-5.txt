@@ -1,0 +1,7 @@
+def char_check(s):
+    if len(s) == 5:
+        return f"{s} is five characters"
+    else:
+        return "Not five characters"
+
+print(char_check("Hello"))

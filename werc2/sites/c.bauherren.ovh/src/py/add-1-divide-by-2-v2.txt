@@ -1,0 +1,3 @@
+def two_step(num):
+	return(num + 1)/2
+print(two_step(5))   

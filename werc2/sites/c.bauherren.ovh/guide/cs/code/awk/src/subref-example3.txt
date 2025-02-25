@@ -1,0 +1,1 @@
+This is an example of an image reference <img src="https://example.com/image.png" alt="Sample Image" title="An example image" />.

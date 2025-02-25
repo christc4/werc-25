@@ -1,0 +1,2 @@
+<img src=/pix/velotype-old-4.avif><img src=/pix/veyboard2.avif><img src=/pix/velo-female-typist.webp><img src=/pix/velotype-vintage1.avif><img src=/pix/veyboard3.avif><img src=/pix/veyboard4.avif><img src=/pix/velo-formal.avif><img src=/pix/velotype-vintage2.avif><img src=/pix/veyboard.avif><img src=/pix/velotype_1985.avif><img src=/pix/velotype-voxa-direct.avif><img src=/pix/vey-class.avif><img src=/pix/velotype-old-1.avif><img src=/pix/veyboard2001.avif>
+

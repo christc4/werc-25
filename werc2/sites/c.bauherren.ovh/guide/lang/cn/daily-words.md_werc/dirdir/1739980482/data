@@ -1,0 +1,28 @@
+2025/02/17
+
+森林 - Forest
+
+吸引力 - attraction power
+
+冰山 - iceberg
+
+卡通片 - cartoon
+
+卡通片人物 - cartoon character
+
+肝 - liver
+
+血 - blood
+
+过程 - process
+
+丛林 - jungle
+
+<https://user.guancha.cn/main/content?id=149977&comments-container>
+
+
+歪,110吗 明天抓我
+
+让你跟卖!死了吧
+
+- 摸着石头过 - [Crossing the river by touching the stones](//wikipedia.org/wiki/Crossing_the_river_by_touching_the_stones)

@@ -1,0 +1,4 @@
+siteTitle=akinzon.org
+conf_enable_wiki test
+siteSubTitle=`{fortune _f.txt}
+conf_hide_paths '/pix' 

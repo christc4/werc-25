@@ -1,0 +1,5 @@
+siteTitle=a.bauherren.ovh
+siteSubTitle=`{fortune _f.txt}
+conf_enable_wiki arif
+extraHeaders='<meta name="viewport" content="width=device-width, initial-scale=1" />'
+conf_hide_paths 'updates'

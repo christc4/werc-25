@@ -1,0 +1,66 @@
+[css](css): how I manage CSS 
+
+[apps](apps): apps I maintain/contribute to
+
+## Where is werc?
+
+Werc is stored in `/var/www/werc`
+
+The apache2 configs are in `/etc/apache2/sites-enabled`
+
+## Customization
+
+Inside `$YOURSITE/_werc/lib` are the following files
+
+- `404.tpl`
+- `default_master.tpl`
+- `footer.inc`
+- `headers.tpl`
+- `top_bar.inc`
+
+If the directory `lib` is not found werc by default sources from `/var/www/werc/lib`
+
+## Werc apps
+
+Apps themselves are all stored in `/apps`
+
+The apps we will showcase on this domain are `bridge` (comments system), `dirdir` (in-house file interface) and `goralog` (blogging engine)
+
+There are many other werc apps, [see here](http://werc.cat-v.org/apps) and more in development
+
+### `bridge`
+
+To see `bridge` in action visit the [updates](/updates) page
+
+I set it up manually by
+
+- `mkdir -p updates/_werc/comments && cd updates`
+- `chmod 777 _werc/comments`
+- `echo 'conf_enable_comments' > _werc/config`
+- `touch index.md && chmod 777 index.md`
+
+Lastly ensure everything is owned by user and group `www-data` you will learn why further on
+
+`chown -R www-data:www-data updates/`
+
+### `dirdir`
+
+Your 'master' werc config in `/sites/b.bauherren.ovh/_werc`, [see](/_werc/config) feel free to look at other werc user's configs: [risingthumb](//risingthumb.xyz/_werc/config) and [cat-v](http://cat-v.org/_werc/config)
+
+Files must be owned by user/group 'www-data', otherwise apache2 cannot execute file deletion/creation.
+
+If you manually create files/directories as the root user in your terminal, then you will run into server errors as you try to edit/save
+
+### `gallery`
+
+This is a simple [gallery](gallery) it lists images, see its config [here](/gallery/_werc/config) you can upload images and they're automatically listed
+
+
+
+
+
+
+
+
+
+

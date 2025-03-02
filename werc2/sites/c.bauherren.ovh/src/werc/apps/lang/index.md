@@ -1,0 +1,14 @@
+
+
+pinyin
+
+2025/02/24
+
+2025/02/27
+
+https://www.soimort.org/translate-shell/
+
+
+ trans | awk '{gsub(/\x1b\[[0-9;]*m/,"")}1'
+
+trans -no-ansi 

@@ -1,0 +1,44 @@
+
+### dirdir
+
+#### <a name=dirdir-file-rename>File Rename</a>
+
+Your 'master' werc config in `/sites/b.bauherren.ovh/_werc`, [see](/_werc/config) feel free to look at other werc user's configs: [risingthumb](//risingthumb.xyz/_werc/config) and [cat-v](http://cat-v.org/_werc/config)
+
+Files must be owned by user/group 'www-data', otherwise apache2 cannot execute file deletion/creation.
+
+If you manually create files/directories as the root user in your terminal, then you will run into server errors as you try to edit/save
+
+2025/02/21
+
+`apps/dirdir/app.rc`
+
+	if not if(~ 1 $#post_arg_dirdir_rename_file && ! ~ $#post_arg_dirdir_new_name 0 && ! ~ $post_arg_dirdir_new_name "" )
+	    mv $dirdir_file `{dirname $dirdir_file}^'/'^$post_arg_dirdir_new_name^'.md'
+
+`apps/dirdir/sidebar_controls.tpl`
+
+	<form action="" method="POST" enctype="multipart/form-data">
+	<input type="search" name="dirdir_rename_file" placeholder="Current page file name"/><br/>
+	<input type="search" name="dirdir_new_name" placeholder="New file name"/><br/>
+	<input type="submit" value="Rename file" /><hr />
+	</form>
+
+**Possible problems:**
+
+If you try to rename any page OTHER than the current one, renaming of `index.md` happens, possible cause:
+
+        lp=$local_path
+        # werc.rc doesn't append /index when $local_path doesn't exist
+        # maybe it should, but for now we can fix it up here.
+        if(~ $lp */) 
+            lp=$lp^'index'
+
+Also, if a 'wiki' exists that to needs to be renamed `.md_werc`
+
+Or, for `.meta` files in `goralog`
+
+
+gget raw preview
+"
+2025/02/26

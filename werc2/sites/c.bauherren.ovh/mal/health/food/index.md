@@ -4,6 +4,10 @@ th { color: white; background-color: rgb(100,135,220); }
 tr:nth-child(odd) { background-color: rgba(128,128,128,0.1)  }
 </style>
 
+todo
+
+https://www.fionawray.co.uk/blog/leave-the-peanuts-to-the-squirrels/ - phytic acid
+
 # Harmful food to do
 
 <table>

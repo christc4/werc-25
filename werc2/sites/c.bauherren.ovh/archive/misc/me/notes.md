@@ -45,10 +45,6 @@ https://en.wikipedia.org/wiki/Scott_Adams_(game_designer) - people
 prime brain
 https://youtu.be/JPXLpLwEQ_E?si=rkByYsuR7u3Q1uHu 3:10 funny noise
 
-<!--
-remember naoimi that thai ladyboy, who tweeted about sending the onlyfans money to her mom
--->
-
 financial mistakes missed y live survey 2 pound, write about this to your chlidren
 artix linux install guide - this is an aide-memoire incase i need to reinstall artix
 make sparkling water at home
@@ -126,7 +122,6 @@ so were on equal footing
 I have a bit of experience with plan9, actually! I installed it on bare metal on my t420 for a couple weeks just to play with some of the utils and C. Another example I found was the fact that ls didn't columnate by default, but there was a different program, mc, which does columnate. Then I learned lc (ls piped into mc) was provided on the system, and realized that separating the small functionality like that allowed any program to be in column format if wanted! The names might be wrong as this was a couple years ago, however the situation itself happened for me. Good job rp!
 1
 
-unbridled glee
 https://youtu.be/Ffh3DRFzRL0?si=qCpLYrnMCPZqJ5hV
 brass tacks
 https://www.reddit.com/r/suckless/comments/103ebiz/button1mask_does_not_work_crashes_dwm/ - ask this guy has he sorted it
@@ -155,7 +150,7 @@ You may not think it with the abundance of pajeet-style videos, the indian const
 groundwork
 https://youtu.be/e2tx0kDywEo?si=FQsQKsnAwc9WEZSK - lose face weight get clear skin and literally remake this video he hsa other videos on herein therein - also cover those - literally speed through it
 make a post about cheating, ht vpc 2nd place ying at ucl
-You don't want to sound terse, curt, it's offputting - of course, your speech shouldnt have redundancies, like ATM machine, off-putting is a nice word, when possible use compound words and it doesn't have to be flowery
+You don't want to sound terse, curt, it's offputting - of course, your speech shouldnt have redundancies, li e ATM machine, off-putting is a nice word, when possible use compound words and it doesn't have to be flowery
 https://tatsumoto.neocities.org/blog/plumbing-for-language-learners
 https://st.suckless.org/patches/right_click_to_plumb/
 
@@ -464,5 +459,6 @@ when this guy goes to bed, his slippers must be placed parallel to each other an
 
 https://www.senet.us/blog/2011/01/12/werc_install.html
 ​​@Khan Raiko would you choose a confident ugly girl over a good looking shy girl?
+
 
 

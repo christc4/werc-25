@@ -1,0 +1,4 @@
+conf_enable_blog
+conf_blog_pubsubdub_hub='http://pubsubhubbub.appspot.com/'
+conf_blog_editors=root
+

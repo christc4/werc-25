@@ -10,3 +10,7 @@ Formerly...
 2. <s>[httpd](../cork)</s>
 3. <s>[OpenBSD](../cork)</s>
 
+todo mention smu and md2html.go
+
+It would be very education and cool if I could get a 9front VPS working...
+

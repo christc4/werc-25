@@ -11,7 +11,7 @@ import (
 
 const (
 	maxLength = 35
-	baseDir   = "/var/www/werc2/sites/c.bauherren.ovh"
+	baseDir   = "/var/www/werc3/sites/jpnuk.org.uk"
 )
 
 func main() {

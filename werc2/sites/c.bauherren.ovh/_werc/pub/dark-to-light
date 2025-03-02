@@ -1,0 +1,10 @@
+#!/bin/sh 
+stylesheet="/var/www/werc2/sites/c.bauherren.ovh/_werc/pub/style.css"
+sed -i 's/--page-bg:\s*#121212;\s*/--page-bg: #F0F8FF;/g' "$stylesheet" 
+sed -i 's/--link:\s*#66aaff;\s*/--link: #0066CC;/g' "$stylesheet" 
+sed -i 's/--top-link:\s*#ffffff;\s*/--top-link: #000000;/g' "$stylesheet" 
+sed -i 's/--light:\s*#333333;\s*/--light: #FFFFFF;/g' "$stylesheet" 
+sed -i 's/--border:\s*#444444;\s*/--border: #000000;/g' "$stylesheet" 
+sed -i 's/--dark:\s*#e0e0e0;\s*/--dark: #000000;/g' "$stylesheet" 
+sed -i 's/--cur:\s*#82aaff;\s*/--cur: #6487DC;/g' "$stylesheet" 
+echo "Stylesheet updated successfully." 

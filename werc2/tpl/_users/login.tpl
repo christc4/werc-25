@@ -23,6 +23,7 @@
 </pre>
 <p>See, <a href=/src/werc/guide>admin guide</a> for help
 <p>If Christos is unavailable, contact <a href=//vultr.com/company/contact/>Vultr</a> regarding hosting and <a href=//ovhcloud.com/en-gb/contact/>OVHcloud</a> regarding the domain
+<p><a href=https://github.com/christc4/werc-25>site backup</a>
 <br>
 % }
 % if not {

@@ -1,0 +1,74 @@
+test
+I'm Christos the webmaster responsible for this wood-glued site
+
+This is my trench for when friends bathe in public fountains
+
+I like: [9front](http://9front.org)/[plan9](/pix/plan9-screenshot.gif),
+[ergonomics](http://xahlee.info/kbd/ergonomic_keyboards_index),
+[fermentation](//wikipedia.org/wiki/List_of_fermented_foods),
+[hunting weapons](//wikipedia.org/wiki/Hunting_weapon),
+[iconography](//bauherr.ovh/christos/ico>iconography), and raw meat
+
+
+This site is generated  by [werc](http://werc.cat-v.org), with apps by [risingthumb](//risingthumb.xyz) and I
+
+<hr>
+
+## To-do 
+
+> Finish... <https://c.bauherren.ovh/guide/cs/code/shell/rc>
+
+> `catn $dirdir_file` works for preview get to work fully
+
+### '[dirdir](//github.com/RisingThumb/dirdir)' features:
+
+- <s>rename file</s> [+](/src/werc/#dirdir-file-rename) WIP, can rename current page (21/02/25)
+- edit and view '\_' files: hidden by werc default
+- move file location
+
+### add '[bridge](http://werc.cat-v.org/apps/bridge)' features
+
+- store email & footer info in `/etc/users`, display under comments
+- ability to reply
+- send automated email to address stored in `/etc/users/$USER/email`: unlikely
+
+### add '[goralog](//github.com/RisingThumb/goralog)' features
+
+- tagging .meta file 
+
+### misc. werc
+
+- export cwd as zip
+- print (.md to .pdf): (DON'T USE PANDOC!)
+- get paste/barf working + add sent
+
+## Updates
+
+### werc 
+
+got [openring](/) working under [blog](/blog) posts (23/02/25)
+
+#### apps
+
+- '[search](/src/werc/#searching)': searchbar that searches through all files for instances of text (22/02/25)
+- 'pinyify': output pinyin of chinese (24/02/25)
+- 'glenda': like cowsay, (24/02/25)
+Might be trickier
+
+## TO-DO (also)
+
+#### software
+
+- Finish md2html.go, add [ruby](//talk.commonmark.org/t/proper-ruby-text-rb-syntax-support-in-markdown/2279/6) support
+- Research nim 
+
+#### hardware
+
+- [maltron](/archive/cs/device/kbd/maltron/2d) upgrade
+
+#### all else
+
+- dye and mend clothes
+- paint [for bela](https://wordswithoutborders.org/wp-content/uploads/2022/06/June-2022-Tokarczuk-Ognosia-Flammarion-Engraving.jpg)
+-  burn vids to disc
+

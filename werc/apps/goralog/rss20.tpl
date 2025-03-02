@@ -36,9 +36,9 @@ get_sorted_stuffs_from_directory
 %}
         <item>
             <title>%($title%)</title>
-            <author>risingthumb@risingthumb.xyz (Aaron Leonard)</author>
-            <link>https://risingthumb.xyz/Writing/Blog/%($link%)</link>
-            <guid isPermaLink="true">https://risingthumb.xyz/Writing/Blog/%($link%)</guid>
+            <author>bauherren</author>
+            <link>https://bauherren.ovh/blog/%($link%)</link>
+            <guid isPermaLink="true">https://bauherren.ovh/blog/%($link%)</guid>
             <pubDate>%($newdate%)</pubDate>
             <description><![CDATA[<html><head></head><body>%($description%)</body></html>]]></description>
         </item>

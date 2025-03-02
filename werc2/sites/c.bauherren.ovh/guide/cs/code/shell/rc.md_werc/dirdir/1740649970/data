@@ -1,0 +1,106 @@
+# RC shell
+
+Resources I'm using to learn RC shell
+
+- <http://mirtchovski.postnix.pw/lanlp9/scripts>
+- <https://github.com/qwx9/rc.git>
+- <http://doc.cat-v.org/plan_9/4th_edition/papers/rc>
+- <http://plan9.stanleylieber.com/rc/>
+
+to sort:
+
+- <http://plan9.stanleylieber.com/rc/einstein>
+- <http://plan9.stanleylieber.com/rc/doppler>
+- <http://plan9.stanleylieber.com/rc/backup>
+- <http://plan9.stanleylieber.com/rc/crip>
+- <http://plan9.stanleylieber.com/rc/epub2pdf>
+- <http://plan9.stanleylieber.com/rc/google>
+
+- [catn](http://mirtchovski.postnix.pw/lanlp9/scripts/catn): Like `cat -n` on unix, prints linenumbers before each line
+- [sfind](http://mirtchovski.postnix.pw/lanlp9/scripts/sfind): very simple version of the unix find command using du
+- [find](http://mirtchovski.postnix.pw/lanlp9/scripts/find): rog@vitanouva.com's find
+- [find](http://mirtchovski.postnix.pw/lanlp9/scripts/find2): another version of find
+- [findgrep](http://mirtchovski.postnix.pw/lanlp9/scripts/findgrep): find files which contain a regexp
+- [lsr](http://mirtchovski.postnix.pw/lanlp9/scripts/lsr): like ls -R using du
+- [rmdir](http://mirtchovski.postnix.pw/lanlp9/scripts/rmdir): like rm -rf uses du
+- [rmdir](http://mirtchovski.postnix.pw/lanlp9/scripts/rmdir2): another rmdir
+- [xargs](http://mirtchovski.postnix.pw/lanlp9/sprogs/xargs.c): version of the unix xargs command by rog@vitanuova.com
+
+<hr>
+
+<https://shithub.us/nikita/rcmisc>
+
+- [weather](//shithub.us/nikita/rcmisc/468e61644c1d6c846d737b5eb8f370f8938c0ec0/weather/raw) uses wttr.in
+
+<hr>
+
+<https://shithub.us/smj/rc>
+
+- [bunsay](https://shithub.us/smj/rc/b46537efa8eb679940ae74ca90f033e703ba62af/bunsay/raw): glenda ascii art, says your quote
+-  [surl](https://shithub.us/smj/rc/b46537efa8eb679940ae74ca90f033e703ba62af/surl/raw): does something to URLS
+
+
+
+
+
+
+
+
+
+
+## Simple commands
+
+Simple uses _rc_ has syntax familiar to Bourne-shell users. The following behave as expected
+
+    date
+    cat /lib/news/build
+    who >user.names
+    who >>user.names
+    wc <file
+    echo [a-f]*.c
+    who | wc
+    who; date
+    vc *.c &
+    mk && v.out /*/bin/fb/*
+    rm -r junk || echo rm failed!
+
+## Quotation
+
+Arguments containing spaces or one of rc's other syntax characters must be enclosed in apostrophes ('):
+
+    rm 'odd file name'
+
+An apostrophe in quoted arguments must be doubled
+
+    echo 'How''s your father?'
+
+## Patterns
+
+    An unquoted argument that contains any of the characters * ? [ is a pattern to be matched against file names. A * character matches any sequence of characters, ? matches any single character, and [class] matches any character in the class, unless the first character of class is ~, in which case the class is complemented. The class may also contain pairs of characters separated by -, standing for all characters lexically between the two. The character / must appear explicitly in a pattern, as must the path name components . and ... A pattern is replaced by a list of arguments, one for each path name matched, except that a pattern matching no names is not replaced by the empty list; rather it stands for itself.
+
+## Variables
+
+UNIX’s Bourne shell offers string-valued variables. Rc provides variables whose values are lists of arguments — that is, arrays of strings. This is the principal difference between rc and traditional UNIX command interpreters. Variables may be given values by typing, for example:
+
+    path=(. /bin)
+    user=td
+    font=/lib/font/bit/pelm/ascii.9.font
+
+The parentheses indicate that the value assigned to path is a list of two strings. The variables user and font are assigned lists containing a single string.
+
+The value of a variable can be substituted into a command by preceding its name with a $, like this:
+
+    echo $path
+
+If path had been set as above, this would be equivalent to
+
+    echo . /bin
+
+
+
+
+
+
+
+
+

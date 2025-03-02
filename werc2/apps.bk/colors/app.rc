@@ -1,0 +1,6 @@
+fn conf_enable_colorize {
+    enable_colorize=yes
+    conf_enable_app colors 
+        ll_add handlers_bar_left tpl_handler apps/colors/sbar.tpl
+}
+

@@ -1,4 +1,5 @@
 Yuki packs her books like clockwork.
+remember naoimi that thai ladyboy, who tweeted about sending the onlyfans money to her mom
 
 She's always last to leave sixth period.
 

@@ -1,0 +1,25 @@
+## search
+
+### search through files
+
+Uses a go program, todo add file, add css
+
+2025/02/22
+
+### search filenames
+
+WIP
+
+### sitemap
+
+2025/03/02
+
+`/werc/tpl/sitemap.tpl` is the default sitemap generator written in RC shell
+
+From my experience, it chugs when your site is massive
+
+`GNU tree` can generate a sitemap via `tree -H ./ > sitemap.html`
+
+My own build of tree, is a WIP
+
+<https://salsa.debian.org/debian/tree-packaging>

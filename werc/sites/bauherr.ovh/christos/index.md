@@ -6,7 +6,7 @@
 
 ## Arts
 
-- [iconography](ico) - sacred art
+- [iconography](art) - sacred art
 
 ## Softare
 

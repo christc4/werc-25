@@ -1,0 +1,63 @@
+/* APPS http://werc.cat-v.org/apps */
+
+.goralog-article-box {
+	padding-top:0.5rem;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	padding-bottom: 0.5rem;
+	border-top: black 1px solid;
+}
+
+.goralog-date {
+	order: 2;
+	flex: 0 0 10%;
+}
+.goralog-title {
+	display: list-item;
+	list-style: upper-roman;
+	margin-left:3%;
+	order: 1;
+	flex: 0 0 86%;
+}
+
+.goralog-article-description {
+	margin-left:5%;
+	order: 3;
+	flex: 0 0 83%;
+}
+
+#search-results {
+	min-width: 300px;
+	max-width: 10em;
+	padding: 10px;
+	background-color: #f8f9fa;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.search-item {
+	padding: 8px;
+	margin-bottom: 6px;
+	border-bottom: 1px solid #ddd;
+}
+
+.search-item a {
+	display: block;
+	font-weight: bold;
+	color: #0077cc;
+	text-decoration: none;
+}
+
+.search-item p {
+	margin: 4px 0;
+	font-size: 14px;
+}
+
+/* tables */
+table { border: 1px solid rgba(128,128,128,0.5); padding: 0; }
+th { color: white; background-color: rgb(100,135,220); }
+tr:nth-child(odd) { background-color: rgba(128,128,128,0.1)  }
+
+.tr { min-width: 300px;max-width: 10em;  }
+article pre { font-size: 80%; word-wrap: break-word; object-fit:contain; max-width: 100%; white-space: pre-wrap; background-color: #ddd; padding:10px;}

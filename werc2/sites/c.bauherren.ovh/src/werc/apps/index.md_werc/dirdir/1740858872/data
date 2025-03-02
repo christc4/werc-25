@@ -1,0 +1,72 @@
+These are werc apps I am involved in maintaining/contribute to, I try provide as much documentation as possible, in case my exploration can be used as someone's trail of rope
+
+If you've never used werc and are interested I've written a [guide](../)
+
+[translate](#translate): translation tools
+
+- Translation: [translate-shell](//github.com/soimort/translate-shell)
+- pinyin: [pinyin-tool](//github.com/briankung/pinyin-tool), rust tool 
+- [lights](#lights): go script
+
+## my apps
+
+### search
+
+Uses go program,
+
+todo: have one that searchees filenames, blog on bauherren about your old .js searchbar
+on .tpl add searchbar mention
+
+### lights
+
+2025/03/01
+
+problems rc escapingg?
+## <a name=translate>translate</a>
+<https://github.com/qwx9/misc/tree/front/werc/ls>
+
+27.
+
+translation
+
+https://github.com/soimort/translate-shell
+
+terminal escape sequence
+
+### to-do
+
+### other people's apps
+
+dirdir raw preview
+26 feb
+
+
+#### apps
+
+- '[search](/src/werc/#searching)': searchbar that searches through all files for instances of text (22/02/25)
+- 'pinyify': output pinyin of chinese (24/02/25)
+- 'glenda': like cowsay, (24/02/25)
+Might be trickier
+
+## TO-DO (also)
+
+#### software
+
+- Finish md2html.go, add [ruby](//talk.commonmark.org/t/proper-ruby-text-rb-syntax-support-in-markdown/2279/6) support
+- Research nim 
+
+authtool
+
+- unix tree
+- add automitac h1 site title
+- add Last update information on each page by using core-util
+
+color visualisezr puts it in css square
+
+
+
+
+23 feb got openring working
+
+
+

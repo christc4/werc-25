@@ -1,0 +1,4 @@
+conf_enable_goralog
+conf_blog_editors=root
+conf_blog_title='Blog'
+

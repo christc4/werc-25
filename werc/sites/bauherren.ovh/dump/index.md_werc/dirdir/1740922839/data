@@ -1,0 +1,399 @@
+<link rel=stylesheet href=s.css><script src=s.js></script>
+
+<div class=x-buttons>
+
+<button class=btn data-tag=astronomy>astronomy &#128301;</button>
+
+<button class=btn data-tag=art>art &#127912;</button>
+
+<button class=btn data-tag=boomer>boomer &#128116;</button>
+
+<button class=btn data-tag=computing>computing </button>
+
+<button class=btn data-tag=diy>diy </button>
+
+<button class=btn data-tag=driving>driving</button>
+
+<button class=btn data-tag=emacs>emacs &#128003;</button>
+
+<button class=btn data-tag=fun>fun </button>
+
+<button class=btn data-tag=game>game</button>
+
+<button class=btn data-tag=go>go &#129451;</button>
+
+<button class=btn data-tag=keyboard>keyboard &#9000;</button>
+
+<button class=btn data-tag=language>language </button>
+
+<button class=btn data-tag=lifestyle>lifestyle </button>
+
+<button class=btn data-tag=linux>linux &#128039;</button>
+
+<button class=btn data-tag=literature>literature</button>
+
+<button class=btn data-tag=low-tech>low-tech</button>
+
+<button class=btn data-tag=math>math </button>
+
+<button class=btn data-tag=misc>misc ❓</button>
+
+<button class=btn data-tag=off-grid>off-grid</button>
+
+<button class=btn data-tag=openbsd>openbsd &#128033;</button>
+
+<button class=btn data-tag=photography>photography </button>
+
+<button class=btn data-tag=plan9>plan9 &#128007;</button>
+
+<button class=btn data-tag=poetry>poetry </button>
+
+<button class=btn data-tag=programming>programming  </button>
+
+<button class=btn data-tag=self-host>self-host</button>
+
+<button class=btn data-tag=software>software </button>
+
+<button class=btn data-tag=ui>ui  &#128241;</button>
+
+<button class=btn data-tag=unix>unix</button></div><br>
+
+<a href="mailto:christos@bauherren.ovh?subject=Reporting%20deadlink%20in%20bauherren.ovh/dump" style="color:red">Report Deadlink</a>
+
+
+<div class=bms>
+<div>
+<div class=x>#</div>
+<a href=http://0x19.org class=bm data-tags=computing,software>0x19.org</a>
+<a href=http://100r.co class=bm data-tags=low-tech,off-grid,self-host>100r.co</a>
+<a href=http://9front.org class=bm data-tags=plan9>9front.org</a>
+<a href=http://9lab.org class=bm data-tags=plan9>9lab.org</a>
+<a href=http://9p.io class=bm data-tags=plan9>9p.io</a>
+</div>
+<div>
+<div class=x>A</div>
+<a href=http://acornlandlabs.com class=bm data-tags=diy,lifestyle,off-grid>acornlandlabs.com</a>
+<a href=http://adamsimpson.net class=bm data-tags=software>adamsimpson.net</a>
+<a href=http://ashpex.net class=bm data-tags=linux>ashpex.net</a>
+<a href=http://apod.nasa.gov/apod/astropix.html class=bm data-tags=astronomy>apod.nasa.gov/apod/astropix</a>
+<a href=http://analogmuseum.org class=bm data-tags=low-tech>analogmuseum.org</a>
+<a href=http://ari.lt class=bm data-tags=self-host,software>ari.lt</a>
+<a href=http://atrixnet.com class=bm data-tags=linux>atrixnet.com</a>
+<a href=http://astro.unl.edu/nativeapps/NAAP_resources class=bm data-tags=astronomy>astro.unl.edu/nativeapps/NAAP_resources</a>
+<a href=http://alexschroeeder.ch class=bm data-tags=computing,misc,software>alexschroeder.ch</a>
+</div>
+
+<div>
+<div class=x>B</div>
+<a href=http://baty.net class=bm data-tags=emacs,photography>baty.net</a>
+<a href=http://bauherren.ovh class=bm data-tags=computing,software>bauherren.ovh</a>
+<a href=http://benharri.org class=bm data-tags=self-host,software>benharri.org</a>
+<a href=http://benhoyt.com class=bm data-tags=programming,software>benhoyt.com</a>
+<a href=http://beuke.org class=bm data-tags=programming>beuke.org</a>
+<a href=http://beyondloom.com class=bm data-tags=software>beyondloom.com</a>
+<a href=http://bicycleforyourmind.com class=bm data-tags=emacs>bicycleforyourmind.com</a>
+<a href=http://boxbase.org class=bm data-tags=computing,plan9,programming,software>boxbase.org</a>
+<a href=http://brisray.com class=bm data-tags=boomer>brisray.com</a>
+<a href=http://btxx.org class=bm data-tags=software,openbsd,ui>btxx.org</a>
+<a href=http://bugswriter.com class=bm data-tags=computing,software>bugswriter.com</a>
+</div>
+
+<div>
+<div class=x>C</div>
+<a href=https://cabbagesorter.neocities.org class=bm data-tags=misc>https://cabbagesorter.neocities.org/</a>
+<a href=http://catb.org class=bm data-tags=programming>catb.org</a>
+<a href=http://cas.sdss.org class=bm data-tags=astronomy>cas.sdss.org</a>
+<a href=http://cat-v.org class=bm data-tags=misc,plan9,programming,software>cat-v.org</a>
+<a href=http://cds.unistra.fr class=bm data-tags=astronomy>cds.unistra.fr</a>
+<a href=http://citrons.xyz class=bm data-tags=misc>citrons.xyz</a>
+<a href=http://cheapskatesguide.org class=bm data-tags=computing,low-tech,software>cheapskatesguide.org</a>
+<a href=http://cke1st.com class=bm data-tags=boomer>cke1st.com</a>
+<a href=http://corecursive.com class=bm data-tags=computing,software,programming>corecursive.com</a>
+<a href=http://computerhope.com class=bm data-tags=computing,software>computerhope.com</a>
+<a href=http://coulouris.net class=bm data-tags=boomer>coulouris.net</a>
+<a href=http://covingtoninnovations.com class=bm data-tags=boomer>covingtoninnovations.com</a>
+<a href=http://cra.sh class=bm data-tags=software>cra.sh</a>
+<a href=http:// class=bm data-tags=></a>
+</div>
+
+<div>
+<div class=x>D</div>
+<a href=http://danfleisch.com/sgmoa class=bm data-tags=astronomy>danfleisch.com/sgmoa</a>
+<a href=http://danliden.com class=bm data-tags=emacs>danliden.com</a>
+<a href=http://danluu.com class=bm data-tags=software>danluu.com</a>
+<a href=http://davidyat.es class=bm data-tags=software>davidyat.es</a>
+<a href=http://daypoems.net class=bm data-tags=poetry>daypoems.net</a>
+<a href=http://deadsimplesiites.com class=bm data-tags=ui>deadsimplesites.com</a>
+<a href=http://denshi.org class=bm data-tags=computing,linux,misc>denshi.org</a>
+<a href=http://derivative-calculator.net class=bm data-tags=math>derivative-calculator.net</a>
+<a href=http://deskthority.net class=bm data-tags=keyboard>deskthority.net</a>
+<a href=http://deskto.ps class=bm data-tags=computing>deskto.ps</a>
+<a href=http://dimden.dev class=bm data-tags=ui>dimden.dev</a>
+<a href=http://dougengelbart.org class=bm data-tags=keyboard>dougengelbart.org</a>
+<a href=http://dreamsongs.com class=bm data-tags=poetry,programming>dreamsongs.com</a>
+<a href=http://drewdevault.com class=bm data-tags=linux,programming,software>drewdevault.com</a>
+<a href=http://dschapman.com class=bm data-tags=poetry>dschapman.net</a>
+<a href=http:// class=bm data-tags=></a>
+</div>
+
+<div>
+<div class=x>E</div>
+<a href=http://eigenstate.org class=bm data-tags=programming>eigenstate.org</a>
+<a href=http://eiliv.no/ class=bm data-tags=misc>eiliv.no</a>
+<a href=http://edolg.net class=bm data-tags=misc,plan9>edolg.net</a>
+<a href=http://endler.dev class=bm data-tags=computing,software,programming>endler.dev</a>
+<a href=http://etalabs.net class=bm data-tags=software,linux>etalabs.net</a>
+<a href=http://etymonline.com class=bm data-tags=language>etymonline.com</a>
+<a href=http://exoplanetarchive.ipac.caltech.edu class=bm data-tags=astronomy>exoplanetarchive.ipac.caltech.edu</a>
+<a href=http:// class=bm data-tags=></a>
+</div>
+
+<div><div class=x>F</div>
+<a href=http://forbidden-city.vip class=bm data-tags=misc>forbidden-city.vip</a>
+<a href=http://fungal.page class=bm data-tags=fun>fungal.page</a>
+<a href=http://fourmilab.ch class=bm data-tags=physics,math,computing,programming,software>fourmilab.ch</a>
+<a href=http://funwithsoftware.org class=bm data-tags=software>funwithsoftware.org</a>
+<a href=http://ftrv.se class=bm data-tags=plan9,programming>ftrv.se</a>
+</div>
+
+<div><div class=x>G</div>
+<a href=http://gboncoffee.dev.br class=bm data-tags=computing,software,programming>gboncoffee.dev.br</a>
+<a href=http://geekhack.org class=bm data-tags=keyboard>geekhack.org</a>
+<a href=http://glendix.org class=bm data-tags=plan9>glendix.org</a>
+<a href=http://goodmath.org class=bm data-tags=math,programming>goodmath.org</a>
+<a href=http://googleguide.com class=bm data-tags=computing>googleguide.com</a>
+<a href=http://grymoire.com class=bm data-tags=linux,unix>grymoire.com</a>
+<a href=http://gyenes.xyz class=bm data-tags=astronomy,emacs,math,so tware>gyenes.xyz</a>
+</div>
+
+<div><div class=x>H</div>
+<a href=h tp://hacktivis.me class=bm data-tags=computing,software>hacktivis.me</a>
+<a href=http://halestrom.net class=bm data-tags=computing,software>halestrom.net</a>
+<a href=http://hanez.org class=bm data-tags=computing,software>hanez.org</a>
+<a href=http://happort.org class=bm data-tags=misc,keyboard>happort.org</a>
+<a href=http://hewgill.com class=bm data-tags=boomer,software>hewgill.com</a>
+<a href=http://howardism.org class=bm data-tags=emacs>howardism.org</a>
+<a href=http://httpd.rocks class=bm data-tags=openbsd>httpd.rocks</a>
+</div>
+
+<div><div class=x>I</div>
+<a href=http://illusori.co.uk class=bm data-tags=emacs,programming>illusori.co.uk</a>
+<a href=http://integral-calculator.com class=bm data-tags=math>integral-calculator.com</a>
+<a href=http://irsa.ipac.caltech.edu class=bm data-tags=astronomy>irsa.ipac.caltech.edu</a>
+<a href=http://inpieces.rip class=bm data-tags=misc>inpieces.rip</a>
+<a href=http://isamert.net class=bm data-tags=emacs,software>isamert.net</a>
+</div>
+
+<div><div cla s=x>J</div>
+<a href=http://jameswillia.ms class=bm data-tags=software>jameswillia.ms</a>
+<a href=http://jenniferdewalt.com class=bm data-tags=sof ware,web>jenniferdewalt.com</a>
+<a href=http://jimmyhmiller.github.io class=bm data-tags=programming>jimmymiller.github.io</a>
+<a href=http://jfedor.org class=bm data-tags=keyboard>jfeder.org</a>
+<a href=http://jpeek.com class=bm data-tags=boomer>jpeek.com</a>
+<a href=http://joeyshi.xyz class=bm data-tags=math,>joeyshi.xyz</a>
+<a href=http://jurta.org class=bm data-tags=computing,emacs,software>jurta.org</a>
+<a href=http://jwz.org class=bm data-tags=software>jwz.org</a>
+<a href=https://jasthephysicist.blog data-rags=misc>[Meta]physics</a>
+</div>
+
+<div><div class=x>K</div>
+<a href=http://karthinks.com class=bm data-tags=emacs>karthinks.com</a>
+<a href=http://kevinmccorrytv.ca class=bm data-tags=boomer>kevinmccorrytv.ca</a>
+<a href=http://koldfront.dk class=bm data-tags=software>koldfront.dk</a>
+</div>
+
+<div><div class=x>L</div>
+<a href=http://lambda.cx class=bm data-tags=emacs,linux,open-bsd,software>lambda.cx</a>
+<a href=http://landchad.net class=bm data-tags=computing,linux,low-tech,self-host>landchad.net</a>
+<a href=http://landley.net class=bm data-tags=boomer>landley.net</a>
+<a href=http://lars-christiana.com class=bm data-tags=misc>lars-christian.com</a>
+<a href=http://levenez.com class=bm data-tags=boomer,unix>levenez.com</a>
+<a href=http://librarius.com/ class=bm data-tags=literature>libarius.org</a>
+<a href=http://linuxcommandlibrary.com class=bm data-tags=computing,linux,software>linuxcommandlibrary.com</a>
+<a href=http://luc.devroye.org class=bm data-tags=boomer>luc.devroye.org</a>
+<a href=http://lukesmith.xyz class=bm data-tags=computing,lifestyle,linux,low-tech>lukesmith.xyz</a>
+<a href=http://luksamuk.codes class=bm data-tags=plan9,programming>luksamuk.codes</a>
+<a href=http://lunduke.com class=bm data-tags=computing,software>lunduke.com</a>
+<a href=http://lowtechmagazine.com class=bm data-tags=diy,low-tech,off-grid>lowtechmagazine.com</a>
+</div>
+
+<div><div class=x>M</div>
+<a href=http://madox.net class=bm data-tags=keyboard>madox.net</a>
+<a href=http://manueluberti.eu class=bm data-tags=literature,programming>manueluberti.eu</a>
+<a href=http://margiolis.net class=bm data-tags=plan9,programming>margiolis.net</a>
+<a href=http://math.libretexts.org class=bm data-tags=math>math.libretexts.org</a>
+<a href=http://mathworld.wolfram.com class=bm data-tags=math>mathworld.wolfram.com</a>
+<a href=http://mbivert.com class=bm data-tags=art,openbsd,programming>mbivert.com</a>
+<a href=http://mdickie.com class=bm data-tags=game>mdickie.com</a>
+<a href=http://meka.rs class=bm data-tags=music,software>meka.rs</a>
+<a href=http://mileswmathis.com class=bm data-tags=art,poetry>mileswmathis.com</a>
+<a href=http://mostlymaths.net class=bm data-tags=linux,math,programming,software>mostlymaths.net</a>
+<a href=http://mykeyboard.co.uk class=bm data-tags=keyboard>mykeyboard.co.uk</a>
+</div>
+
+<div><div class=x>N</div>
+<a href=http://neoprogrammics.com class=bm data-tags=astronomy,computing,programming>neoprogrammics.com</a>
+<a href=http://nicholasjohnson.ch class=bm data-tags=computing,misc>nicholasjohnson.ch</a>
+<a href=http://nopenopenope.net class=bm data-tags=plan9,computing,programming>nopenopenope.net</a>
+<a href=http://nox.im class=bm data-tags=software>nox.im</a>
+</div>
+
+<div><div class=x>O</div>
+<a href=http://obsoletecomputermuseum.org class=bm data-tags=computing>obsoletecomputermuseum.org</a>
+<a href=http://oh4.co class=bm data-tags=misc>oh4.co</a>
+<a href=http://ohshitgit.com class=bm data-tags=software>ohshitgit.com</a>
+<a href=http://offbeatpursuit.com class=bm data-tags=plan9>offbeatpursuit.com</a>
+<a href=http://omniglot.com class=bm data-tags=language>omniglot.com</a>
+<a href=http://ounapuu.ee class=bm data-tags=linux,self-host></a>
+<a href=http://okmij.org/ftp class=bm data-tags=programming>okmij.org</a>
+</div>
+
+<div><div class=x>P</div>
+<a href=http://p.bauherren.ovh class=bm data-tags=emacs,software,programming>p.bauherren.ovh</a>
+<a href=http://protesilaos.com/ class=bm data-tags=computing,emacs,misc,software>protesilaos.com</a>
+<a href=http://photojournal.jpl.nasa.gov class=bm data-tags=astronomy>photojournal.jpl.nasa.gov</a>
+<a href=http://phys.libretexts.org class=bm data-tags=physics,math>phys.libretexts.org</a>
+<a href=http://physics.info class=bm data-tags=physics,math>physics.info</a>
+<a href=http://plan9foundation.org class=bm data-tags=plan9>plan9foundation.org</a>
+<a href=http://planetmath.org class=bm data-tags=math>planetmath.org</a>
+<a href= class=bm data-tags=></a>
+</div>
+
+<div><div class=x>Q</div>
+<a href=http:// class=bm data-tags=></a>
+<a href=http:// class=bm data-tags=></a>
+</div>
+
+<div><div class=x>R</div>
+<a href=http://rachelbythebay.com class=bm data-tags=misc,programming,software>rachelbythebay.com</a>
+<a href=http://raphaelbastside.com class=bm data-tags=art,software>raphaelbastide.com</a>
+<a href=http://ratfactor.com class=bm data-tags=openbsd,software>ratfactor.com</a>
+<a href=http://research.swtch.com class=bm data-tags=programming>research.swtch.com</a>
+<a href=http://risingthumb.xyz class=bm data-tags=misc>risingthumb.xyz</a>
+<a href=https://rjbs.cloud class=bm data-tags=software>rjbs.cloud</a>
+<a href=http://robpike.io class=bm data-tags=fun>robpike.io</a>
+<a href=http://romanzolotarev.com class=bm data-tags=openbsd,software>romanzolotarev.com</a>
+<a href=http://rudyrucker.com class=bm data-tags=boomer,literature>rudyrucker.com</a>
+</div>
+
+<div><div class=x>S</div>
+<a href=http:// class=bm data-tags=></a>
+<a href=http://sadgrl.online class=bm data-tags=software>sadgrl.online</a>
+<a href=http://sauparna.sdf.org class=bm data-tags=programming>sauparna.sdf.org</a>
+<a href=http://scara.com class=bm data-tags=software>scara.com</a>
+<a href=http://sciops.net class=bm data-tags=plan9>sciops.net</a>
+<a href=http://seh.dev class=bm data-tags=software,plan9,programming>seh.dev</a>
+<!--<a href=http://scythecymru.co.uk class=bm data-tags=misc>scythecymru.co.uk</a>-->
+<a href=http://shakespeares-sonnets.com class=bm data-tags=poetry>shakespeares-sonnets.com</a>
+<a href=http://sheep.horse class=bm data-tags=computing,software,misc,programming>sheep.horse</a>
+<a href=http://shelldorado.com class=bm data-tags=software,unix>shelldorado.com</a>
+<a href=http://shifthappens.site class=bm data-tags=keyboard>shifthappens.site</a>
+<a href=http://shkspr.mobi class=bm data-tags=misc,software>shkspr.mobi</a>
+<a href=http://skybert.net class=bm data-tags=computing,programming,emacs,linux>skybert.net</a>
+<a href=http://sqrtminusone.xyz class=bm data-tags=emacs>sqrtminusone.xyz</a>
+<a href=http://srobb.net class=bm data-tags=boomer,computing,software,linux>srobb.net</a>
+<a href=http://syndamia.com class=bm data-tags=software,programming>syndamia.com</a>
+<a href=http://sweharris.org class=bm data-tags=computing,self-host,software>syndamia.com</a>
+<a href=http://sysunconfig.net class=bm data-tags=software,unix>sy unconfig.net</a>
+</div>
+
+<div><div class=x>T</div>
+<a href=http:// ww.talisman.org class=bm data-tags=linux,programming,software>talisman.org</a>
+<a h ef=http://tarneo.fr class=bm data-tags=computing,keyboard,software>t rneo.fr</a>
+<a href=http://tatsumoto-ren.github.io/ class=bm data-tags=language>tatsumoto-ren.github.io</a>
+<a href=http://techtrickery.net class=bm data-tags=emacs>techtrickery.net</a>
+<a href=http://telescopius.com class=bm data-tags=astronomy>telescopius.com</a>
+<a href=http://thebitmage.com class=bm data-tags=computing,emacs,software>thebitmage.com</a>
+<a href=http://timtyler.org class=bm data-tags=boomer>timtyler.org</a>
+<a href=http://toastytech.com class=bm data-tags=computing,ui>toastytech.com</a>
+<a href=http://tnhh.net class=bm data-tags=software>tnhh.net</a>
+<a href=http://tumfatig.net class=bm data-tags=software,openbsd>tumfatig.net</a>
+<a href=http://tux.pizza class=bm data-tags=computing,self-host,software>tux.pizza</a>
+<a href=http:// class=bm data-tags=></a>
+</div>
+
+<div><div class=x>U</div>
+<a href=http://ui.adsabs.harvard.edu class=bm data-tags=astronomy>ui.adsabs.harvard.edu</a>
+<a href=http://unix4lyfe.org/ class=bm data-tags=computing,software>unix4lyfe.org</a>
+<a href=http://unixdigest.com class=bm data-tags=computing,linux,openbsd,software>unixdigest.com</a>
+<a href=http://unobtanium.de class=bm data-tags=software,programming>unobtanium.de</a>
+<a href=http://usesthis.com class=bm data-tags=computing,linux,misc,software>usesthis.com</a>
+<a href=http://urinal.net class=bm data-tags=fun,misc>urinal.net</a>
+<a href=http:// class=bm data-tags=></a>
+</div>
+
+<div><div class=x>V</div>
+<a href=http://vegoilcar.co.uk/ class=bm data-tags=driving>vegoilcar.co.uk</a>
+</div>
+
+<div><div class=x>W</div>
+<a href=http://en.wiktionary.org class=bm data-tags=language>wiktionary.org</a>
+<a href=http://willschenk.com class=bm data-tags=computing,emacs,software>willschenk.com</a>
+<a href=http://whynothugo.nl class=bm data-tags=programming,software>whynothugo.nl</a>
+<a href=http://wolframphysics.org class=bm data-tags=physics,math>wolframphysics.org</a>
+ <a href=http:// class=b  data-tags= </a>
+</div>
+
+<div><div c ass=x>X</div>
+<a href=http://xahlee.info class=bm data-tags=emacs,keyboard,math,programming,software,ui>xahlee.info</a>
+<a href=http://xahlee.org class=bm data-tags=art,language,misc>xahlee.org</a>
+<a href=http://xkcd.com class=bm data-tags=fun>xkcd.com</a>
+<a href=http://wiki.xxiivv.com class=bm data-tags=misc,plan9>xxiivv.com</a>
+</div>
+
+<div><div class=x>Y</div>
+<a href=http://yolinux.com class=bm data-tags=linux>yolinux.com</a>
+<a href=http://yourbasic.org class=bm data-tags=go>yourbasic.org</a>
+<a href=http://ysn.sh class=bm data-tags=plan9>ysn.sh</a>
+</div>
+
+<div><div class=x>Z</div>
+<a href=http://zakaria.org class=bm data-tagss=openbsd>zakaria.org</a>
+<a href=http://zhongwen.com class=bm data-tagss=language>zhongwen.com</a>
+</div>
+
+<div><div class=x>?</div>
+<http://n-gate.com>
+<https://jodyhewgill.com>
+<https://hj.9fs.net/khm>
+</div>
+</div>
+ 
+<details><summary>To sort</summary>
+
+
+
+https://gmpg.org/xfn/11
+https://amosnimos.com/img/1VB6.gif
+https://amosnimos.com/index.html
+http://biglist.terraaeon.com/
+https://ounapuu.ee/misc/cool-links/
+http://jeanrouppert.info/public/Nouvelles/A153Nymphes.jpg
+https://noyesno.net/ - chinese
+http://sensibleendowment.com/
+https://www.youtube.com/live/35z3QUwfd6I?si=1hjDpy_NJAtyBrIY&t=6562
+https://www.thirtythreeforty.net/
+https://www.nickh.org/warstories/index.html - boomer
+https://www.themanime.org/index.php
+https://en.wikipedia.org/wiki/Polish_notation
+http://www.joostrekveld.net/
+https://www.righto.com/2019/09/reverse-engineering-precision-op-amps.html
+https://en.wikipedia.org/wiki/To_His_Coy_Mistress
+https://omaera.org/wlog/
+https://blog.dbrgn.ch/
+https://web.archive.org/web/20180314122308/http://www.lug.wsu.edu/node/414
+https://gopheracademy.com/ 
+https://blog.gopheracademy.com/advent-2014/parsers-lexers/
+https://rgbcmyk.com.ar/en/home-en/
+https://emacs.stackexchange.com/questions/6065/how-to-display-time-in-seconds-in-the-mode-line
+https://web.physics.utah.edu/~detar/lessons/emacs/emacs/node2.html
+https://emacs.stackexchange.com/questions/3494/how-to-count-all-of-the-windows-in-a-frame
+https://yctct.com/#ref-3ZAX
+https://seirdy.one/posts/2022/12/09/limited-utility-gnu-linux/
+https://landchad.net/jitsi/
+https://blog.sgorava.xyz/
+https://nixing.mx/posts/integrating-openring-into-a-blog.html
+https://www.andrewmarchetta.com/reach-out/#email
+https://jacobgw.com/blog/
+</details>
+

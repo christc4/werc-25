@@ -1,5 +1,0 @@
-wasavi
-
-zhongwen
-
-vimium

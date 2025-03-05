@@ -1,0 +1,51 @@
+werc apps I maintain/contribute to, I've provided documentation in case it can be someone's trail of rope
+
+If you've never used werc and are interested I've written a [guide](../) or even better see [werc.cat-v.org](http://werc.cat-v.org)
+
+## apps
+
+[dirdir](dirdir): _now_ a feature-rich wiki thanks to [risingthumb.xyz](//risingthumb.xyz) and slowly I
+
+[lang](lang): translation/language-learning tools
+
+[misc](misc): not strictly an app but useful for interfacing with them
+
+[search](search): search through files, filenames (included sitemap)
+
+### lesser apps
+
+
+[glenda](glenda): like cowsay but with [glenda](http://glenda.cat-v.org)
+[lights](lights): toggle on/off dark-theme
+[colors](colors): visualize CSS colors
+
+
+#### to-do
+
+[bridge](bridge): comments
+
+[gallery](gallery): images
+ 
+<details><summary>to-do</summary>
+
+- todo: have one that searchees filenames, blog on bauherren about your old .js searchbar
+- <https://github.com/qwx9/misc/tree/front/werc/ls>
+- Finish md2html.go, add [ruby](//talk.commonmark.org/t/proper-ruby-text-rb-syntax-support-in-markdown/2279/6) support
+- authtool
+- unix tree
+- add automitac h1 site title
+- add Last update information on each page by using core-util
+- color visualisezr puts it in css square
+
+</details>
+
+
+
+
+
+
+
+
+
+
+

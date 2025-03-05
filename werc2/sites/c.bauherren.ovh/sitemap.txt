@@ -112,6 +112,7 @@ https://c.bauherren.ovh:443/blog/agit-prop
 https://c.bauherren.ovh:443/blog/autism
 https://c.bauherren.ovh:443/blog/avoiding-internet-landmines
 https://c.bauherren.ovh:443/blog/avoiding-rsi
+https://c.bauherren.ovh:443/blog/cannibal-pigs
 https://c.bauherren.ovh:443/blog/computers
 https://c.bauherren.ovh:443/blog/fuck-your-language
 https://c.bauherren.ovh:443/blog/lard
@@ -232,3 +233,4 @@ https://c.bauherren.ovh:443/mal/think/
 https://c.bauherren.ovh:443/mal/think/misc/
 https://c.bauherren.ovh:443/mal/think/misc/cryo
 https://c.bauherren.ovh:443/mal/think/misc/tailoring
+https://c.bauherren.ovh:443/test

@@ -1,5 +1,4 @@
-/* FOR THE GO APP JUST AADDD A FLAGG FLAG */
- :root{--page-bg: #f0f8ff;--link: #0066cc;--top-link: #333;--light:#fff;--dark:#010101;--cur:#6487dc;--p:#000}
+:root{--page-bg:#121212;--link:#66aaff;--top-link:#333;--light:#222;--dark:#010101;--cur:#6487dc;--p:#e8e8e8;--box:#eee;}
 
 
 header > nav > div > a {color:var(--p)}
@@ -23,7 +22,8 @@ body {
     font-size: 0.9em;
 }
 
-
+ol > li { color: var(--p);}
+ul > li { color: var(--p);}
 a {
     text-decoration: none;
 }
@@ -39,7 +39,7 @@ h2 {
     }
 
 /* sidebar */
-body > nav { border-right: 1px solid #000000; padding: 0;  } 
+body > nav { border-right: 1px solid #000000;  } 
 body > nav > div { border-bottom: 1px solid #ddd; } 
 body > nav > div a { color: var(--link); display: block; text-transform: capitalize;} 
 nav > div a { color: var(--top-link) } 
@@ -66,44 +66,11 @@ footer {
 	justify-content: space-between; 
 }
 
-footer a { color: var(--light); }
-footer div { padding: 1em; }
+footer div { padding: 1em; color:var(--light) }
+footer div a{ color:var(--light) }
 
   span {
     user-select: none;  
   }
-
-p.sitemap {
-	  font-family: Consolas, monospace;
-
-  color: black;
-  margin: 0;
-  padding: 0;
-              line-height: 0.9;
-
-}
-
-p.sitemap a:visited {
-  text-decoration: none;
-  margin: 0px;
-  padding: 0px;
-}
-
-sitemap a:link {
-  text-decoration: none;
-  margin: 0px;
-  padding: 0px;
-}
-
-sitemap a:hover {
-  text-decoration: underline;
-  background-color: yellow;
-  margin: 0px;
-  padding: 0px;
-}
-
-sitemap a:active {
-  margin: 0px;
-  padding: 0px;
-}
-
+details
+{ color:var(--p)}

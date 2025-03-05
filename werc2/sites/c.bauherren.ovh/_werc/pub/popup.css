@@ -1,0 +1,73 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  max-height: 80%;  /* Limit the height of the popup */
+  overflow: hidden; /* Hide anything that overflows */
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+.content h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.content p {
+  margin-top: 0;
+  font-size: 85%;
+  color: #000;
+}
+
+.content ul li, ol li {
+  margin-top: 0;
+	color:#000;
+  font-size: 85%;
+}
+.popup .close {
+  position: absolute;
+  top: 5px;
+  right: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+
+/* Ensure content scrolls if it exceeds the height of the popup */
+.popup .content {
+  max-height: 60vh; /* Set a specific max-height for content */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+@media screen and (max-width: 700px) {
+  .popup {
+    width: 70%;
+  }
+}
+

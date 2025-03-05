@@ -1,0 +1,74 @@
+:root{--page-bg:#121212;--link:#66aaff;--top-link:#333;--light:#222;--dark:#010101;--cur:#6487dc;--p:#e8e8e8;--box:#888888;}
+
+
+header > nav > div > a {color:var(--p)}
+p, li  {color:var(--p)}
+* { cursor: url(/pix/cursor.png), auto; }
+img{width:150px}
+
+body { display: flex; flex-wrap: wrap; font-family: sans; }
+header { flex-basis: 100%; flex-shrink: 0;  }
+article { flex-basis: 60%; padding-left: 1em; }
+header nav { display: flex; justify-content: space-between; }
+header  { color:var(--p)}
+a { text-decoration: none ;  }
+header h1 span { margin-left: 1em; font-size: 50%; font-style: italic; }
+nav ul { display: flex; flex-direction: column; list-style-type: none; list-style-position: outside; padding-left: 0; border-bottom:1px dashed;}
+nav li ul { padding-left: 1em }
+html { background-color: var(--page-bg) }
+body {
+    font-family: 'Helvetica', sans-serif;
+    line-height: 1.5;
+    font-size: 0.9em;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+header { font-family: 'Baskerville', serif; }
+
+h1 {    font-weight: normal;    line-height: 1;}
+
+h2 {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    }
+
+/* sidebar */
+body > nav { border-right: 1px solid #000000; padding: 0;  } 
+body > nav > div { border-bottom: 1px solid #ddd; } 
+body > nav > div a { color: var(--link); display: block; text-transform: capitalize;} 
+nav > div a { color: var(--top-link) } 
+body > nav > div a:hover { color: var(--light); background-color: var(--cur); border-left: var(--dark) solid 0.2em; text-decoration: none; }
+
+.thisPage {background-color:var(--cur);  color:var(--light) ; border-left: var(--dark) solid 0.25em; }
+div p { min-width: 10em; }
+
+/* article */
+article {background-color: var(--light);  border: 0.14em solid var(--dark);}
+article h1, article h2 { color: var(--link); font-weight: bold; border-bottom: 2px solid var(--link); }
+article h3, h4 { color: var(--link); font-weight: bold; }
+a { color:var(--link) }
+a:hover { color:var(--link)  }
+
+/* footer */
+
+footer { 
+	color: var(--light);
+	background-color: var(--cur);
+	flex-basis: 100%;
+	flex-shrink: 0;
+	display: flex;
+	justify-content: space-between; 
+}
+
+footer a { color: var(--light); }
+footer div { padding: 1em; }
+
+  span {
+    user-select: none;  
+  }
+ss

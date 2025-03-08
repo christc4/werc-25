@@ -6,6 +6,6 @@
 </div>
 
 % if (! ~ $"post_arg_searching_preview '') {
-% tank $post_arg_searching_query
+% tank $post_arg_searching_query 
 % }
 

@@ -1,0 +1,10 @@
+https://m.bauherren.ovh:443/apps/
+https://m.bauherren.ovh:443/apps/blagh/
+https://m.bauherren.ovh:443/apps/bridge/
+https://m.bauherren.ovh:443/apps/bridge/a/
+https://m.bauherren.ovh:443/apps/gallery/
+https://m.bauherren.ovh:443/apps/goralog/
+https://m.bauherren.ovh:443/apps/goralog/My-first-post
+https://m.bauherren.ovh:443/titles/
+https://m.bauherren.ovh:443/titles/dashed-title
+https://m.bauherren.ovh:443/titles/under_title

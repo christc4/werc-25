@@ -4,9 +4,6 @@ https://bauherren.ovh:443/archive/md2html-go
 https://bauherren.ovh:443/archive/mh
 https://bauherren.ovh:443/archive/ploomb
 https://bauherren.ovh:443/blog/
-https://bauherren.ovh:443/blog/a-tale-of-two-static-site-generators
-https://bauherren.ovh:443/blog/great-browser-extensions
-https://bauherren.ovh:443/blog/my-new-post
 https://bauherren.ovh:443/blog/the-acme-text-editor
 https://bauherren.ovh:443/blog.bk/
 https://bauherren.ovh:443/blog.bk/path-to-self-hosting

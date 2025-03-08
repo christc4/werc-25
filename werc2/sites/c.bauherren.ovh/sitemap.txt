@@ -108,6 +108,8 @@ https://c.bauherren.ovh:443/archive/misc/writings/story
 https://c.bauherren.ovh:443/archive/think/
 https://c.bauherren.ovh:443/archive/think/quotes
 https://c.bauherren.ovh:443/blog/
+https://c.bauherren.ovh:443/blog/This-is-a-NEW-blog-post
+https://c.bauherren.ovh:443/blog/aging
 https://c.bauherren.ovh:443/blog/agit-prop
 https://c.bauherren.ovh:443/blog/autism
 https://c.bauherren.ovh:443/blog/avoiding-internet-landmines
@@ -117,6 +119,7 @@ https://c.bauherren.ovh:443/blog/computers
 https://c.bauherren.ovh:443/blog/fuck-your-language
 https://c.bauherren.ovh:443/blog/lard
 https://c.bauherren.ovh:443/blog/left
+https://c.bauherren.ovh:443/blog/making-friends-for-life
 https://c.bauherren.ovh:443/blog/man-the-fort
 https://c.bauherren.ovh:443/blog/marathon-running
 https://c.bauherren.ovh:443/blog/matt-damon
@@ -148,7 +151,9 @@ https://c.bauherren.ovh:443/guide/cs/code/awk/src/tabbed-code
 https://c.bauherren.ovh:443/guide/cs/code/go/
 https://c.bauherren.ovh:443/guide/cs/code/go/a-tour-of-go/
 https://c.bauherren.ovh:443/guide/cs/code/go/a-tour-of-go/more-types
-https://c.bauherren.ovh:443/guide/cs/code/go/by-example
+https://c.bauherren.ovh:443/guide/cs/code/go/by-exam
+https://c.bauherren.ovh:443/guide/cs/code/go/by-example/
+https://c.bauherren.ovh:443/guide/cs/code/go/by-example/maps
 https://c.bauherren.ovh:443/guide/cs/code/inform-7/
 https://c.bauherren.ovh:443/guide/cs/code/python
 https://c.bauherren.ovh:443/guide/cs/code/shell/
@@ -233,4 +238,3 @@ https://c.bauherren.ovh:443/mal/think/
 https://c.bauherren.ovh:443/mal/think/misc/
 https://c.bauherren.ovh:443/mal/think/misc/cryo
 https://c.bauherren.ovh:443/mal/think/misc/tailoring
-https://c.bauherren.ovh:443/test

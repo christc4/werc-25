@@ -117,6 +117,7 @@ https://c.bauherren.ovh:443/blog/avoiding-rsi
 https://c.bauherren.ovh:443/blog/cannibal-pigs
 https://c.bauherren.ovh:443/blog/computers
 https://c.bauherren.ovh:443/blog/fuck-your-language
+https://c.bauherren.ovh:443/blog/gatekeeping
 https://c.bauherren.ovh:443/blog/lard
 https://c.bauherren.ovh:443/blog/left
 https://c.bauherren.ovh:443/blog/making-friends-for-life
@@ -126,6 +127,7 @@ https://c.bauherren.ovh:443/blog/matt-damon
 https://c.bauherren.ovh:443/blog/non-foods
 https://c.bauherren.ovh:443/blog/offloading-parenting
 https://c.bauherren.ovh:443/blog/prop-departments
+https://c.bauherren.ovh:443/blog/raw-meat
 https://c.bauherren.ovh:443/blog/sex-is-backwards
 https://c.bauherren.ovh:443/blog/space-age-and-grandfather-clocks
 https://c.bauherren.ovh:443/blog/stagnant-vs-running-water

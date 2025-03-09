@@ -35,7 +35,6 @@ Also, if a 'wiki' exists that to needs to be renamed `.md_werc`
 
 Or, for `.meta` files in `goralog`
 
-
 todo: `rm -r junk || echo rm failed! get failure message`
 
 get uploaf file choose file how to style wth css so works with darktheme todo
@@ -43,8 +42,43 @@ get uploaf file choose file how to style wth css so works with darktheme todo
 
 gget raw preview
 
-
 2025/02/26
+
+<img src=/pix/site-formatting-reference.png style="width:400px">
+
+<img src=/pix/site-formatting-reference2.png style="width:400px">
+
+
+the raw file preview
+
+
+    % if(! ~ $"post_arg_dirdir_preview '') {
+    <br>
+    <details><summary>Raw File</summary>
+    <pre>
+    %               echo $post_arg_edit_text | escape_html | catn2
+    </pre></details>
+    <p><b>Preview:</b>
+                <div id="preview">
+    %               echo $post_arg_edit_text | dos2unix | $formatter
+                </div>
+    % }
+
+
+this is catn, todo: put on github or somewhere safe
+
+    #!/bin/rc
+
+    switch($#*) {
+    case 0
+        awk '{printf("<span>%d</span>\t%s\n",NR,$0)}'
+    case 1 
+        awk '{printf("<span>%d</span>\t%s\n",NR,$0)}' < $1
+    case *
+        echo 'usage: catn file' >[1=2]
+        echo '       catn < file' >[1=2]
+        echo '       cat file | catn' >[1=2]
+    }
 
 
 

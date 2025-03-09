@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 </head><body><header>
 
-<nav><div><a href=/>home</a> | <a href=//bauherren.ovh>bauherren</a> | <a href=//bauherren.ovh/dump>dump</a> | <a href=//git.bauherren.ovh>git</a></div>
+<nav><div><a href=/>home</a> | <a href=//bauherren.ovh>bauherren</a> | <a href=//bauherren.ovh/dump>dump</a> | <a href=//git.bauherren.ovh>git</a> || <a href=http://harmful.cat-v.org/software>harmful</a></div>
 
 <div><a href=mailto:christos@bauherren.ovh>email</a> | 
 <a href=/src/me>updates</a>

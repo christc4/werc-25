@@ -4,7 +4,7 @@ Notable mals: *mal*icious, *mal*influence, *mal*fed, *mal*nourished, *mal*igned,
 
 Malcontent: a historic movement where the overly-educated became world-weary cynics who tried to stand outside the worlds ugliness, while expressing his contempt for it, but got sucked into it eventually (often to enact some revenge)
 
-<img src=/pix/newspaper-headline-extra-we-are-facked.avif>
+<img src=/pub/pix/newspaper-headline-extra-we-are-facked.avif>
 
 https://youtu.be/8Z-EArw0R8o?feature=shared
 

@@ -1,5 +1,5 @@
-<img src=/pix/paul-graham-ai-writing1.avif>
-<img src=/pix/paul-graham-ai-writing2.avif>
+<img src=/pub/pix/paul-graham-ai-writing1.avif>
+<img src=/pub/pix/paul-graham-ai-writing2.avif>
 
 broker of power words in cirtuclation
 

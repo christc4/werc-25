@@ -3,7 +3,7 @@
 
 header > nav > div > a {color:var(--p)}
 p, li  {color:var(--p)}
-* { cursor: url(/pix/cursor.png), auto; }
+* { cursor: url(/pub/pix/cursor.png), auto; }
 img{width:150px}
 
 body { display: flex; flex-wrap: wrap; font-family: sans; }

@@ -52,7 +52,7 @@ arpanet
 https://youtu.be/RuoMJPTMGZI?si=c85NMb8a8Udlubcp 6:20 voice at the end
 make a video - to do list folder showcasing your examples, https://www.historyofinformation.com/detail.php?id=2495
 https://web.mit.edu/marleigh/www/portfolio/Files/zork/transcript.html
-https://pixelart.academy/
+https://pub/pixelart.academy/
 
 https://www.mprat.org/blog/2011/04/28/playing-zork-on-linux.html - make a guide on this - and give credit to this but give a guide for arch linux users using ftotz.git
 https://xsigsummer.wordpress.com/2023/06/10/exploring-structured-based-ascii-art-the-process-behind-shape-matching/

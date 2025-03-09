@@ -1,6 +1,6 @@
 # Some of the most harmful rubbish
 
-<img src=/pix/suffer-or-suffer.avif>
+<img src=/pub/pix/suffer-or-suffer.avif>
 
 Both are incredibly obese and unhealthy...
 
@@ -28,9 +28,9 @@ Both are incredibly obese and unhealthy...
 	- DYEL (Do you even lift?)
 	- Swole (Swollen...)
 
-<img src="/pix/pencil-neck-yt-comment.avif" style="width: 300px;">
+<img src="/pub/pix/pencil-neck-yt-comment.avif" style="width: 300px;">
 
-<img src=/pix/skeleton-deadlift.avif>
+<img src=/pub/pix/skeleton-deadlift.avif>
 
 add photo of lowv high test men video of masai tribe next to all the slogans
 

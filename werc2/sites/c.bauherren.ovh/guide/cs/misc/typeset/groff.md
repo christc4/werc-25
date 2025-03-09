@@ -19,5 +19,5 @@ Table of Contents
 
 ### <a name=me-formal-letter>Formal Letter</a>
 
-<object data=/src/groff/me-formal-letter.txt></object>
+<object data=/pub/src/groff/me-formal-letter.txt></object>
 

@@ -13,4 +13,4 @@ Table of Contents
 
 <small>crafted by [keying](//keyi.ng)</small>
 
-<object data=/src/tex/cv.txt></object>
+<object data=/pub/src/tex/cv.txt></object>

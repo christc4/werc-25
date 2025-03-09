@@ -1,31 +1,31 @@
 # Fun
 
-<img src=/pix/circle-kbd.avif>
+<img src=/pub/pix/circle-kbd.avif>
 
 Image source [Raphael Bastide](//github.com/raphaelbastide)
 
 [Gboard](https://youtu.be/9G3DWHf1xX0)
 
-<img src=/pix/long-kbd1.jpg>
-<img src=/pix/long-kbd2.jpg>
-<img src=/pix/long-kbd4.jpg>
-<img src=/pix/long-kbd5.jpg>
-<img src=/pix/long-kbd6.jpg>
-<img src=/pix/long-kbd7.jpg>
-<img src=/pix/long-kbd8.jpg>
-<img src=/pix/long-kbd9.png>
+<img src=/pub/pix/long-kbd1.jpg>
+<img src=/pub/pix/long-kbd2.jpg>
+<img src=/pub/pix/long-kbd4.jpg>
+<img src=/pub/pix/long-kbd5.jpg>
+<img src=/pub/pix/long-kbd6.jpg>
+<img src=/pub/pix/long-kbd7.jpg>
+<img src=/pub/pix/long-kbd8.jpg>
+<img src=/pub/pix/long-kbd9.png>
 
-<img src=/pix/waffle-kbd.jpg>
+<img src=/pub/pix/waffle-kbd.jpg>
 
-<img src=/pix/capybara-desk.avif>
+<img src=/pub/pix/capybara-desk.avif>
 
 ## Ship vibes
 
-<img src=/pix/ship-footpedal.avif>
+<img src=/pub/pix/ship-footpedal.avif>
 
 ## Type 'n dine!
 
-<img src=/pix/plate-between-keyboard1.avif><img src=/pix/plate-between-keyboard2.avif><img src=/pix/plate-between-keyboard3.avif>
+<img src=/pub/pix/plate-between-keyboard1.avif><img src=/pub/pix/plate-between-keyboard2.avif><img src=/pub/pix/plate-between-keyboard3.avif>
 
 Designed by Hella Jongeriu
 
@@ -34,7 +34,7 @@ design studio BLESS
 
 ## Puzzling!
 
-<img src=/pix/puzzle-kbd1.jpg><img src=/pix/puzzle-kbd2.jpg>
+<img src=/pub/pix/puzzle-kbd1.jpg><img src=/pub/pix/puzzle-kbd2.jpg>
 
 This is reminiscent of [dumang](//xahlee.info/kbd/dumang-dk6.html)
 

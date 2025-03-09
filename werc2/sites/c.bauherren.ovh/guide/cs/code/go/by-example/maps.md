@@ -27,6 +27,6 @@ The `maps` package contains a number of useful utility functions for maps
 Note that maps appear in the form `map[k:v k:v]` when printed with `fmt.Println`
 
 
-<object data=/src/go/by-example/maps.txt width=440 height=790></object>
+<object data=/pub/src/go/by-example/maps.txt width=440 height=790></object>
 
-<object data=/src/go/by-example/maps-output.txt width=440 height=290></object>
+<object data=/pub/src/go/by-example/maps-output.txt width=440 height=290></object>

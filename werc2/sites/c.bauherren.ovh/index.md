@@ -2,7 +2,7 @@ I'm Christos the 20 y.o webmaster responsible for this wood-glued site
 
 This is my trench for when friends bathe in public fountains
 
-I like: [9front](http://9front.org)/[plan9](/pix/plan9-screenshot.gif),
+I like: [9front](http://9front.org)/[plan9](/pub/pix/plan9-screenshot.gif),
 [ergonomics](http://xahlee.info/kbd/ergonomic_keyboards_index),
 [fermentation](//wikipedia.org/wiki/List_of_fermented_foods),
 [hunting weapons](//wikipedia.org/wiki/Hunting_weapon#History), and raw meat
@@ -13,7 +13,7 @@ I like: [9front](http://9front.org)/[plan9](/pix/plan9-screenshot.gif),
 
 ### werc
 
-> You can keep track of the apps I work on, [here](/src/werc/apps)
+> You can keep track of the apps I work on, [here](/guide/cs/web/werc/apps/)
 
 ### art
 
@@ -25,4 +25,6 @@ I like: [9front](http://9front.org)/[plan9](/pix/plan9-screenshot.gif),
 
 ### life's to-do
 
-> i must [get it done](/src/me/to-do)
+> i must [get it done](/pub/src/me/to-do)
+
+    tree -H . -I '*.md_werc' /var/www/werc2/sites/c.bauherren.ovh | sed 's|/var/www/werc2/sites/c.bauherren.ovh||g'; 's/\.md//g'

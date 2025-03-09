@@ -180,9 +180,9 @@ Add this line to
 
 `/mnt/ssh/sshd_config`
 
-<object data=/src/sshfs1.txt width=530 height=60></object>
+<object data=/pub/src/sshfs1.txt width=530 height=60></object>
 
-<object data=/src/sshfs-error-log.txt width=870 height=320></object>
+<object data=/pub/src/sshfs-error-log.txt width=870 height=320></object>
 
 Remove offending key
 

@@ -11,7 +11,7 @@
 [evbogdanox](//github.com/evbogdanov/acme/blob/master/README.md)
 </details>
 
-<img src="/pix/acme-mouse-chords.png" style="width:410px; height: auto;"> Image by Tom Lieber
+<img src="/pub/pix/acme-mouse-chords.png" style="width:410px; height: auto;"> Image by Tom Lieber
 
 `Edit =`
 
@@ -51,7 +51,7 @@ press esc again to delete any selected text
 
 ### <a name=Movement
 
-<img src="/pix/vim-movement-table.png" style="width:450px; height: auto;">
+<img src="/pub/pix/vim-movement-table.png" style="width:450px; height: auto;">
 
 Vim tutorial
 
@@ -102,10 +102,10 @@ Vim includes a man page viewer, :Man , in its runtime files. Even better, you ca
 
 set mouse=a
 
-<img src="/pix/vim-cigarretes.avif" style="width:250px; height: auto;">
+<img src="/pub/pix/vim-cigarretes.avif" style="width:250px; height: auto;">
 
 ### <a name=vim-personal-config>Personal config</a>
 
-<object data=/src/conf/vimrc.txt></object>
+<object data=/pub/src/conf/vimrc.txt></object>
 
 Computers are the closest thing mankind has to magic

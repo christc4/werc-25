@@ -1,0 +1,42 @@
+## Tips
+
+2025/03/08
+
+When using the [RC Template Lang.](http://werc.cat-v.org/docs/rc-template-lang) or wanting to use linux/bsd core-utils, since plan9 and unix ones arent compatible, you can copy the unix binary put in plan9 bin path or in /usr//bin jupst rename tit e.g du becomes du2
+
+## openring
+
+2025/02/23
+
+<https://git.sr.ht/~sircmpwn/openring>
+
+> This is a tool for generating a webring from RSS feeds, so you can link to other blogs you like on your own blog. It's designed to be fairly simple and integrate with any static site generator
+
+Sites that use openring:
+
+[risingthumb](//risingthumb.xyz/Writing/Blog/)
+
+todo: add oring script and explain in.html
+
+## useful login information
+
+2025/03/08
+
+useful screenshot info
+
+<img src=/pub/pix/site-login-failed.png style="width:450px">
+
+<img src=/pub/pix/site-login-failed2.png style="width:450px">
+
+<img src=/pub/pix/site-login-screen.png style="width:450px">
+
+## fortune
+
+`siteSubTitle=`{fortune _f.txt}`
+
+
+
+
+
+
+

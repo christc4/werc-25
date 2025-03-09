@@ -1,3 +1,3 @@
 # TempleOS
 
-<img src="/pix/messy-desk-templeos.avif" style="width:300px">
+<img src="/pub/pix/messy-desk-templeos.avif" style="width:300px">

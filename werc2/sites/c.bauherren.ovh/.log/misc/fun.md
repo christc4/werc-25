@@ -16,7 +16,7 @@
 
 The unique ecology of a room lends itself to a mysterious species nesting there, the _smoke alarm_ whose songs are like Chinese water torture to the untrained ear...
 
-<img src=/pix/smoke-alarm-battery1.avif>
+<img src=/pub/pix/smoke-alarm-battery1.avif>
 
 My new bride girdled to the red string of fate
 
@@ -25,7 +25,7 @@ My new bride girdled to the red string of fate
 
 [cpsc](//cpsc.gov/Newsroom/News-Releases/2022/Learn-the-Sounds-of-Fire-Safety-to-Avoid-Danger-African-Americans-Have-the-Highest-Rate-of-Fire-Deaths-and-Injuries)
 
-<img src=/pix/smoke-alarm-battery2.avif>
+<img src=/pub/pix/smoke-alarm-battery2.avif>
 
 The cycle of rebirth
 
@@ -33,7 +33,7 @@ todo This was a meme back in the 90's and early 00's, too. Especially on Lovelin
 
 ## <a name=coffee-naming-convention>Coffee Naming Convention</a>
 
-<img src="/pix/no-nonsense-coffee-guide.avif" style="width: 250px;">
+<img src="/pub/pix/no-nonsense-coffee-guide.avif" style="width: 250px;">
 
 I remember in my naive adolesence, I had decided to enter a coffee sshop for the first time and ask for a black coffee and the man behind the counter kept asking if I wanted an americano. Never had I felt so shocked, it was as if I had strutted their butt-naked apart from a tie, only to be revealed at the counter that the English I had learned for the past 18 years was no good here. Imagine the first ever person to be told his cold-hard cash is no good and it's a contactless store
 
@@ -49,25 +49,25 @@ Well, all currency is people made!
 
 [goldback.com](https://www.goldback.com)
 
-<img src=/pix/goldback1.avif>
+<img src=/pub/pix/goldback1.avif>
 
 ### Emperor Nortan of USA
 
-<img src=/pix/norton-note.avif>
+<img src=/pub/pix/norton-note.avif>
 
 ### Oranian, Ora
 
-<img src=/pix/ora.avif>
+<img src=/pub/pix/ora.avif>
 
 ### Sealand
 
-<img src=/pix/sealand-dollar.avif>
+<img src=/pub/pix/sealand-dollar.avif>
 
 ### Sweden
 
 [land.se](https://www.land.se/livet-pa-landet/honungsvalutan-starker-lokalsamhallet-i-skattungbyn)
 
-<img src=/pix/klover-man.avif><img src=/pix/klover-note.avif>
+<img src=/pub/pix/klover-man.avif><img src=/pub/pix/klover-note.avif>
 
 ### Exeter, UK
 
@@ -75,7 +75,7 @@ Exeter pound
 
 <details><summary>Sources</summary>[bbc](https://www.bbc.co.uk/news/uk-england-devon-34112438), [DevonLive](https://www.devonlive.com/news/business/what-went-wrong-exeter-pound-1844910)</details>
 
-<img src=/pix/exeter-pound1.avif><img src=/pix/exeter-pound2.avif><img src=/pix/exeter-pound3.avif>
+<img src=/pub/pix/exeter-pound1.avif><img src=/pub/pix/exeter-pound2.avif><img src=/pub/pix/exeter-pound3.avif>
 
 ## <a name=kimono-washing>Kimono Washing</a>
 
@@ -97,37 +97,37 @@ This process is known as Arai Hari, 洗い張り,
 
 _Stiching a kimono back into a tanmono, cleaning it drying it, cutting it and stictching it again..._
 
-<img src="/pix/araihari1.avif" style="width:310px;">
+<img src="/pub/pix/araihari1.avif" style="width:310px;">
 
 Before washing and starching kimonos, we check to see if the color will bleed and if the fabric is durable
 
-<img src="/pix/araihari2.avif" style="width:310px;">
+<img src="/pub/pix/araihari2.avif" style="width:310px;">
 
 All of the stitching on the kimono is removed
 
 This is a time-consuming task as every last stitch must be removed
 
-<img src="/pix/araihari3.avif" style="width:310px;">
+<img src="/pub/pix/araihari3.avif" style="width:310px;">
 
 The unraveled kimono is sewn back together into a roll of fabric
 At our shop, we use a special sewing machine to sew the edges
 
-<img src="/pix/araihari4.avif" style="width:310px;">
+<img src="/pub/pix/araihari4.avif" style="width:310px;">
 
 After the edges are sewn and the kimono is returned to its original shape, it is washed with a special detergent and a scrubbing brush
 
 The temperature of the water and the amount of pressure used are adjusted depending on the kimono to remove dirt
 
-<img src="/pix/araihari5.avif" style="width:310px;">
+<img src="/pub/pix/araihari5.avif" style="width:310px;">
 
 The washed cloth is dehydrated and hung outside to dry
 
-<img src="/pix/araihari6.avif" style="width:310px;">
+<img src="/pub/pix/araihari6.avif" style="width:310px;">
 
 The washed rolls of fabric are re-sewn to fit the width of the work area
 At this time, any frayed edges are re-sewn
 
-<img src="/pix/araihari7.avif" style="width:310px;">
+<img src="/pub/pix/araihari7.avif" style="width:310px;">
 
 Shinko-bari
 
@@ -135,21 +135,21 @@ For rolls of tsumugi fabric, bamboo sticks with needles on the ends are stretche
 
 As the sticks are stretched at 2cm intervals, approximately 600 sticks are used on one roll of fabric 
 
-<img src="/pix/araihari8.avif" style="width:310px;">
+<img src="/pub/pix/araihari8.avif" style="width:310px;">
 
 A natural paste is applied to the stretched cloth with a brush
 The thickness of the paste is adjusted according to the quality of the fabric and the season, so this requires years of experience
 
-<img src="/pix/araihari9.avif" style="width:310px;">
+<img src="/pub/pix/araihari9.avif" style="width:310px;">
 
 Dry the roll of fabric with the starch applied
 As it dries slowly with the fabric stretched, any wrinkles will disappear
 
-<img src="/pix/araihari10.avif" style="width:310px;">
+<img src="/pub/pix/araihari10.avif" style="width:310px;">
 
 For crepe cloth, the width of the fabric is adjusted by applying steam using a machine called a tenter
 
-<img src="/pix/araihari11.avif" style="width:310px;">
+<img src="/pub/pix/araihari11.avif" style="width:310px;">
 
 The finished cloth is rolled up on a board, laid flat, and bound with thread before being washed and hung
 
@@ -161,7 +161,7 @@ Wilson said he picked the name Lululemon because he thought the difficulty Japan
 
 Before I went on holiday, I threw this pair of trousers atop some furniture, when I returned this little buddy decided to make its home there
 
-<img src=/pix/clothes-moth1.avif><img src=/pix/clothes-moth2.avif><img src=/pix/clothes-moth3.avif><img src=/pix/clothes-moth4.avif>
+<img src=/pub/pix/clothes-moth1.avif><img src=/pub/pix/clothes-moth2.avif><img src=/pub/pix/clothes-moth3.avif><img src=/pub/pix/clothes-moth4.avif>
 
 ## <a name=x61s-down>x61s DOWN!</a>
 
@@ -169,25 +169,25 @@ I broke a x61s motherboard today. Let's frame everything I did wrong in a constr
 
 ## Crime scene
 
-<img src=/pix/x61s-5.avif style="width: 200px;">
+<img src=/pub/pix/x61s-5.avif style="width: 200px;">
 
 What am I looking at you ask? Well to put it short, that black wire you see crawling on the screen? That's connected to the power jack in the bottom right corner and, which I didn't bother checking at the time. I hooked it up to the speaker port in the top left corner. What was the outcome of that. My friend and I got a very nice light show (sparks on the board and some transistors got fried).
 
-<img src=/pix/x61s-2.avif style="width: 200px;">
+<img src=/pub/pix/x61s-2.avif style="width: 200px;">
 
 Here's a close up.
 
 ## Why I did that
 
-<img src=/pix/x61s-1.avif style="width: 200px;">
+<img src=/pub/pix/x61s-1.avif style="width: 200px;">
 
 Do you see that red and black cable tucked away next to the RAM? Yep, that's the speaker plug, it's been donkeys-years since I hid it there. I didn't want it bumping around and I wasn't using the speaker at the time so it seemed the most convenient place.
 
-<img src=/pix/x61s-3.avif style="width: 200px;">
+<img src=/pub/pix/x61s-3.avif style="width: 200px;">
 
 Here's what it's supposed to look like on another board I owned.
 
-<img src=/pix/x61s-4.avif style="width: 200px;">
+<img src=/pub/pix/x61s-4.avif style="width: 200px;">
 
 And that black wire? It's meant to hook up to a bluetooth card.
 

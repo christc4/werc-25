@@ -99,3 +99,35 @@ pre { font-size: 80%; word-wrap: break-word; object-fit:contain; max-width: 100%
     }
 
 .comment { color:var(--p)}
+
+p.sitemap {
+  font-family: monospace, sans-serif;
+  color: black;
+  margin: 0px;
+  padding: 0px;
+}
+
+p.sitemap a:visited {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+p.sitemap a:link {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+p.sitemap a:hover {
+  text-decoration: underline;
+  background-color: yellow;
+  margin: 0px;
+  padding: 0px;
+}
+
+p.sitemap a:active {
+  margin: 0px;
+  padding: 0px;
+}
+

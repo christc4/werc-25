@@ -16,9 +16,9 @@ By [Mari Klimova](https://www.instagram.com/junemarysya/)
 
 Whimsical blank card sold by [Madame Treacle](https://madametreacle.com/product/rs152/)
 
-<img src="/pix/rene-lalique-vase1.avif" style="width:410px; height: auto;">
-<img src="/pix/rene-lalique-vase2.avif" style="width:410px; height: auto;">
-<img src="/pix/rene-lalique-vase3.avif" style="width:410px; height: auto;">
+<img src="/pub/pix/rene-lalique-vase1.avif" style="width:410px; height: auto;">
+<img src="/pub/pix/rene-lalique-vase2.avif" style="width:410px; height: auto;">
+<img src="/pub/pix/rene-lalique-vase3.avif" style="width:410px; height: auto;">
 
 Posted on [instagram](https://www.instagram.com/p/Ctrf2kwsp69/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==), vase made by [René Laliqu](https://en.wikipedia.org/wiki/Ren%C3%A9_Lalique)
 

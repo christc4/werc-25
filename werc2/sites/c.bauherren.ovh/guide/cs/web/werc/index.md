@@ -1,0 +1,37 @@
+[config](config): configure werc site-wide, directory specific behaviour
+
+[faq](faq): basic to advanced questions about werc
+
+[apps](apps): apps I maintain/contribute to
+
+[css](css): how I manage CSS 
+
+## Where is werc?
+
+Werc is stored in `/var/www/werc`
+
+The apache2 configs are in `/etc/apache2/sites-enabled`
+
+## Customization
+
+Inside `$YOURSITE/_werc/lib` are the following files
+
+- `404.tpl`
+- `default_master.tpl`
+- `footer.inc`
+- `headers.tpl`
+- `top_bar.inc`
+
+If the directory `lib` is not found werc by default sources from `/var/www/werc/lib`
+
+<hr>
+
+## Neighbors
+
+Projects that follow the werc philosophy 
+
+[werc-quickstart](//sr.ht/~gzj/werc-quickstart/): setup werc with golang cgi server
+
+[kwerc](//kwerc.org): web framework using [es](//wryun.github.io/es-shell/) (a shell with higher-order functions)
+
+[crew](//github.com/c4pt0r/crew): in Go

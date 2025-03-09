@@ -3,7 +3,9 @@
         <input type="search" name="searching_query" placeholder="Search..."><br>
         <input type="submit" name="searching_preview" value="Search"><hr>
     </form>
+<button><a href=/sitemap>sitemap</a></button>
 </div>
+
 
 % if (! ~ $"post_arg_searching_preview '') {
 % tank $post_arg_searching_query 

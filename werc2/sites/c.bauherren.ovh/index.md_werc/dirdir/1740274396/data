@@ -1,11 +1,11 @@
 
-<img src=/pix/me-wave.avif style=width:150px>
+<img src=/pub/pix/me-wave.avif style=width:150px>
 
 I'm Christos the 20yo webmaster responsible for this wood-glued site
 
 This is my trench for when friends bathe in public fountains
 
-I like  the following: [9front](http://9front.org)/[plan9](/pix/plan9-screenshot.gif),
+I like  the following: [9front](http://9front.org)/[plan9](/pub/pix/plan9-screenshot.gif),
 [ergonomics](http://xahlee.info/kbd/ergonomic_keyboards_index),
 [fermentation](//wikipedia.org/wiki/List_of_fermented_foods),
 [hunting weapons](//wikipedia.org/wiki/Hunting_weapon),
@@ -22,8 +22,8 @@ This site is generated  by [werc](http://werc.cat-v.org), with apps by [risingth
 
 Study werc app '[dirdir](//github.com/RisingThumb/dirdir)', write shell for:
 
-- <s>file rename</s> [+](/src/werc/#dirdir-file-rename)
-- <s>searchbar</s> [+](/src/werc/#searching)
+- <s>file rename</s> [+](/pub/src/werc/#dirdir-file-rename)
+- <s>searchbar</s> [+](/pub/src/werc/#searching)
 - move file location
 - print (.md to .pdf)
 - export cwd as zip

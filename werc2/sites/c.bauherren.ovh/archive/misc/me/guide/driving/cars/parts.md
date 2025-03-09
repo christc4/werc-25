@@ -15,6 +15,6 @@ The Highway Code says you must use dipped headlights at night and when "visibili
 *Turning on*
 
 
-<img src=/pix/dipped-headlights-symbol.svg>
+<img src=/pub/pix/dipped-headlights-symbol.svg>
 
 

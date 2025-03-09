@@ -2,13 +2,13 @@ I'm Christos the webmaster responsible for this wood-glued site
 
 This is my trench for when friends bathe in public fountains
 
-I like: [9front](http://9front.org)/[plan9](/pix/plan9-screenshot.gif),
+I like: [9front](http://9front.org)/[plan9](/pub/pix/plan9-screenshot.gif),
 [ergonomics](http://xahlee.info/kbd/ergonomic_keyboards_index),
 [fermentation](//wikipedia.org/wiki/List_of_fermented_foods),
 [hunting weapons](//wikipedia.org/wiki/Hunting_weapon), and raw meat
 
 
-This site is generated  by [werc](http://werc.cat-v.org), with apps by [risingthumb](//risingthumb.xyz) and [I](/src/werc/apps)
+This site is generated  by [werc](http://werc.cat-v.org), with apps by [risingthumb](//risingthumb.xyz) and [I](/pub/src/werc/apps)
 
 Most of my free time is spent on learning/extending werc and improving my [art](//bauherr.ovh/christos/art)
 
@@ -30,7 +30,7 @@ Most of my free time is spent on learning/extending werc and improving my [art](
 
 ### '[dirdir](//github.com/RisingThumb/dirdir)' features:
 
-- <s>rename file</s> [+](/src/werc/#dirdir-file-rename) WIP, can rename current page (21/02/25)
+- <s>rename file</s> [+](/pub/src/werc/#dirdir-file-rename) WIP, can rename current page (21/02/25)
 - edit and view '\_' files: hidden by werc default
 - move file location
 
@@ -58,7 +58,7 @@ got [openring](/) working under [blog](/blog) posts (23/02/25)
 
 #### apps
 
-- '[search](/src/werc/#searching)': searchbar that searches through all files for instances of text (22/02/25)
+- '[search](/pub/src/werc/#searching)': searchbar that searches through all files for instances of text (22/02/25)
 - 'pinyify': output pinyin of chinese (24/02/25)
 - 'glenda': like cowsay, (24/02/25)
 Might be trickier

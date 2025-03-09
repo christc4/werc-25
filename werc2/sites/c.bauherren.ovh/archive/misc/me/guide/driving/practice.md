@@ -8,7 +8,7 @@
 
 *What does this curved arrow road marking mean?*
 
-<img src=/pix/curved-arrow-road-marking.avif>
+<img src=/pub/pix/curved-arrow-road-marking.avif>
 
 Overtaking traffic should move back to the left
 
@@ -26,13 +26,13 @@ Wait for the green light
 
 *What should you do if the vehicle starts reversing off the driveway?*
 
-<img src=/pix/vehicle-reversing-of-the-driveway.avif>
+<img src=/pub/pix/vehicle-reversing-of-the-driveway.avif>
 
 Sound your horn and be prepared to stop
 
 *Which instrument-panel warning light would show that headlights are on main beam?*
 
-<img src=/pix/instrument-panel-warning-light.avif>
+<img src=/pub/pix/instrument-panel-warning-light.avif>
 
 *What should you do when you move off from behind a parked car?*
 
@@ -56,7 +56,7 @@ The seat belts
 
 *You're driving towards this left-hand bend. What danger should you be anticipating?*
 
-<img src=/pix/left-hand-bend.avif>
+<img src=/pub/pix/left-hand-bend.avif>
 
 Pedestrians walking towards you
 
@@ -66,11 +66,11 @@ Douse the burns with clean, cool water
 
 *Which sign means 'no stopping'?*
 
-<img src=/pix/no-stopping-sign.avif>
+<img src=/pub/pix/no-stopping-sign.avif>
 
 *What does this sign mean?*
 
-<img src=/pix/humps-in-the-road-sign.avif>
+<img src=/pub/pix/humps-in-the-road-sign.avif>
 
 Humps in the road
 
@@ -140,7 +140,7 @@ Check the label to see if the medicine will affect your driving
 
 *What should you do as you approach this lorry?*
 
-<img src=/pix/approaching-lorry.avif>
+<img src=/pub/pix/approaching-lorry.avif>
 
 *You're carrying an 11-year-old child on the front seat of your car. They're under 1.35 metres (4 feet 5 inches) tall. What seat belt security must be in place?*
 
@@ -148,7 +148,7 @@ They must use a suitable child restraint
 
 *What shape are traffic signs giving orders?*
 
-<img src=/pix/road-sign-giving-order.avif>
+<img src=/pub/pix/road-sign-giving-order.avif>
 
 *What should you do if you think the driver of the vehicle in front has forgotten to cancel their right indicator?*
 
@@ -188,7 +188,7 @@ Be wary of a sudden gust
 
 What does this sign mean?
 
-<img src=/pix/roundabout-sign.avif>
+<img src=/pub/pix/roundabout-sign.avif>
 
 Roundabout
 

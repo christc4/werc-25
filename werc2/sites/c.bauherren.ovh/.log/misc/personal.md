@@ -22,17 +22,17 @@ You have to be ultra-specific and you're better talking to an older and more-tra
 
 Make sure they don't use any fusing or glue in the construction, go for a pure cotton no blended synthetics.
 
-<img src=/pix/bespoke-blazer-lift-selfie.avif>
+<img src=/pub/pix/bespoke-blazer-lift-selfie.avif>
 
-<img src=/pix/bespoke-suit-fitting.avif>
+<img src=/pub/pix/bespoke-suit-fitting.avif>
 
-<img src=/pix/bespoke-showroom-selfie.avif>
+<img src=/pub/pix/bespoke-showroom-selfie.avif>
 
 Draw what you want, so there's less chance for hiccups
 
-<img src=/pix/bespoke-suit-sketch.avif>
+<img src=/pub/pix/bespoke-suit-sketch.avif>
 
-<img src=/pix/bespoke-tailor-note.avif>
+<img src=/pub/pix/bespoke-tailor-note.avif>
 Need to decode this lateR
 
 
@@ -56,7 +56,7 @@ Memories deteriorate and I assume this will undergo many revisions until I'm sat
 
 My Mother worked in Jaypharm Chemist in Brayford Square, Shadwell and my Father	worked each day at a care home for the elderly. 
 
-<img src=/pix/jaypharm1.avif>
+<img src=/pub/pix/jaypharm1.avif>
 
 This meant that during summer holidays, I was to stay with Mom at her work. A chemists is hardly a play environment for a child so I was stowed away in a little back room, like a castaway but that area was where my imagination could spill out onto paper 
 
@@ -64,22 +64,22 @@ I would have sheets of paper in which I'd fill to the brim with stickmen warring
 
 My mother would eventually buy me these cheap plastic army men for me to play with that the Chemist conveniently sold, 
 
-<img src=/pix/jaypharm2.avif>
+<img src=/pub/pix/jaypharm2.avif>
 
 This would come to an end more or less one day when a fellow worker saw me in there when theyd went in to bring back something. He made a comment to my Mother about how it wasn't appropriate for me to be there, to which she agreed and I was free to explore the square 
 
 This new rite of freedom, I soon realised wasn't all it was chalked up to be. 
 
-<img src=/pix/jaypharm3.avif>
-<img src=/pix/jaypharm4.avif>
-<img src=/pix/jaypharm5.avif>
-<img src=/pix/jaypharm6.avif>
-<img src=/pix/jaypharm7.avif>
-<img src=/pix/jaypharm8.avif>
-<img src=/pix/jaypharm9.avif>
-<img src=/pix/jaypharm10.avif>
+<img src=/pub/pix/jaypharm3.avif>
+<img src=/pub/pix/jaypharm4.avif>
+<img src=/pub/pix/jaypharm5.avif>
+<img src=/pub/pix/jaypharm6.avif>
+<img src=/pub/pix/jaypharm7.avif>
+<img src=/pub/pix/jaypharm8.avif>
+<img src=/pub/pix/jaypharm9.avif>
+<img src=/pub/pix/jaypharm10.avif>
 
-<img src=/pix/jaypharm11.avif>
+<img src=/pub/pix/jaypharm11.avif>
 
 todo
 information is not being furnishsed or embellished
@@ -90,55 +90,55 @@ Apr 16, 2012
 
 # More recent
 
-<img src="/pix/fzf.avif" style="max-width: 390px; height: auto;">
-<img src="/pix/site5.avif" style="max-width: 390px; height: auto;">
-<img src="/pix/avsbq.avif" style="max-width: 390px; height: auto;">
+<img src="/pub/pix/fzf.avif" style="max-width: 390px; height: auto;">
+<img src="/pub/pix/site5.avif" style="max-width: 390px; height: auto;">
+<img src="/pub/pix/avsbq.avif" style="max-width: 390px; height: auto;">
 
 # christc4.github.io
 
-<img src="/pix/suckless-clone.avif" style="max-width: 390px; height: auto;">
-<img src="/pix/first-influence-of-cat-v.avif" style="max-width: 390px; height: auto;">
+<img src="/pub/pix/suckless-clone.avif" style="max-width: 390px; height: auto;">
+<img src="/pub/pix/first-influence-of-cat-v.avif" style="max-width: 390px; height: auto;">
 
-<img src="/pix/fone-ss.avif" style="max-width: 390px; height: auto;">
+<img src="/pub/pix/fone-ss.avif" style="max-width: 390px; height: auto;">
 # SSI (.shtml) arc
 
-<img src="/pix/site1.avif" style="max-width: 390px; height: auto;">
-<img src="/pix/site2.avif" style="max-width: 390px; height: auto;">
+<img src="/pub/pix/site1.avif" style="max-width: 390px; height: auto;">
+<img src="/pub/pix/site2.avif" style="max-width: 390px; height: auto;">
 
 # Werc arc
 
-<img src="/pix/site3.avif" style="max-width: 390px; height: auto;">
-<img src="/pix/it-wercs.avif" style="max-width: 390px; height: auto;">
-<img src="/pix/site4.avif" style="max-width: 390px; height: auto;">
+<img src="/pub/pix/site3.avif" style="max-width: 390px; height: auto;">
+<img src="/pub/pix/it-wercs.avif" style="max-width: 390px; height: auto;">
+<img src="/pub/pix/site4.avif" style="max-width: 390px; height: auto;">
 
 # OLD
 
-<img src="/pix/coal1.avif" style="max-width: 390px; height: auto;">
-<img src="/pix/pandora1000.avif" style="max-width: 390px; height: auto;">
-<img src="/pix/blxssxm.avif" style="max-width: 390px; height: auto;">
+<img src="/pub/pix/coal1.avif" style="max-width: 390px; height: auto;">
+<img src="/pub/pix/pandora1000.avif" style="max-width: 390px; height: auto;">
+<img src="/pub/pix/blxssxm.avif" style="max-width: 390px; height: auto;">
 
 <video width="320" height="240" controls>
-  <source src="/pix/dark.webm" type="video/webm">
+  <source src="/pub/pix/dark.webm" type="video/webm">
   Your browser does not support the video tag.
 </video>
 
 # christc4.github.io
 
-<img src="/pix/suckless-clone.avif" style="max-width: 390px; height: auto;">
-<img src="/pix/first-influence-of-cat-v.avif" style="max-width: 390px; height: auto;">
+<img src="/pub/pix/suckless-clone.avif" style="max-width: 390px; height: auto;">
+<img src="/pub/pix/first-influence-of-cat-v.avif" style="max-width: 390px; height: auto;">
 
-<img src="/pix/fone-ss.avif" style="max-width: 390px; height: auto;">
+<img src="/pub/pix/fone-ss.avif" style="max-width: 390px; height: auto;">
 
 # SSI (.shtml) arc
 
-<img src="/pix/site1.avif" style="max-width: 390px; height: auto;">
-<img src="/pix/site2.avif" style="max-width: 390px; height: auto;">
+<img src="/pub/pix/site1.avif" style="max-width: 390px; height: auto;">
+<img src="/pub/pix/site2.avif" style="max-width: 390px; height: auto;">
 
 # Werc arc
 
-<img src="/pix/site3.avif" style="max-width: 390px; height: auto;">
-<img src="/pix/it-wercs.avif" style="max-width: 390px; height: auto;">
-<img src="/pix/site4.avif" style="max-width: 390px; height: auto;">
+<img src="/pub/pix/site3.avif" style="max-width: 390px; height: auto;">
+<img src="/pub/pix/it-wercs.avif" style="max-width: 390px; height: auto;">
+<img src="/pub/pix/site4.avif" style="max-width: 390px; height: auto;">
 
 # OLD
 
@@ -154,7 +154,7 @@ Hardware
 
 I use what I guess you'd call a &apos;headless&apos; laptop,
 
-<img src="/pix/headless-x230-01.avif" style="width: 250px;">
+<img src="/pub/pix/headless-x230-01.avif" style="width: 250px;">
 
 It's the motherboard of a corebooted ThinkPad x230
 
@@ -163,11 +163,11 @@ Sidenote: Laptops with their motherboards encased feels like leaving your child 
 
 Software
 
-<img src="/pix/rio.png" style="width: 300px; height: auto;">
+<img src="/pub/pix/rio.png" style="width: 300px; height: auto;">
 
-<img src="/pix/sowm.png" style="width: 300px; height: auto;">
+<img src="/pub/pix/sowm.png" style="width: 300px; height: auto;">
 
-<img src="/pix/android.avif" style="width: 300px; height: auto;">
+<img src="/pub/pix/android.avif" style="width: 300px; height: auto;">
 
 Top, Plan9 Rio. Middle, sowm. Bottom, termux
 

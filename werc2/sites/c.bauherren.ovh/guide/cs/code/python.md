@@ -58,7 +58,7 @@ The following evaluates to False:
 
 You can use the function 'bool' to test
 
-<object data=/src/py/bool-test-true-false.txt></object>
+<object data=/pub/src/py/bool-test-true-false.txt></object>
 
 ##  <a name='data-structure'>Data structure</a>
 
@@ -66,7 +66,7 @@ You can use the function 'bool' to test
 
 Create and print a dictionary
 
-<object data=/src/py/print-dictionary.txt></object>
+<object data=/pub/src/py/print-dictionary.txt></object>
 
 Dictionary items are ordered, changeable, and do not allow duplicates. Dictionary items are presenteed in key:value pairs, and can be referred to by using the key name
 
@@ -76,7 +76,7 @@ We uses braces `{` and `}` to tell Python that this is a dictionary. We use `,` 
 
 The values() method returns a view object that displays a list of all the values in the dictionary.
 
-<object data=/src/py/values-example.txt></object>
+<object data=/pub/src/py/values-example.txt></object>
 
 values() doesn't take any parameters
 
@@ -189,17 +189,17 @@ Would return 0
 
 Reverse list
 
-<object data=/src/py/reverse-list.txt></object>
+<object data=/pub/src/py/reverse-list.txt></object>
 
 Alternate solution, using slicing
 
-<object data=/src/py/negative-slicing-list.txt></object>
+<object data=/pub/src/py/negative-slicing-list.txt></object>
 
 <hr>
 
 Add two lists index-wise. Create a new list that contains the 0th index item from both the list, then the 1st index item, and so on till the last element. any leftover items will get added at the end of the new list.
 
-<object data=/src/py/cat-lists-index-wise.txt></object>
+<object data=/pub/src/py/cat-lists-index-wise.txt></object>
 
 	['My', 'name', 'is', 'Kelly']
 
@@ -207,13 +207,13 @@ This is the output
 
 Given a list of numbers. write a program to turn every item of a list into its square
 
-<object data=/src/py/list-to-square.txt></object>
+<object data=/pub/src/py/list-to-square.txt></object>
 
 Alternate solution, using list comprehension
 
-<object data=/src/py/list-comprehension-square.txt></object>
+<object data=/pub/src/py/list-comprehension-square.txt></object>
 
-<object data=/src/py/cat-2-lists-in-following-order.txt></object>
+<object data=/pub/src/py/cat-2-lists-in-following-order.txt></object>
 
 ###  <a name='tuple'>Tuple</a>
 
@@ -236,17 +236,17 @@ Tuples are like lists, except they cannot be changed. The slot values cannot cha
 
 Return a new tuple with items of _iterable_
 
-<object data="/src/py/iterable-2-tuple.txt" width="160px" height="120px"></object>
+<object data="/pub/src/py/iterable-2-tuple.txt" width="160px" height="120px"></object>
 
 Neither item, nor length of tuples can be changed
 
-<object data="/src/py/tuple-cannot-change-error.txt" width="568px" height="60px"></object>
+<object data="/pub/src/py/tuple-cannot-change-error.txt" width="568px" height="60px"></object>
 
 ## Nested Tuple and List
 
 List and tuple can contain mixed datatypes and nested in anyway
 
-<object data=/src/py/nested-tuple-and-list.txt></object>
+<object data=/pub/src/py/nested-tuple-and-list.txt></object>
 
 ##  <a name='function-and-class'>Function and Class</a>
 
@@ -264,11 +264,11 @@ Method functions
 
 ## Happy Birthday
 
-<object data=/src/py/function-print1.txt></object>
+<object data=/pub/src/py/function-print1.txt></object>
 
 ## Invoice
 
-<object data=/src/py/function-print2.txt></object>
+<object data=/pub/src/py/function-print2.txt></object>
 
 `.2f` means round up to 2 decimal places
 
@@ -314,13 +314,13 @@ Add two nummbers
 
 Lambda used with filter
 
-<object data=/src/py/lambda-filter1.txt></object>
+<object data=/pub/src/py/lambda-filter1.txt></object>
 
 ### Why use lambda?
 
 The power of lambda is better shown when you use them as an anonymous function inside another function. Say you have a function definition that takes one argument, and that argument will be multiplied with an unknown number:
 
-<object data=/src/py/lambda-doubler.txt></object>
+<object data=/pub/src/py/lambda-doubler.txt></object>
 
 ###  <a name='class'>Class</a>
 
@@ -328,7 +328,7 @@ A class is a boxed set of functions and variables. It defines a blueprint, of wh
 
 ### Define a Class
 
-<object data=/src/py/define-a-class.txt></object>
+<object data=/pub/src/py/define-a-class.txt></object>
 
 By convention, class names start with a capital
 
@@ -369,11 +369,11 @@ Middle, not the first or last
 
 You can  get the length of a string using a function pre-loaded into Python called `len`
 
-<object data=/src/py/basic-string-length.txt></object>
+<object data=/pub/src/py/basic-string-length.txt></object>
 
 ### String replace
 
-<object data=/src/py/basic-string-replace.txt></object>
+<object data=/pub/src/py/basic-string-replace.txt></object>
 
 ### Upper/lowercase
 
@@ -438,13 +438,13 @@ while i < 6:
 
 ### Cats
 
-<object data=/src/py/function-add-cats.txt></object>
+<object data=/pub/src/py/function-add-cats.txt></object>
 
 ##  <a name='if'>if</a>
 
 Example
 
-<object data=/src/py/if-example1.txt></object>
+<object data=/pub/src/py/if-example1.txt></object>
 
 The `if` keyword tells Python we want coded executed conditionally
 
@@ -470,7 +470,7 @@ This prints the length of the string "Hello!"
 
 <hr>
 
-<object data="/src/py/check-len-equals-5.txt" width="408px" height="150px"></object>
+<object data="/pub/src/py/check-len-equals-5.txt" width="408px" height="150px"></object>
 
 # Range
 
@@ -776,29 +776,29 @@ You can do this with a single expression like...
 
 Count consonants
 
-<object data=/src/py/count-consonants.txt" width="512" height="100"></object>
+<object data=/pub/src/py/count-consonants.txt" width="512" height="100"></object>
 
 Capitalise first letter of each word 
 
-<object data="/src/py/capitalise-first-letter-each-word.txt" width="480" height="80"></object>
+<object data="/pub/src/py/capitalise-first-letter-each-word.txt" width="480" height="80"></object>
 
 Capitalise last letter of each word
 
-<object data="/src/py/capitalise-last-letter-each-word.txt" width="440px" height="180px"></object>
+<object data="/pub/src/py/capitalise-last-letter-each-word.txt" width="440px" height="180px"></object>
 
 Capitalise third letter of each word
 
-<object data="/src/py/capitalise-third-letter-each-word.txt" width="568px" height="360px"></object>
+<object data="/pub/src/py/capitalise-third-letter-each-word.txt" width="568px" height="360px"></object>
 
 Capital indexes
 
-<object data="/src/py/return-capital-indexes1.txt" width="288px" height="140px"></object>
+<object data="/pub/src/py/return-capital-indexes1.txt" width="288px" height="140px"></object>
 
-<object data="/src/py/return-capital-indexes2.txt" width="588px" height="140px"></object>
+<object data="/pub/src/py/return-capital-indexes2.txt" width="588px" height="140px"></object>
 
 Return middle letter
 
-<object data="/src/py/return-middle-letter.txt" width="282px" height="120px"></object>
+<object data="/pub/src/py/return-middle-letter.txt" width="282px" height="120px"></object>
 
 ### Strip Functions
 

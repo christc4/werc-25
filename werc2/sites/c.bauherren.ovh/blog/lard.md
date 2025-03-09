@@ -10,8 +10,8 @@ In the co-operative, the man stocking the shelves had no idea and thought I mean
 
 This belies a greater illness
 
-<img src=/pix/lard1.avif>
-<img src=/pix/lard2.avif>
+<img src=/pub/pix/lard1.avif>
+<img src=/pub/pix/lard2.avif>
 
 
 

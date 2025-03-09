@@ -20,4 +20,4 @@ Showcase,
 
 Example 3. Unplug the router
 
-<img src=/pix/50s-twerk.gif style="width:200px">
+<img src=/pub/pix/50s-twerk.gif style="width:200px">

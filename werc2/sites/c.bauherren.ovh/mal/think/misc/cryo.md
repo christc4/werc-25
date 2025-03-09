@@ -20,8 +20,8 @@ The Clark County Coroner said the official cause of death is asphyxia in an oxyg
 
 
 
-<img src=/pix/chelsea-ake-salvacion1.avif>
-<img src=/pix/chelsea-ake-salvacion2.avif>
+<img src=/pub/pix/chelsea-ake-salvacion1.avif>
+<img src=/pub/pix/chelsea-ake-salvacion2.avif>
 
 //abcnews.go.com/US/salon-worker-died-cryotherapy-machine-shut/story?id=34775196
 

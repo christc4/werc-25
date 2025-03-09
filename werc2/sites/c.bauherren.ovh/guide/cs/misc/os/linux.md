@@ -64,13 +64,13 @@ Write your own desktop entry
 
 These are my personal configs 
 
-<object data="/src/conf/picom-conf.txt" width="216px" height="250px"></object>
+<object data="/pub/src/conf/picom-conf.txt" width="216px" height="250px"></object>
 
 ### <a name=greyscale>greyscale</a>
 
 Create file.gsl
 
-<object data=/src/conf/picom-gsl.txt></object>
+<object data=/pub/src/conf/picom-gsl.txt></object>
 
 Start picom by including the .gsl file path
 
@@ -84,7 +84,7 @@ Run `screenkey --show-settings`
 
 Below is an example 'config' that I use
 
-<img src=/pix/skey.avif>
+<img src=/pub/pix/skey.avif>
 
 ## <a name=xorg>xorg</a>
 
@@ -95,7 +95,7 @@ Below is an example 'config' that I use
 In some xorg window managers, users have reported wmctrl not working out of the box. Since we are already using the x11/xlib library for our respective window managers, we can write a c++ program (see above for
 original author), to raise windows. We then call this with a simple shell script and map this to a keypress.
 
-<object data=/src/conf/totop.txt></object>
+<object data=/pub/src/conf/totop.txt></object>
 
 To compile run `c++ totop.cpp -L/usr/X11R6/lib -lX11 -o totop`
 

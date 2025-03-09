@@ -55,30 +55,30 @@ This replaces every 'space' with an underscore
 
 ##  <a name='batch-gif-bg-color-remove'>Batch gif background color removal</a>
 
-<object data=/src/sh/batch-gif-bg-color-remove.txt></object>
+<object data=/pub/src/sh/batch-gif-bg-color-remove.txt></object>
 
 ##  <a name='batch-image-conversion'>Batch image conversion</a>
 
-<object data="/src/sh/batch-image-conversion1.txt" width="350px" height="340px"></object>
+<object data="/pub/src/sh/batch-image-conversion1.txt" width="350px" height="340px"></object>
 
 ##  <a name='chinese-lookup'>Chinese char. lookup</a>
 
-<object data=/src/sh/cn-lookup.txt></object>
+<object data=/pub/src/sh/cn-lookup.txt></object>
 
 ##  <a name='fuzzy-edit'>Fuzzy edit</a>
 
 ###  <a name='fuzzy-edit1'>Fuzzy edit v1</a>
 
-<object data="/src/sh/fuzzy-edit1.txt" width="350" height="210"></object>
+<object data="/pub/src/sh/fuzzy-edit1.txt" width="350" height="210"></object>
 
 ###  <a name='fuzzy-edit2'>Fuzzy edit v2</a>
 
-<object data="/src/sh/fuzzy-edit2.txt" width="350" height="272"></object>
+<object data="/pub/src/sh/fuzzy-edit2.txt" width="350" height="272"></object>
 
 ##  <a name='git-push1'>Generic git push</a>
 
-<object data="/src/sh/git-push.txt" width="350px" height="200px"></object>
+<object data="/pub/src/sh/git-push.txt" width="350px" height="200px"></object>
 
 ##  <a name='json-generate'>JSON generate</a>
 
-<object data=/src/sh/json-generate.txt></object>
+<object data=/pub/src/sh/json-generate.txt></object>

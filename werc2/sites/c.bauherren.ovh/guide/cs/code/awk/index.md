@@ -2,7 +2,7 @@
 
 ## Header Two
 
-<img src=/pix/me.png>
+<img src=/pub/pix/me.png>
 
 <hr>
 

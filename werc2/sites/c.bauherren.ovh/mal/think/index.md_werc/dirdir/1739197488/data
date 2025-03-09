@@ -19,19 +19,19 @@ Phenomenon in which businesses fail abruptly after a period of apparent success,
 
 > _"By Janus, I think no"_ - _Iago, Othello_, Act 1 Scene 2
 
-<img src="/pix/janus1.avif" style="width:150px; height: auto;"><details><summary>Image source</summary>Woodcut engraving from the the book "Der Olymp oder die Mythologie der Griechen und Römer (The Olympus or the Mythology of the Greeks and Romans)", published by August Heinrich Petiscus in C.F. Amelang's Verlag, Leipzig (1878, 18th edition). [Wikipedia commons](https://commons.wikimedia.org/wiki/File:Janus,_the_Roman_god_(1878).jpg)</details>
+<img src="/pub/pix/janus1.avif" style="width:150px; height: auto;"><details><summary>Image source</summary>Woodcut engraving from the the book "Der Olymp oder die Mythologie der Griechen und Römer (The Olympus or the Mythology of the Greeks and Romans)", published by August Heinrich Petiscus in C.F. Amelang's Verlag, Leipzig (1878, 18th edition). [Wikipedia commons](https://commons.wikimedia.org/wiki/File:Janus,_the_Roman_god_(1878).jpg)</details>
 
-<img src="/pix/janus2.avif" style="width:150px; height: auto;"><details><summary>Image source</summary>THE MIRIAM ANDIRA D. WALLACH DIVISION OF ART, PRINTS AND PHOTOGRAPHS: PICTURE COLLECTION [NY Public Library Digital Collections](https://digitalcollections.nypl.org/items/510d47e4-605a-a3d9-e040-e00a18064a99)</details>
+<img src="/pub/pix/janus2.avif" style="width:150px; height: auto;"><details><summary>Image source</summary>THE MIRIAM ANDIRA D. WALLACH DIVISION OF ART, PRINTS AND PHOTOGRAPHS: PICTURE COLLECTION [NY Public Library Digital Collections](https://digitalcollections.nypl.org/items/510d47e4-605a-a3d9-e040-e00a18064a99)</details>
 
 ### <a name=ouroboross>Ouroboros</a>
 
-<img src=/pix/ouroboros.avif>
+<img src=/pub/pix/ouroboros.avif>
 
 > Perpetually gnawing and crawling, the serpent is half-blind; all it knows is hunger. The reptile's primordial brain knows only what it will eat next.
 
 ### <a name=paris-derangement-syndrome>Paris Derangement Syndrome</a>
 
-<img src=/pix/paris-derangement-syndrome-brain.avif>
+<img src=/pub/pix/paris-derangement-syndrome-brain.avif>
 
 > Paris Syndrome: a temporary mental disorder shown by some individuals when visiting Paris, as a relult of extreme shock that it is not as beautiful as they expected it ot be. It can even include: hallucinations, anxiety, dizziness and vomiting!
 

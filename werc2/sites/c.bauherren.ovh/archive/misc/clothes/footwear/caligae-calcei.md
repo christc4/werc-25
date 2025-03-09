@@ -6,8 +6,8 @@ Both pairs of shoes are made with a double sole. They have two layers of leather
 
 Calcei 
 
-<img src=/pix/calcei.avif><img src=/pix/calcei2.avif><img src=/pix/calcei3.avif>
+<img src=/pub/pix/calcei.avif><img src=/pub/pix/calcei2.avif><img src=/pub/pix/calcei3.avif>
 
 Caligae
 
-<img src=/pix/caligae.avif><img src=/pix/caligae2.avif>
+<img src=/pub/pix/caligae.avif><img src=/pub/pix/caligae2.avif>

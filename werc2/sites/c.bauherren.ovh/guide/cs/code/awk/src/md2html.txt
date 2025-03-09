@@ -3,7 +3,7 @@
      3	# by: Jesus Galan (yiyus) 2009
      4	#
      5	# Usage: md2html.awk file.md > file.html
-     6	# See: http://4l77.com/src/md2html.awk
+     6	# See: http://4l77.com/pub/src/md2html.awk
       
      7	function eschtml(t) {
      8		gsub("&", "\\&amp;", t);

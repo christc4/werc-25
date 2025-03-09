@@ -6,7 +6,7 @@
 
 ### <a name=survivorship-bias>Survivorship Bias</a>
 
-<img src="/pix/survivorship-bias.avif" style="width: 350px; height: auto;">
+<img src="/pub/pix/survivorship-bias.avif" style="width: 350px; height: auto;">
 
 By focusing solely on 'survivors' or 'success stories' while overlooking those that didn't make it.
 
@@ -37,7 +37,7 @@ Theorized, the future life expectancy of some non-perishable things, technology 
 
 ### <a name=streisand>Streisand</a>
 
-<img src="/pix/streisand-estate.avif" style="width:400px;">
+<img src="/pub/pix/streisand-estate.avif" style="width:400px;">
 
 Try to hide, or otherwise draw attention away from something - only serves to attract more attention to it.
 
@@ -77,11 +77,11 @@ In brief, it predicts the time required to quickly move to a target area is the 
 
 Analogy from [mbreen](https://mbreen.com/fitts-apple/),
 
-<img src="/pix/fitts-law-macos1.avif" style="width: 450px; height: auto;">
+<img src="/pub/pix/fitts-law-macos1.avif" style="width: 450px; height: auto;">
 
 In MacOS, if your active window is near the bottom of the screen, having the menu bar at the top edge is an extremely long trek. Except, this trek is to do an extremely simple computational task.
 
-<img src="/pix/fitts-law-macos2.avif" style="width: 450px; height: auto;">
+<img src="/pub/pix/fitts-law-macos2.avif" style="width: 450px; height: auto;">
 
 Also consider the return journey you have to make from menu bar to active window!
 
@@ -136,11 +136,11 @@ in the consideration of it.
 
 Source:
 
-[The Ethology of Homo Economicus](/src/dox/persky-2011-retrospectives-the-ethology-of-homo-economicus.pdf) 
+[The Ethology of Homo Economicus](/pub/src/dox/persky-2011-retrospectives-the-ethology-of-homo-economicus.pdf) 
 
 ### <a name=lemons-problem>Lemons Problem</a>
 
-<img src=/pix/lemons-problem-lemon-car.avif>
+<img src=/pub/pix/lemons-problem-lemon-car.avif>
 
 George Akerlof, used the 'used' car market to show  how asymmetry of information between buyers and sellers could cause markets to collapse, ridding any opportunity for profitable exchange and leaving  behind only 'lemons' or poor products witih low durability that the buyer purchased without sufficient information
 
@@ -163,7 +163,7 @@ Problem-solving principle, search for explanations constructed with the least po
 
 You should prefeer the hypothesis that requires the fewest assupmtptions
 
-<img src="/pix/william-of-ockham1.avif" style="width: 150px; height: auto;">
+<img src="/pub/pix/william-of-ockham1.avif" style="width: 150px; height: auto;">
 
 ### <a name=pavlovian-response>Pavlovian Response</a>
 
@@ -173,11 +173,11 @@ Pavlov's experiments, where dogs learned to salivate in response to a bell
 
 ### <a name=prisoners-dilemma>Prisoner's Dilemma</a>
 
-<img src=/pix/prisoners-dilemma1.avif>
+<img src=/pub/pix/prisoners-dilemma1.avif>
 
 ### <a name=rube-goldberg-machine>Rube Goldberg Machine</a>
 
-<img src="/pix/rube-goldberg.avif" style="width: 350px; height: auto;">
+<img src="/pub/pix/rube-goldberg.avif" style="width: 350px; height: auto;">
 
 A contraption designed to perform a simple task in the most overly complex way
 
@@ -222,11 +222,11 @@ Sources used:
 
 ### <a name=skinner-box>Skinner Box</a>
 
-<img src="/pix/skinner-box.avif " style="width:210px; height: auto;">
+<img src="/pub/pix/skinner-box.avif " style="width:210px; height: auto;">
 
 ### <a name=sword-of-damocles>Sword of Damocles</a>
 
-<img src="/pix/sword-of-damocles.avif " style="width:410px; height: auto;">
+<img src="/pub/pix/sword-of-damocles.avif " style="width:410px; height: auto;">
 
 Cicero on Damocles
 The Roman politician and philosopher Cicero tells the famous story about the tyrant Dionysius II of Syracuse and his courtier Damocles, which he had read in the History of Timaeus of Tauromenium. The anecdote is often told as a reminder that for a powerful man, there's always danger, although the real point of the story is that happiness is fragile.

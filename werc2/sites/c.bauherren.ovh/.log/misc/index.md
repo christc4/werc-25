@@ -17,7 +17,7 @@
 
 ## <a name=centralized-vs-decentralized>Centralized vs Decentralized</a>
 
-<img src=/pix/centralized-decentralized.avif>
+<img src=/pub/pix/centralized-decentralized.avif>
 
 todo
 
@@ -117,7 +117,7 @@ All art is applied mathematics,
 2024/12/27
 
 <details><summary>Liver King flexing with Hadzabe member</summary>
-<img src=/pix/liver-king-flexing-muscles-with-hadzabe-tribe-member.avif>
+<img src=/pub/pix/liver-king-flexing-muscles-with-hadzabe-tribe-member.avif>
 </details>
 
 If you are anti exercise most people are equipped with extreme tunnel vision and will immediately shut you down as a couch potato. More often than not, those people are simply 'using' exercise to get out of whatever rut they're in - they're not actually doing anything. There are countless peoples in the exercise annals who had to explain what exercise was, it was so unheard of to people

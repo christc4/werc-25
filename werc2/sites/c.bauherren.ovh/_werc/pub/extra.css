@@ -102,7 +102,7 @@ pre { font-size: 80%; word-wrap: break-word; object-fit:contain; max-width: 100%
 
 p.sitemap {
   font-family: monospace, sans-serif;
-  color: black;
+  color: red;
   margin: 0px;
   padding: 0px;
 }

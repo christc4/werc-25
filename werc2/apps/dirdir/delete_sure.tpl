@@ -9,7 +9,7 @@
 %   echo '<input type="hidden" name="dirdir_delete_folder" value="Delete folder" />' }
 
 <h1>WARNING! "%($"req_path%)" will be deleted</h1>
-<img src=//c.bauherren.ovh/pix/gif/blinking-warning.gif><br>
+<img src=//c.bauherren.ovh/pub/pix/gif/blinking-warning.gif><br>
 <p>This is a permanent action, although you can recover its wiki files 
 <input type="submit" name="dirdir_delete_yes" value="Confirm" />
 </form>

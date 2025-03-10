@@ -4,7 +4,7 @@
 
 <img src="pix/all-characters.avif" style="width: 363px; height: auto;">
 <img src="pix/nim-face.avif" style="width: 83px; height: auto;">
-<img src=pix/1.avif>
+<br>
 
 [Nimdok](nimdok)
 

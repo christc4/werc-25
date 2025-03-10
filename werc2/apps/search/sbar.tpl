@@ -1,9 +1,8 @@
 <div>
     <form action="" method="POST" enctype="multipart/form-data">
         <input type="search" name="searching_query" placeholder="Search..."><br>
-        <input type="submit" name="searching_preview" value="Search"><hr>
+        <input type="submit" name="searching_preview" value="Search"><a href=/sitemap>sitemap</a>
     </form>
-<button><a href=/sitemap>sitemap</a></button>
 </div>
 
 

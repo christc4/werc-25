@@ -1,1 +1,0 @@
-<img src=decoupage_icon1.avif> <img src=decoupage_icon2.avif> <img src=decoupage_icon3.avif> <img src=decoupage_icon4.avif> <img src=decoupage_icon5.avif> <img src=decoupage_icon6.avif> <img src=decoupage_icon7.avif> <img src=decoupage_icon8.avif> <img src=decoupage_icon9.avif>
